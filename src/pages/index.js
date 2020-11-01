@@ -8,7 +8,7 @@ export default () => (
       <Jumbotron>
         <h1>Hello, world!</h1>
         <p>
-          Basic starter template for Gatsby with Bootstrap 4.
+          Site under construction.
         </p>
         <p>
           <Button variant="primary">Sample Button</Button>

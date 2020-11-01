@@ -7,7 +7,7 @@ export function Footer(props) {
     <Container class="text-center">
       <br/><br/><br/>
       <br/><br/><br/>
-      <p style={{textAlign:"center"}}>Built by <Link href="https://varunagrawal.github.io/">Varun Agrawal</Link> with ♥</p>
+      <p style={{textAlign:"center"}}>Deploy by Bodaway with ♥</p>
     </Container>
   )
 }
