@@ -1,5 +1,5 @@
 {
-  "name": "site_vitrine_MSP_vendeuvre",
+  "name": "site_vitrine_msp_vendeuvre",
   "private": true,
   "description": "site vitrine de la maison de santé de vendeuvre sur barse",
   "version": "0.1.0",
@@ -12,7 +12,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d docs"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "bootstrap": "^4.5.1",
