@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { borderBox} from "../styles/global"
+import { borderBox } from "../styles/global"
 
 const SectionTitle = ({ title, color, color2 }) => {
   const Header = styled.header`
@@ -13,7 +13,7 @@ const SectionTitle = ({ title, color, color2 }) => {
     min-height: 50px;
     height: 50px;
     width: 60%;
-    background: ${color} ;
+    background: ${color};
 
     &::after {
       align-self: flex-end;
@@ -29,7 +29,7 @@ const SectionTitle = ({ title, color, color2 }) => {
   `
   const Title = styled.h2`
     display: flex;
-      align-self: center;
+    align-self: center;
     text-align: center;
     margin: 0;
     font-family: arial;

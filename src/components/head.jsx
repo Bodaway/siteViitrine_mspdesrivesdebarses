@@ -8,11 +8,13 @@ export function Head({ data }) {
       meta={[
         {
           name: "description",
-          content: "Site vitrine de la maison de santé des rives de barse à vendeuvre sur barse",
+          content:
+            "Site vitrine de la maison de santé des rives de barse à vendeuvre sur barse",
         },
         {
           name: "keywords",
-          content: "médecin, maison de santé, vendeuvre, vendeuvre sur barse, rives de barse",
+          content:
+            "médecin, maison de santé, vendeuvre, vendeuvre sur barse, rives de barse",
         },
       ]}
       link={[
@@ -24,7 +26,7 @@ export function Head({ data }) {
           integrity:
             "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh",
           crossorigin: "anonymous",
-        }
+        },
       ]}
     >
       <html lang="fr-FR" amp />
