@@ -4,15 +4,15 @@ import { Helmet } from "react-helmet"
 export function Head({ data }) {
   return (
     <Helmet
-      title="Gatsby Bootstrap Template"
+      title="Maison de santé des rives de barse"
       meta={[
         {
           name: "description",
-          content: "Gatsby Bootstrap Template",
+          content: "Site vitrine de la maison de santé des rives de barse à vendeuvre sur barse",
         },
         {
           name: "keywords",
-          content: "gatsby, bootstrap, template, starter, react",
+          content: "médecin, maison de santé, vendeuvre, vendeuvre sur barse, rives de barse",
         },
       ]}
       link={[
@@ -27,7 +27,7 @@ export function Head({ data }) {
         }
       ]}
     >
-      <html lang="en-US" amp />
+      <html lang="fr-FR" amp />
 
       <script
         src="https://kit.fontawesome.com/d58dae4cfc.js"

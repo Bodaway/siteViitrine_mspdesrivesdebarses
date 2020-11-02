@@ -1,10 +1,15 @@
 import React from "react"
-import { Container } from "react-bootstrap"
+import styled from "styled-components"
 
 export function Header(props) {
+  const Inner = styled.div`
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+  `
   return (
-    <Container>
-      <h1 class="text-center">Gatsby Bootstrap Template</h1>
-    </Container>
+    <Inner>
+      <h1>Maison de santé pluriprofessionnelle des rives de barse</h1>
+    </Inner>
   )
 }
