@@ -3,46 +3,45 @@ import SectionTitle from "./section_title"
 import styled from "styled-components"
 import { shadow, borderBox } from "../styles/global"
 
+const Section = styled.section`
+  position: relative;
+  padding-top: 100px;
+`
+
+const LeftContent = styled.div`
+  display: inline-block;
+  height: 100%;
+  width: 20%;
+  overflow: hidden;
+  ${borderBox}
+  ${shadow}
+`
+const MiddleContent = styled.div`
+  display: inline-block;
+  height: 100%;
+  width: 60%;
+  padding: 25px;
+  overflow: hidden;
+  ${borderBox}
+  ${shadow}
+`
+const RightContent = styled.div`
+  display: inline-block;
+  height: 100%;
+  width: 20%;
+  overflow: hidden;
+  ${borderBox}
+  ${shadow}
+`
+
+const Emp = styled.span`
+  color: #4cb93d;
+  font-weight: bold;
+`
+const Und = styled.p`
+  text-decoration: underline;
+`
 const Presentation = () => {
-  const Section = styled.section`
-    position: relative;
-    padding-top: 100px;
-  `
-
-  const LeftContent = styled.div`
-    display: inline-block;
-    height: 100%;
-    width: 20%;
-    overflow: hidden;
-    ${borderBox}
-    ${shadow}
-  `
-  const MiddleContent = styled.div`
-    display: inline-block;
-    height: 100%;
-    width: 60%;
-    padding: 25px;
-    overflow: hidden;
-    ${borderBox}
-    ${shadow}
-  `
-  const RightContent = styled.div`
-    display: inline-block;
-    height: 100%;
-    width: 20%;
-    overflow: hidden;
-    ${borderBox}
-    ${shadow}
-  `
-
-  const Emp = styled.span`
-    color: #4cb93d;
-    font-weight: bold;
-  `
-  const Und = styled.p`
-    text-decoration: underline;
-  `
-
   return (
     <Section id="presentation">
       <SectionTitle title="Présentation" color="#4cb93d" color2="#6cbe60" />
