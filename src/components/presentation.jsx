@@ -35,7 +35,7 @@ const RightContent = styled.div`
 `
 
 const Emp = styled.span`
-  color: #4cb93d;
+  color: #68C100;
   font-weight: bold;
 `
 const Und = styled.p`
@@ -44,7 +44,7 @@ const Und = styled.p`
 const Presentation = () => {
   return (
     <Section id="presentation">
-      <SectionTitle title="Présentation" color="#4cb93d" color2="#6cbe60" />
+      <SectionTitle title="Présentation" color="#68C100" color2="#82C535" />
       <LeftContent></LeftContent>
       <MiddleContent>
         <Und>Lorem ipsum dolor :</Und>

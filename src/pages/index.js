@@ -8,7 +8,7 @@ import ActualiteLarge from "../components/actualites_large"
 export default () => (
   <Layout>
     <Presentation />
-    {/* <ProByCat />
-    <ActualiteLarge /> */}
+    <ProByCat />
+    <ActualiteLarge />
   </Layout>
 )

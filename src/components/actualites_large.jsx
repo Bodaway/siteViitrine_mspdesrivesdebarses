@@ -139,7 +139,7 @@ const ActualitesLarge = () => {
   console.log(ActuData.Actualites)
   return (
     <section id="actualitelarge">
-      <SectionTitle title="Actualités" color="#ed0b3b" color2="#ed0b3b"/>
+      <SectionTitle title="Actualités" color="#E7302A" color2="#E7302A"/>
 
       <SliderActu actualites={ActuData.Actualites} />
     </section>
