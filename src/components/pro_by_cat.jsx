@@ -6,6 +6,14 @@ import { borderBox, shadow } from "../styles/global"
 
 import CatData from "../../content/categories.yaml"
 
+const ProElem = styled.li`
+  ${shadow}
+  ${borderBox}
+    justify-content: center;
+  flex-direction: column;
+  margin: 30px;
+  display: inline flex;
+`
 const BottomLine = styled.div`
   display: flex;
   justify-content: center;
@@ -32,14 +40,7 @@ const ProList = styled.ul`
   justify-content: center;
   flex-direction: row;
 `
-const ProElem = styled.li`
-  ${shadow}
-  ${borderBox}
-    justify-content: center;
-  flex-direction: column;
-  margin: 30px;
-  display: inline flex;
-`
+
 const ProContent = styled.div`
   padding: 10px;
 `
