@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import Slider from "react-slick"
 import SectionTitle from "./section_title"
 import styled from "styled-components"
-import { borderBox, shadow } from "../styles/global"
+import { borderBox, shadow, Section } from "../styles/global"
 import { Modal } from "react-bootstrap"
 import ActuData from "../../content/actualites.yaml"
 
@@ -138,11 +138,11 @@ const SliderActu = ({ actualites = [] }) => {
 const ActualitesLarge = () => {
   console.log(ActuData.Actualites)
   return (
-    <section id="actualitelarge">
+    <Section id="actualitelarge">
       <SectionTitle title="Actualités" color="#E7302A" color2="#E7302A"/>
 
       <SliderActu actualites={ActuData.Actualites} />
-    </section>
+    </Section>
   )
 }
 

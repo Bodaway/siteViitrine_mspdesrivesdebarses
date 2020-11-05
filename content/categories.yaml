@@ -1,9 +1,9 @@
 Categories:
     - title: Médecine générale
-      desc: Voici ma catégorie de test pour voir si sa marche - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque nunc nec tincidunt auctor. Nullam quis purus nulla. Vivamus sollicitudin id sem ut aliquet. Nam dignissim mauris sed nulla maximus, et sodales risus tincidunt. In tempus, nibh non volutpat condimentum, orci felis tempor quam, at pellentesque odio sem non odio. Nam vitae mi at diam auctor elementum a eget lorem. Fusce metus elit, euismod sit amet risus ac, consequat malesuada dolor. Curabitur tincidunt ultricies elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sollicitudin erat id sodales venenatis. Praesent maximus maximus lacinia. Nam sed nulla venenatis, blandit lacus in, facilisis justo. Vestibulum at tempor ante. Curabitur consequat risus dui, ac mollis dolor scelerisque sed. Vestibulum vel dui feugiat justo dictum accumsan sit amet quis tellus. Nulla condimentum risus ante, sit amet porttitor enim tristique eget. Nulla aliquam purus nec ipsum dictum, in suscipit augue vestibulum.
+      desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque nunc nec tincidunt auctor. Nullam quis purus nulla. Vivamus sollicitudin id sem ut aliquet. Nam dignissim mauris sed nulla maximus, et sodales risus tincidunt. In tempus, nibh non volutpat condimentum, orci felis tempor quam, at pellentesque odio sem non odio. Nam vitae mi at diam auctor elementum a eget lorem. Fusce metus elit, euismod sit amet risus ac, consequat malesuada dolor. Curabitur tincidunt ultricies elementum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sollicitudin erat id sodales venenatis. Praesent maximus maximus lacinia. Nam sed nulla venenatis, blandit lacus in, facilisis justo. Vestibulum at tempor ante. Curabitur consequat risus dui, ac mollis dolor scelerisque sed. Vestibulum vel dui feugiat justo dictum accumsan sit amet quis tellus. Nulla condimentum risus ante, sit amet porttitor enim tristique eget. Nulla aliquam purus nec ipsum dictum, in suscipit augue vestibulum.
       pros: 
-        - name: Chuck Norris
-          desc: Tue la maladie à coup de pied dans la *****
+        - name: Lorem ipsum
+          desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           horaire: 
             - "-"
             - "-"
@@ -12,40 +12,23 @@ Categories:
             - "-"
             - "-"
             - "-"
-          rdv: Il viendra à vous, en tout temps
+          rdv: Sed pellentesque nunc nec tincidunt auctor.
           telephone: "-"
         
-        - name: Jean-claude van dammned
-          desc: spécialiste pour casser les cacahuetes
+        - name: Nullam quis
+          desc: Vivamus sollicitudin id sem ut aliquet. Nam dignissim mauris sed nulla maximus, et sodales risus tincidunt.
           horaire: 
             - "0h-23h"
             - "0h-23h"
             - "0h-23h"
+            - "0h-23h sauf entre 12h et 13h"
             - "0h-23h"
             - "0h-23h"
             - "0h-23h"
-            - "0h-23h"
-            - "0h-23h"
-          rdv: prière d'être aware
+            - "sur rendez-vous seulement"
+          rdv: et sodales risus tincidunt.
           telephone: "**********"
 
-        - name: Albatore
-          desc: Vous soigne si le ciel vous tombe sur la tête
-          horaire: 
-            - "" 
-            - ""
-            - "sauf à l'heure du thé"
-            - ""
-            - ""
-            - ""
-            - "travail pas"
-          rdv: Regarder vers Aldébaran enroulé dans du jambon et tournant dans le sens des aiguilles d'une montre
-          telephone: "+999-01"
-
     - title: Kinésithérapeute
-    - title: Homme médecine
-    - title: Chaman
-    - title: Rebouteux
-    - title: Sage femme
     - title: Infirmières                      
      

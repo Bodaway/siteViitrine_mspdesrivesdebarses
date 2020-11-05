@@ -1,15 +1,11 @@
 import React from "react"
 import SectionTitle from "./section_title"
 import styled from "styled-components"
-import { shadow, borderBox } from "../styles/global"
+import { shadow, borderBox, Section } from "../styles/global"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import {Carousel} from "react-bootstrap"
 
-const Section = styled.section`
-  position: relative;
-  padding-top: 100px;
-`
 const Content = styled.div`
   display:flex;
 `
@@ -53,13 +49,13 @@ const ExternalCarousel = ({data, interval}) => {
   return (
     <Carousel controls={false} indicators={false} interval={interval} >
       <Carousel.Item>
-        <Img fluid={data.file.childImageSharp.fluid} />
+        <Img fluid={data.WIP.childImageSharp.fluid} />
       </Carousel.Item> 
       <Carousel.Item>
-        <Img fluid={data.file.childImageSharp.fluid} />
+        <Img fluid={data.WIP.childImageSharp.fluid} />
       </Carousel.Item> 
       <Carousel.Item>
-        <Img fluid={data.file.childImageSharp.fluid} />
+        <Img fluid={data.WIP.childImageSharp.fluid} />
       </Carousel.Item> 
     </Carousel>
   )

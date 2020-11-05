@@ -3,6 +3,7 @@ import styled from "styled-components"
 import { borderBox, shadow } from "../styles/global"
 import ProDetail from "./pro_detail"
 import CatData from "../../content/categories.yaml"
+import Img from "gatsby-image"
 
 const InnerDetail = styled.div`
   display: flex;
@@ -10,27 +11,39 @@ const InnerDetail = styled.div`
   ${borderBox}
     margin:30px;
   padding: 25px;
+  overflow:hidden;
 `
 const LeftContent = styled.div`
   display: flex;
+  flex: 4 4;
   flex-direction: column;
-  width: 30%;
   padding-right: 25px;
   padding-left: 25px;
   border-right: solid 1px #f4f4f4;
 `
+const Image = styled(Img)`
+  height: 0;
+  width: 15%;
+  padding-bottom: 15%;
+`
 const CategoryTitle = styled.div`
   display: flex;
+  margin-bottom: 20px;
 
-  & img {
-    margin-right: 10px;
+  & > ${Image} {
+    margin-right: 20px;
+  }
+
+  & > h3 {
+    align-self: center;
+    text-align: center;
   }
 `
 
 const CenterContent = styled.div`
   display: flex;
+  flex: 1 0;
   flex-direction: column;
-  width: 15%;
   padding-right: 25px;
   padding-left: 25px;
   border-right: solid 1px #f4f4f4;
@@ -76,15 +89,15 @@ const Vline = styled.div`
   }
 `
 const RightContent = styled.div`
-    display: flex;
-    flex-direction: column;
-    width: 55%;
-    padding-right: 25px;
-    padding-left: 25px;
-  `
+  display: flex;
+  flex: 6 3;
+  flex-direction: column;
+  padding-right: 25px;
+  padding-left: 25px;
+`
 
-const CatProDetail = ({ visible, categorieDetail }) => {
-  const [selectedPro, setSelectedPro] = useState(-1)
+const CatProDetail = ({ categorieDetail, image }) => {
+  const [selectedPro, setSelectedPro] = useState(0)
 
   const proSelected = e => {
     setSelectedPro(e.currentTarget.id)
@@ -112,10 +125,10 @@ const CatProDetail = ({ visible, categorieDetail }) => {
   }
 
   return (
-    <InnerDetail visible={visible}>
-      <LeftContent>
+    <InnerDetail>
+      <LeftContent className="d-none d-md-block">
         <CategoryTitle>
-          <img src="" alt="title_img" />
+          <Image fluid={image} />
           <h3>{categorieDetail != undefined ? categorieDetail.title : ""}</h3>
         </CategoryTitle>
         <div>{categorieDetail != undefined ? categorieDetail.desc : ""}</div>
@@ -128,10 +141,9 @@ const CatProDetail = ({ visible, categorieDetail }) => {
         </ul>
       </CenterContent>
       <RightContent>
-        { categorieDetail.pros != undefined && 
-        <ProDetail
-          pro={categorieDetail.pros[selectedPro]}
-        /> }
+        {categorieDetail.pros != undefined && (
+          <ProDetail pro={categorieDetail.pros[selectedPro]} />
+        )}
       </RightContent>
     </InnerDetail>
   )

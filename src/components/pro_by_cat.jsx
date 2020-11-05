@@ -2,25 +2,39 @@ import React, { useState } from "react"
 import SectionTitle from "./section_title"
 import CatProDetail from "./cat_pro_detail"
 import styled from "styled-components"
-import { borderBox, shadow } from "../styles/global"
+import { borderBox, shadow, Section } from "../styles/global"
+import Img from "gatsby-image"
 
 import CatData from "../../content/categories.yaml"
 
 const ProElem = styled.li`
   ${shadow}
   ${borderBox}
-    justify-content: center;
+  display: flex;
+  justify-content: center;
   flex-direction: column;
-  margin: 30px;
-  display: inline flex;
+  margin: 10px;
+
+  &:hover {
+    cursor: pointer;
+  }
 `
+const GhostElem = styled(ProElem)`
+  margin: 0;
+  padding: 0;
+`
+
 const BottomLine = styled.div`
   display: flex;
+  visibility: hidden;
   justify-content: center;
   background-color: #f2de37;
   height: 2px;
 
   ${ProElem}:hover > & {
+    visibility: visible;
+  }
+  ${ProElem} + .selected > & {
     visibility: visible;
   }
 
@@ -39,22 +53,35 @@ const ProList = styled.ul`
   display: flex;
   justify-content: center;
   flex-direction: row;
+  flex-wrap:wrap;
+  padding: 0;
+  margin-top: 20px;
 `
 
 const ProContent = styled.div`
+  display:flex;
   padding: 10px;
+
+  & > span {
+    display:flex;
+    align-self: center;
+    text-align:center;
+    overflow-wrap:break-word;
+    margin-left:20px;
+  }
+`
+const Image = styled(Img)`
+  display:flex;
+  width:50px;
 `
 
-const ProByCats = () => {
-  const [divDetailVisibility, setDivDetailVisibility] = useState("none")
+const ProByCats = ({catImages}) => {
   const [categorieDetail, setcategorieDetail] = useState(undefined)
 
   const openDetail = e => {
     if (categorieDetail === e.currentTarget.id) {
-      setDivDetailVisibility("none")
       setcategorieDetail(undefined)
     } else {
-      setDivDetailVisibility("flex")
       setcategorieDetail(e.currentTarget.id)
     }
   }
@@ -63,28 +90,33 @@ const ProByCats = () => {
       id={CatData.Categories.indexOf(c).toString()}
       key={CatData.Categories.indexOf(c).toString()}
       onClick={openDetail}
+      className={
+        categorieDetail == CatData.Categories.indexOf(c).toString() &&
+        "selected"
+      }
     >
       <ProContent>
-        <img src="" alt="" />
+        <Image fluid={catImages[CatData.Categories.indexOf(c)]} />
         <span>{c.title}</span>
       </ProContent>
       <BottomLine />
     </ProElem>
   ))
 
-  console.log('categorieDetail: ' + CatData.Categories[categorieDetail])
   return (
-    <section id="probycategories">
-      <SectionTitle title="Professionnels" color="#f2de37" color2="#f2de37"/>
-      <div class="prodiv">
-        <ProList>{loadList}</ProList>
-      </div>
+    <Section id="probycategories">
+      <SectionTitle title="Professionnels" color="#f2de37" color2="#f2de37" />
+        <ProList>
+          <GhostElem></GhostElem>
+          {loadList}
+        </ProList>
       {categorieDetail != undefined && (
         <CatProDetail
           categorieDetail={CatData.Categories[categorieDetail]}
+          image={catImages[0]}
         ></CatProDetail>
       )}
-    </section>
+    </Section>
   )
 }
 
