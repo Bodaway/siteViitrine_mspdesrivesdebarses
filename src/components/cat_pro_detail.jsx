@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import styled from "styled-components"
 import { borderBox, shadow } from "../styles/global"
 import ProDetail from "./pro_detail"
-import CatData from "../../content/categories.yaml"
 import Img from "gatsby-image"
 
 const InnerDetail = styled.div`

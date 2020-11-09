@@ -4,7 +4,7 @@ import SectionTitle from "./section_title"
 import styled from "styled-components"
 import { borderBox, shadow, Section } from "../styles/global"
 import { Modal } from "react-bootstrap"
-import ActuData from "../../content/actualites.yaml"
+import Img from "gatsby-image"
 
 const InnerBtn = styled.button`
   border: none;
@@ -21,12 +21,18 @@ const Column = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  justify-self: stretch;
   padding-top: 25px;
   padding-right: 25px;
   padding-left: 25px;
+  width: 90%;
 
   & img {
     border: solid 1px lightgray;
+  }
+
+  & h4 {
+    padding: 10px;
   }
 `
 const VLine = styled.div`
@@ -41,7 +47,7 @@ const VLine = styled.div`
 `
 const InnerActu = styled.div`
   display: flex;
-  margin-top: 40px;
+  margin-top: 0px;
 
   & .slick-slider {
     display: flex;
@@ -60,6 +66,16 @@ const InnerActu = styled.div`
   & .slick-arrow {
     display: flex;
     margin: 10px;
+  }
+`
+const Image = styled(Img)`
+  align-self: left;
+`
+const ModalC = styled(Modal)`
+  & .gatsby-image-wrapper {
+    float: left;
+    margin: 10px;
+    width: 20%;
   }
 `
 
@@ -93,22 +109,24 @@ const Actu = ({ actualite = {} }) => {
     <>
       <News onClick={getFullScreen}>
         <Column>
-          <img
-            src={"/bonne_annee_2020_.jpg"}
-            alt="image news"
-            data-width="400"
-            data-height="300"
-          />
+          <Image fluid={actualite.image.childImageSharp.fluid} />
           <h4>{actualite.title}</h4>
         </Column>
         <VLine />
       </News>
-      <Modal show={isFullScreen} onHide={closeFullScreen}>
+      <ModalC show={isFullScreen} onHide={closeFullScreen} size="xl" centered>
         <Modal.Header closeButton>
           <Modal.Title>{actualite.title}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>{actualite.text}</Modal.Body>
-      </Modal>
+        <Modal.Body>
+          <Img fluid={actualite.image.childImageSharp.fluid} />
+          <div
+            dangerouslySetInnerHTML={{
+              __html: actualite.text
+            }}
+          />
+        </Modal.Body>
+      </ModalC>
     </>
   )
 }
@@ -135,13 +153,13 @@ const SliderActu = ({ actualites = [] }) => {
   )
 }
 
-const ActualitesLarge = () => {
-  console.log(ActuData.Actualites)
+const ActualitesLarge = ({ data }) => {
+  console.log(data)
   return (
     <Section id="actualitelarge">
-      <SectionTitle title="Actualités" color="#E7302A" color2="#E7302A"/>
+      <SectionTitle title="Actualités" color="#E7302A" color2="#E7302A" />
 
-      <SliderActu actualites={ActuData.Actualites} />
+      <SliderActu actualites={data} />
     </Section>
   )
 }

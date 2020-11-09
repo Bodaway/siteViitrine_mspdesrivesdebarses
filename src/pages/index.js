@@ -22,7 +22,13 @@ export const query = graphql`
           }
           Actualites {
             title
-            imgalt
+            image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
             text
           }
           Categories {
@@ -48,10 +54,10 @@ export const query = graphql`
     }
   }
 `
-export default ({data}) => (
+export default ({ data }) => (
   <Layout>
-    <Presentation data={data.allTestdataJson.edges[0].node.Presentation}/>
+    <Presentation data={data.allTestdataJson.edges[0].node.Presentation} />
     <ProByCat data={data.allTestdataJson.edges[0].node.Categories} />
-    {/* <ActualiteLarge /> */}
+    <ActualiteLarge data={data.allTestdataJson.edges[0].node.Actualites} />
   </Layout>
 )
