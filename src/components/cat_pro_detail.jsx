@@ -10,7 +10,7 @@ const InnerDetail = styled.div`
   ${borderBox}
     margin:30px;
   padding: 25px;
-  overflow:hidden;
+  overflow: hidden;
 `
 const LeftContent = styled.div`
   display: flex;
@@ -63,7 +63,7 @@ const Vline = styled.div`
   flex-direction: column;
   width: 5px;
   margin-bottom: 2px;
-  background-color: #F87F4A;
+  background-color: #f87f4a;
 
   ${ProElem}:hover > & {
     visibility: visible;
@@ -83,7 +83,7 @@ const Vline = styled.div`
     //margin-top: -10px;
     border-style: solid;
     border-width: 4px 4px 4px 4px;
-    border-color: transparent #F87F4A transparent transparent;
+    border-color: transparent #f87f4a transparent transparent;
     transform: translateX(-100%);
   }
 `
@@ -95,7 +95,7 @@ const RightContent = styled.div`
   padding-left: 25px;
 `
 
-const CatProDetail = ({ categorieDetail}) => {
+const CatProDetail = ({ categorieDetail }) => {
   const [selectedPro, setSelectedPro] = useState(0)
 
   const Proselected = e => {

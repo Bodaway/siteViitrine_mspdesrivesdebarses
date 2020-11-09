@@ -26,7 +26,7 @@ const BottomLine = styled.div`
   display: flex;
   visibility: hidden;
   justify-content: center;
-  background-color: #F87F4A;
+  background-color: #f87f4a;
   height: 2px;
 
   ${ProElem}:hover > & {
@@ -43,7 +43,7 @@ const BottomLine = styled.div`
     height: 0;
     border-style: solid;
     border-width: 0 4px 4px 4px;
-    border-color: transparent transparent #F87F4A transparent;
+    border-color: transparent transparent #f87f4a transparent;
     transform: translateY(-100%);
   }
 `
@@ -51,29 +51,29 @@ const ProList = styled.ul`
   display: flex;
   justify-content: center;
   flex-direction: row;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   padding: 0;
   margin-top: 20px;
 `
 
 const ProContent = styled.div`
-  display:flex;
+  display: flex;
   padding: 10px;
 
   & > span {
-    display:flex;
+    display: flex;
     align-self: center;
-    text-align:center;
-    overflow-wrap:break-word;
-    margin-left:20px;
+    text-align: center;
+    overflow-wrap: break-word;
+    margin-left: 20px;
   }
 `
 const Image = styled(Img)`
-  display:flex;
-  width:50px;
+  display: flex;
+  width: 50px;
 `
 
-const ProByCats = ({data}) => {
+const ProByCats = ({ data }) => {
   const [categorieDetail, setcategorieDetail] = useState(undefined)
 
   const openDetail = e => {
@@ -88,10 +88,7 @@ const ProByCats = ({data}) => {
       id={data.indexOf(c).toString()}
       key={data.indexOf(c).toString()}
       onClick={openDetail}
-      className={
-        categorieDetail == data.indexOf(c).toString() &&
-        "selected"
-      }
+      className={categorieDetail == data.indexOf(c).toString() && "selected"}
     >
       <ProContent>
         <Image fluid={c.icon.childImageSharp.fluid} />
@@ -104,14 +101,12 @@ const ProByCats = ({data}) => {
   return (
     <Section id="probycategories">
       <SectionTitle title="Professionnels" color="#F87F4A" color2="#F87F4A" />
-        <ProList>
-          <GhostElem></GhostElem>
-          {loadList}
-        </ProList>
+      <ProList>
+        <GhostElem></GhostElem>
+        {loadList}
+      </ProList>
       {categorieDetail != undefined && (
-        <CatProDetail
-          categorieDetail={data[categorieDetail]}
-        ></CatProDetail>
+        <CatProDetail categorieDetail={data[categorieDetail]}></CatProDetail>
       )}
     </Section>
   )

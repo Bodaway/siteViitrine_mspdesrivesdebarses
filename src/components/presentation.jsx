@@ -60,8 +60,6 @@ const ExternalCarousel = ({ data, interval }) => {
   )
 }
 
-
-
 const Presentation = ({ data }) => {
   return (
     <Section id="presentation">
@@ -95,7 +93,7 @@ const Presentation = ({ data }) => {
             Donec vehicula nunc et purus porta, id pellentesque erat dignissim.
             Duis ullamcorper risus velit, quis semper enim imperdiet mollis.
           </p>
-       </MiddleContent>
+        </MiddleContent>
         <RightContent>
           <ExternalCarousel data={data} interval={11000} />
           <ExternalCarousel data={data} interval={13000} />

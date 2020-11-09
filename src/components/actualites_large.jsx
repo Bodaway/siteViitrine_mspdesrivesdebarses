@@ -122,7 +122,7 @@ const Actu = ({ actualite = {} }) => {
           <Img fluid={actualite.image.childImageSharp.fluid} />
           <div
             dangerouslySetInnerHTML={{
-              __html: actualite.text
+              __html: actualite.text,
             }}
           />
         </Modal.Body>

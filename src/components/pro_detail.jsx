@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 const Title = styled.h3`
-  border-bottom: solid 1px #F87F4A;
+  border-bottom: solid 1px #f87f4a;
   padding-bottom: 5px;
 `
 const SubTitle = styled.h4`

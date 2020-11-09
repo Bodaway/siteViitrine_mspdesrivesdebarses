@@ -8,7 +8,7 @@ const Link = styled.a`
   text-decoration: underline;
 `
 const IconLegal = styled.p`
-  font-size:smaller;
+  font-size: smaller;
 `
 
 export function Footer(props) {
@@ -40,15 +40,22 @@ export function Footer(props) {
             ASSOCIATION DU VENDEUVROIS DES PROFESSIONNELS DE SANTE <br />
             Association déclarée <br />
             SIRET : 848 795 324 000 13 <br />
-            3 Avenue de l'armée Leclerc <br/>10140 VENDEUVRE-SUR-BARSE
+            3 Avenue de l'armée Leclerc <br />
+            10140 VENDEUVRE-SUR-BARSE
           </p>
-          <p>Concepteur: <a href="mailto:michel.bonenfant.jr@protonmail.com">Michel Bonenfant</a>.</p>
+          <p>
+            Concepteur:{" "}
+            <a href="mailto:michel.bonenfant.jr@protonmail.com">
+              Michel Bonenfant
+            </a>
+            .
+          </p>
           <IconLegal>
-          Icons made by{" "}
-          <a href="http://www.freepik.com/" title="Freepik">
-            Freepik
-          </a>{" "}
-          and{" "}
+            Icons made by{" "}
+            <a href="http://www.freepik.com/" title="Freepik">
+              Freepik
+            </a>{" "}
+            and{" "}
             <a
               href="https://www.flaticon.com/free-icon/nurse_1165528"
               title="mavadee"

@@ -34,15 +34,7 @@
           {
             "name": "Lorem ipsum",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-            "horaire": [
-              "-",
-              "-",
-              "-",
-              "-",
-              "-",
-              "-",
-              "-"
-            ],
+            "horaire": ["-", "-", "-", "-", "-", "-", "-"],
             "rdv": "Sed pellentesque nunc nec tincidunt auctor. Nullam quis purus nulla.",
             "telephone": "-"
           },
