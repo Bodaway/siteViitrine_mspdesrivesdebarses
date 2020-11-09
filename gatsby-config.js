@@ -10,7 +10,7 @@ module.exports = {
   siteMetadata: {
     title: "Gatsby Bootstrap Template",
   },
-  pathPrefix: `/public`,
+  pathPrefix: `/siteVitrine_mspdesrivesdebarses`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
