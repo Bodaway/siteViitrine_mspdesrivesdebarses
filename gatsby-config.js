@@ -10,12 +10,13 @@ module.exports = {
   siteMetadata: {
     title: "Gatsby Bootstrap Template",
   },
-  pathPrefix: `/gatsby-bootstrap-template`,
+  pathPrefix: `/public`,
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-remove-trailing-slashes`,
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-json`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -45,7 +46,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: path.join(__dirname, `content`, `images`),
+        path: path.join(__dirname, `content`),
       },
     },
   ],

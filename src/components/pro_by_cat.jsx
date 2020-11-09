@@ -5,8 +5,6 @@ import styled from "styled-components"
 import { borderBox, shadow, Section } from "../styles/global"
 import Img from "gatsby-image"
 
-import CatData from "../../content/categories.yaml"
-
 const ProElem = styled.li`
   ${shadow}
   ${borderBox}
@@ -75,7 +73,7 @@ const Image = styled(Img)`
   width:50px;
 `
 
-const ProByCats = ({catImages}) => {
+const ProByCats = ({data}) => {
   const [categorieDetail, setcategorieDetail] = useState(undefined)
 
   const openDetail = e => {
@@ -85,18 +83,18 @@ const ProByCats = ({catImages}) => {
       setcategorieDetail(e.currentTarget.id)
     }
   }
-  const loadList = CatData.Categories.map(c => (
+  const loadList = data.map(c => (
     <ProElem
-      id={CatData.Categories.indexOf(c).toString()}
-      key={CatData.Categories.indexOf(c).toString()}
+      id={data.indexOf(c).toString()}
+      key={data.indexOf(c).toString()}
       onClick={openDetail}
       className={
-        categorieDetail == CatData.Categories.indexOf(c).toString() &&
+        categorieDetail == data.indexOf(c).toString() &&
         "selected"
       }
     >
       <ProContent>
-        <Image fluid={catImages[CatData.Categories.indexOf(c)]} />
+        <Image fluid={c.icon.childImageSharp.fluid} />
         <span>{c.title}</span>
       </ProContent>
       <BottomLine />
@@ -112,8 +110,7 @@ const ProByCats = ({catImages}) => {
         </ProList>
       {categorieDetail != undefined && (
         <CatProDetail
-          categorieDetail={CatData.Categories[categorieDetail]}
-          image={catImages[0]}
+          categorieDetail={data[categorieDetail]}
         ></CatProDetail>
       )}
     </Section>

@@ -1,6 +1,5 @@
-import React, { useState } from "react"
+import React from "react"
 import styled from "styled-components"
-import { borderBox, shadow } from "../styles/global"
 
 const Title = styled.h3`
   border-bottom: solid 1px #f2de37;

@@ -96,25 +96,25 @@ const RightContent = styled.div`
   padding-left: 25px;
 `
 
-const CatProDetail = ({ categorieDetail, image }) => {
+const CatProDetail = ({ categorieDetail}) => {
   const [selectedPro, setSelectedPro] = useState(0)
 
-  const proSelected = e => {
+  const Proselected = e => {
     setSelectedPro(e.currentTarget.id)
   }
 
   const getLine = () => {
-    if (categorieDetail == undefined || categorieDetail.pros == undefined) {
+    if (categorieDetail == undefined || categorieDetail.Pros == undefined) {
       return ""
     }
-    return categorieDetail.pros.map(p => {
+    return categorieDetail.Pros.map(p => {
       return (
         <ProElem
-          id={categorieDetail.pros.indexOf(p).toString()}
-          key={categorieDetail.pros.indexOf(p).toString()}
-          onClick={proSelected}
+          id={categorieDetail.Pros.indexOf(p).toString()}
+          key={categorieDetail.Pros.indexOf(p).toString()}
+          onClick={Proselected}
           className={
-            categorieDetail.pros.indexOf(p) == selectedPro && "selected"
+            categorieDetail.Pros.indexOf(p) == selectedPro && "selected"
           }
         >
           <ProName>{p.name}</ProName>
@@ -128,7 +128,7 @@ const CatProDetail = ({ categorieDetail, image }) => {
     <InnerDetail>
       <LeftContent className="d-none d-md-block">
         <CategoryTitle>
-          <Image fluid={image} />
+          <Image fluid={categorieDetail.icon.childImageSharp.fluid} />
           <h3>{categorieDetail != undefined ? categorieDetail.title : ""}</h3>
         </CategoryTitle>
         <div>{categorieDetail != undefined ? categorieDetail.desc : ""}</div>
@@ -141,8 +141,8 @@ const CatProDetail = ({ categorieDetail, image }) => {
         </ul>
       </CenterContent>
       <RightContent>
-        {categorieDetail.pros != undefined && (
-          <ProDetail pro={categorieDetail.pros[selectedPro]} />
+        {categorieDetail.Pros != undefined && (
+          <ProDetail pro={categorieDetail.Pros[selectedPro]} />
         )}
       </RightContent>
     </InnerDetail>

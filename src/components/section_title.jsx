@@ -12,7 +12,7 @@ const Header = styled.header`
   min-height: 50px;
   height: 50px;
   width: 60%;
-  background: ${props => props.color };
+  background: ${props => props.color};
 
   &::after {
     align-self: flex-end;
@@ -40,8 +40,8 @@ const Title = styled.h2`
 `
 const SectionTitle = ({ title, color, color2 }) => {
   return (
-    <Header color={color} color2={color2} >
-      <Title >{title}</Title>
+    <Header color={color} color2={color2}>
+      <Title>{title}</Title>
     </Header>
   )
 }

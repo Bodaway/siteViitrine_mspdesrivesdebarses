@@ -49,13 +49,13 @@ const ExternalCarousel = ({data, interval}) => {
   return (
     <Carousel controls={false} indicators={false} interval={interval} >
       <Carousel.Item>
-        <Img fluid={data.WIP.childImageSharp.fluid} />
+        <Img fluid={data.image.childImageSharp.fluid} />
       </Carousel.Item> 
       <Carousel.Item>
-        <Img fluid={data.WIP.childImageSharp.fluid} />
+        <Img fluid={data.image.childImageSharp.fluid} />
       </Carousel.Item> 
       <Carousel.Item>
-        <Img fluid={data.WIP.childImageSharp.fluid} />
+        <Img fluid={data.image.childImageSharp.fluid} />
       </Carousel.Item> 
     </Carousel>
   )
