@@ -63,7 +63,7 @@ const Vline = styled.div`
   flex-direction: column;
   width: 5px;
   margin-bottom: 2px;
-  background-color: #f2de37;
+  background-color: #F87F4A;
 
   ${ProElem}:hover > & {
     visibility: visible;
@@ -83,7 +83,7 @@ const Vline = styled.div`
     //margin-top: -10px;
     border-style: solid;
     border-width: 4px 4px 4px 4px;
-    border-color: transparent #f2de37 transparent transparent;
+    border-color: transparent #F87F4A transparent transparent;
     transform: translateX(-100%);
   }
 `

@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import Presentation from "../components/presentation"
 import ProByCat from "../components/pro_by_cat"
 import ActualiteLarge from "../components/actualites_large"
+import Contact from "../components/contact"
 import { graphql } from "gatsby"
 
 export const query = graphql`
@@ -59,5 +60,6 @@ export default ({ data }) => (
     <Presentation data={data.allTestdataJson.edges[0].node.Presentation} />
     <ProByCat data={data.allTestdataJson.edges[0].node.Categories} />
     <ActualiteLarge data={data.allTestdataJson.edges[0].node.Actualites} />
+    <Contact />
   </Layout>
 )

@@ -26,7 +26,7 @@ const BottomLine = styled.div`
   display: flex;
   visibility: hidden;
   justify-content: center;
-  background-color: #f2de37;
+  background-color: #F87F4A;
   height: 2px;
 
   ${ProElem}:hover > & {
@@ -43,7 +43,7 @@ const BottomLine = styled.div`
     height: 0;
     border-style: solid;
     border-width: 0 4px 4px 4px;
-    border-color: transparent transparent #f2de37 transparent;
+    border-color: transparent transparent #F87F4A transparent;
     transform: translateY(-100%);
   }
 `
@@ -103,7 +103,7 @@ const ProByCats = ({data}) => {
 
   return (
     <Section id="probycategories">
-      <SectionTitle title="Professionnels" color="#f2de37" color2="#f2de37" />
+      <SectionTitle title="Professionnels" color="#F87F4A" color2="#F87F4A" />
         <ProList>
           <GhostElem></GhostElem>
           {loadList}
