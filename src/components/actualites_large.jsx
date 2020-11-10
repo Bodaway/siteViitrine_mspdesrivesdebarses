@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import Slider from "react-slick"
 import SectionTitle from "./section_title"
 import styled from "styled-components"
-import { borderBox, shadow, Section } from "../styles/global"
+import { borderBox, shadow, Section, mediaDevice } from "../styles/global"
 import { Modal } from "react-bootstrap"
 import Img from "gatsby-image"
 
@@ -33,6 +33,7 @@ const Column = styled.div`
 
   & h4 {
     padding: 10px;
+    white-space: nowrap;
   }
 `
 const VLine = styled.div`
@@ -138,6 +139,15 @@ const SliderActu = ({ actualites = [] }) => {
     slidesToScroll: 1,
     nextArrow: <NextButton />,
     prevArrow: <PrevButton />,
+    responsive: [
+      {
+        breakpoint: 425,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   }
 
   const actulst = actualites.map(a => (

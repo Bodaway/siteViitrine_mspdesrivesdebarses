@@ -72,28 +72,27 @@ const Line = styled.div`
 const Menu = () => {
   return (
     <Nav>
-      {/* <div class="logo">
-        <a href="#">
-          <img src="img/design/logo-small.png" />
-        </a>
-      </div> */}
-      {/* <div class="burger-mobile">
+       <div class="burger-mobile">
         <div class="burger-line first"></div>
         <div class="burger-line second"></div>
         <div class="burger-line third"></div>
-      </div> */}
+      </div> 
       <ListMenu>
         <Elem>
           <Link href="#presentation">Présentation</Link>
-          <Line color="#4cb93d" />
+          <Line color="#68C100" />
         </Elem>
         <Elem>
           <Link href="#probycategories">Professionnels</Link>
-          <Line color="#f2de37" />
+          <Line color="#f87f4a" />
         </Elem>
         <Elem>
           <Link href="#actualitelarge">Actualités</Link>
-          <Line color="#ed0b3b" />
+          <Line color="#E7302A" />
+        </Elem>
+        <Elem>
+          <Link href="#Contact">Contact</Link>
+          <Line color="#555555" />
         </Elem>
       </ListMenu>
     </Nav>

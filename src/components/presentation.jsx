@@ -1,7 +1,7 @@
 import React from "react"
 import SectionTitle from "./section_title"
 import styled from "styled-components"
-import { shadow, borderBox, Section } from "../styles/global"
+import { shadow, borderBox, Section, mediaDevice } from "../styles/global"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
 import { Carousel } from "react-bootstrap"
@@ -17,6 +17,10 @@ const LeftContent = styled.div`
   overflow: hidden;
   ${borderBox}
   ${shadow}
+
+   @media ${mediaDevice.mobileL} {
+    display: none;
+  }
 `
 const MiddleContent = styled.div`
   display: flex;
@@ -27,6 +31,10 @@ const MiddleContent = styled.div`
   overflow: hidden;
   ${borderBox}
   ${shadow}
+
+   @media ${mediaDevice.mobileL} {
+    width: 100%;
+  }
 `
 const RightContent = styled.div`
   display: inline-block;
@@ -35,6 +43,10 @@ const RightContent = styled.div`
   overflow: hidden;
   ${borderBox}
   ${shadow}
+
+   @media ${mediaDevice.mobileL} {
+    display: none;
+  }
 `
 
 const Emp = styled.span`

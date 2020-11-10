@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import styled from "styled-components"
-import { borderBox, shadow } from "../styles/global"
+import { borderBox, shadow, mediaDevice } from "../styles/global"
 import ProDetail from "./pro_detail"
 import Img from "gatsby-image"
 
@@ -11,6 +11,14 @@ const InnerDetail = styled.div`
     margin:30px;
   padding: 25px;
   overflow: hidden;
+
+  @media ${mediaDevice.mobileL} {
+    margin:5px;
+    padding:0px;
+  }
+  @media ${mediaDevice.mobileM} {
+    flex-direction:column;
+  }
 `
 const LeftContent = styled.div`
   display: flex;
@@ -19,6 +27,10 @@ const LeftContent = styled.div`
   padding-right: 25px;
   padding-left: 25px;
   border-right: solid 1px #f4f4f4;
+
+  @media ${mediaDevice.tablet} {
+    display:none;
+  }
 `
 const Image = styled(Img)`
   height: 0;
@@ -31,11 +43,16 @@ const CategoryTitle = styled.div`
 
   & > ${Image} {
     margin-right: 20px;
+
+    @media ${mediaDevice.laptop} {
+      display:none;
+    }
   }
 
   & > h3 {
     align-self: center;
     text-align: center;
+    white-space:nowrap;
   }
 `
 
@@ -46,6 +63,15 @@ const CenterContent = styled.div`
   padding-right: 25px;
   padding-left: 25px;
   border-right: solid 1px #f4f4f4;
+
+  @media ${mediaDevice.mobileL} {
+    padding:0px;
+  }
+
+  & ul {
+    padding:0px;
+  }
+
 `
 const ProElem = styled.li`
   display: flex;
@@ -125,7 +151,7 @@ const CatProDetail = ({ categorieDetail }) => {
 
   return (
     <InnerDetail>
-      <LeftContent className="d-none d-md-block">
+      <LeftContent >
         <CategoryTitle>
           <Image fluid={categorieDetail.icon.childImageSharp.fluid} />
           <h3>{categorieDetail != undefined ? categorieDetail.title : ""}</h3>
