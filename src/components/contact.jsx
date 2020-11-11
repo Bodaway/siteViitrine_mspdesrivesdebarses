@@ -18,7 +18,7 @@ const MapCanvas = styled.div`
   background: none !important;
   width: 60%;
   @media ${mediaDevice.mobileL} {
-    width: 100%;
+    width: 100%;
     height: 300px;
   }
 `

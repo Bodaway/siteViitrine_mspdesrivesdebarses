@@ -13,11 +13,11 @@ const InnerDetail = styled.div`
   overflow: hidden;
 
   @media ${mediaDevice.mobileL} {
-    margin:5px;
-    padding:0px;
+    margin: 5px;
+    padding: 0px;
   }
   @media ${mediaDevice.mobileM} {
-    flex-direction:column;
+    flex-direction: column;
   }
 `
 const LeftContent = styled.div`
@@ -29,7 +29,7 @@ const LeftContent = styled.div`
   border-right: solid 1px #f4f4f4;
 
   @media ${mediaDevice.tablet} {
-    display:none;
+    display: none;
   }
 `
 const Image = styled(Img)`
@@ -45,14 +45,14 @@ const CategoryTitle = styled.div`
     margin-right: 20px;
 
     @media ${mediaDevice.laptop} {
-      display:none;
+      display: none;
     }
   }
 
   & > h3 {
     align-self: center;
     text-align: center;
-    white-space:nowrap;
+    white-space: nowrap;
   }
 `
 
@@ -65,13 +65,12 @@ const CenterContent = styled.div`
   border-right: solid 1px #f4f4f4;
 
   @media ${mediaDevice.mobileL} {
-    padding:0px;
+    padding: 0px;
   }
 
   & ul {
-    padding:0px;
+    padding: 0px;
   }
-
 `
 const ProElem = styled.li`
   display: flex;
@@ -151,7 +150,7 @@ const CatProDetail = ({ categorieDetail }) => {
 
   return (
     <InnerDetail>
-      <LeftContent >
+      <LeftContent>
         <CategoryTitle>
           <Image fluid={categorieDetail.icon.childImageSharp.fluid} />
           <h3>{categorieDetail != undefined ? categorieDetail.title : ""}</h3>

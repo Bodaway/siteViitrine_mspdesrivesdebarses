@@ -79,6 +79,9 @@ const ModalC = styled(Modal)`
     width: 20%;
   }
 `
+const SliderContainer = styled.div`
+  margin-top: 20px;
+`
 
 const PrevButton = ({ className, style, onClick }) => {
   return (
@@ -151,9 +154,9 @@ const SliderActu = ({ actualites = [] }) => {
   }
 
   const actulst = actualites.map(a => (
-    <div>
+    <SliderContainer>
       <Actu actualite={a} />
-    </div>
+    </SliderContainer>
   ))
 
   return (
