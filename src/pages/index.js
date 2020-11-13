@@ -61,7 +61,7 @@ export default ({ data }) => (
     <ThemeProvider theme={getPresentationTheme}>
       <Presentation data={data.allTestdataJson.edges[0].node.Presentation} />
     </ThemeProvider>
-    <ThemeProvider theme={getCategorieTheme}>
+    {/* <ThemeProvider theme={getCategorieTheme}>
       <ProByCat data={data.allTestdataJson.edges[0].node.Categories} />
     </ThemeProvider>
     <ThemeProvider theme={getActualiteTheme}>
@@ -69,6 +69,6 @@ export default ({ data }) => (
     </ThemeProvider>
     <ThemeProvider theme={getContactTheme}>
       <Contact />
-    </ThemeProvider>
+    </ThemeProvider> */}
   </Layout>
 )
