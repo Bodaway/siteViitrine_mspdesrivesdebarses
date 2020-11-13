@@ -26,7 +26,7 @@ jobs:
     - run: yarn
     - run: yarn deploy
 
-  build:
+  deploy:
     name: deploy
     runs-on: ubuntu-latest
     steps:
