@@ -26,8 +26,9 @@ jobs:
       - run: yarn deploy
 
       - name: Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          server: ${{ secrets.HOST }}
+          server: ftp://${{ secrets.HOST }}/www/
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
+          local-dir: ./public            
