@@ -36,6 +36,7 @@ const Image = styled(Img)`
   height: 0;
   width: 15%;
   padding-bottom: 15%;
+  background-color: ${props => props.theme.mainColor};
 `
 const CategoryTitle = styled.div`
   display: flex;
@@ -88,7 +89,7 @@ const Vline = styled.div`
   flex-direction: column;
   width: 5px;
   margin-bottom: 2px;
-  background-color: #f87f4a;
+  background-color: ${props => props.theme.mainColor};
 
   ${ProElem}:hover > & {
     visibility: visible;
@@ -108,7 +109,7 @@ const Vline = styled.div`
     //margin-top: -10px;
     border-style: solid;
     border-width: 4px 4px 4px 4px;
-    border-color: transparent #f87f4a transparent transparent;
+    border-color: transparent ${props => props.theme.mainColor} transparent transparent;
     transform: translateX(-100%);
   }
 `

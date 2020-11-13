@@ -3,7 +3,8 @@ import { Footer } from "./footer"
 import { Head } from "./head"
 import { Header } from "./header"
 import Menu from "./menu"
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle, ThemeProvider } from "styled-components"
+import { theme } from "../styles/global"
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -15,9 +16,11 @@ export default ({ children }) => (
   <>
     <GlobalStyle />
     <Head />
-    <Menu />
-    <Header />
-    {children}
-    <Footer />
+    <ThemeProvider theme={theme}>
+      <Menu />
+      <Header />
+      {children}
+      <Footer />
+    </ThemeProvider>
   </>
 )

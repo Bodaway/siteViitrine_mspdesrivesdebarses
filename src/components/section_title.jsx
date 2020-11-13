@@ -5,6 +5,8 @@ import { borderBox } from "../styles/global"
 const Header = styled.header`
   display: flex;
   justify-content: center;
+  position: relative;
+  z-index:9;
   margin: 0 auto;
   text-align: center;
   white-space: nowrap;
@@ -12,14 +14,14 @@ const Header = styled.header`
   min-height: 50px;
   height: 50px;
   width: 60%;
-  background: ${props => props.color};
+  background: ${props => props.theme.mainColor};
 
   &::after {
     align-self: flex-end;
     position: absolute;
     border-style: solid;
     border-width: 10px 10px 10px 10px;
-    border-color: ${props => props.color2} transparent transparent transparent;
+    border-color: ${props => props.theme.altColor} transparent transparent transparent;
     content: "";
     width: 0;
     height: 0;
@@ -38,9 +40,9 @@ const Title = styled.h2`
   color: #fff;
   ${borderBox}
 `
-const SectionTitle = ({ title, color, color2 }) => {
+const SectionTitle = ({ title}) => {
   return (
-    <Header color={color} color2={color2}>
+    <Header>
       <Title>{title}</Title>
     </Header>
   )

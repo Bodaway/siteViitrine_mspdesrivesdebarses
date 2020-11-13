@@ -39,3 +39,34 @@ export const mediaDevice = {
   desktopL: `(max-width: ${size.desktop})`,
   greaterthtablet: `(min-width: ${size.laptop})`,
 }
+
+export const theme = {
+  presentationColor: "#2CA3DC",
+  categorieColor: "#68C100" , 
+  actualiteColor: "#E7302A",
+  contactColor: "#f87f4a",
+  marginTopSection: "20px",
+}
+
+export const getPresentationTheme = theme => ({
+  ...theme,
+  mainColor: theme.presentationColor,
+  altColor: theme.presentationColor, //"#82C535",
+})
+
+export const getCategorieTheme = theme => ({
+  ...theme,
+  mainColor: theme.categorieColor,
+  altColor: theme.categorieColor,
+})
+
+export const getActualiteTheme = theme => ({
+  ...theme,
+  mainColor: theme.actualiteColor,
+  altColor: theme.actualiteColor,
+})
+export const getContactTheme = theme => ({
+  ...theme,
+  mainColor: theme.contactColor,
+  altColor: theme.contactColor,
+})

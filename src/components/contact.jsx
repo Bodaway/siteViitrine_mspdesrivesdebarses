@@ -1,10 +1,10 @@
 import React from "react"
 import SectionTitle from "./section_title"
 import styled from "styled-components"
-import { shadow, borderBox, Section, mediaDevice } from "../styles/global"
+import {Section, mediaDevice } from "../styles/global"
 
 const MapOuter = styled.div`
-  margin-top: 20px;
+  margin-top: ${props => props.theme.marginTopSection};
   display: flex;
   justify-content: center;
   min-height: 200px;
@@ -26,7 +26,7 @@ const MapCanvas = styled.div`
 const Contact = () => {
   return (
     <Section id="Contact">
-      <SectionTitle title="Contact" color="#555555" color2="#555555" />
+      <SectionTitle title="Contact"/>
       <MapOuter>
         <MapCanvas>
           <iframe
@@ -39,7 +39,6 @@ const Contact = () => {
             marginheight="0"
             marginwidth="0"
           ></iframe>
-          {/* <a href="https://www.whatismyip-address.com/divi-discount/"></a> */}
         </MapCanvas>
       </MapOuter>
     </Section>

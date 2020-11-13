@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import Slider from "react-slick"
 import SectionTitle from "./section_title"
 import styled from "styled-components"
-import { borderBox, shadow, Section, mediaDevice } from "../styles/global"
+import { shadow, Section} from "../styles/global"
 import { Modal } from "react-bootstrap"
 import Img from "gatsby-image"
 
@@ -40,7 +40,7 @@ const VLine = styled.div`
   display: none;
   flex-direction: row;
   width: 1px;
-  background-color: red;
+  background-color: ${props => props.theme.mainColor};
 
   ${News}:hover & {
     display: flex;
@@ -80,7 +80,7 @@ const ModalC = styled(Modal)`
   }
 `
 const SliderContainer = styled.div`
-  margin-top: 20px;
+  margin-top: ${props => props.theme.marginTopSection};
 `
 
 const PrevButton = ({ className, style, onClick }) => {
@@ -167,10 +167,9 @@ const SliderActu = ({ actualites = [] }) => {
 }
 
 const ActualitesLarge = ({ data }) => {
-  console.log(data)
   return (
     <Section id="actualitelarge">
-      <SectionTitle title="Actualités" color="#E7302A" color2="#E7302A" />
+      <SectionTitle title="Actualités"  />
 
       <SliderActu actualites={data} />
     </Section>

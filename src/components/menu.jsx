@@ -38,7 +38,6 @@ const Line = styled.div`
     display: flex;
     visibility: hidden;
     justify-content: center;
-    background-color: ${props => props.color};
     margin-top: 10px;
     height: 2px;
     //width:70%;
@@ -63,10 +62,41 @@ const Line = styled.div`
       //bottom:100%;
       border-style: solid;
       border-width: 0 4px 4px 4px;
-      border-color: transparent transparent ${props => props.color} transparent;
       transform: translateY(-100%);
     }
   `
+const LinePresentation = styled(Line)`
+  background-color: ${props => props.theme.presentationColor};
+
+    &::before {
+      border-color: transparent transparent ${props =>
+        props.theme.presentationColor} transparent;
+    }
+`
+const LineCategorie = styled(Line)`
+  background-color: ${props => props.theme.categorieColor};
+
+    &::before {
+      border-color: transparent transparent ${props =>
+        props.theme.categorieColor} transparent;
+    }
+`
+const LineActualite = styled(Line)`
+  background-color: ${props => props.theme.actualiteColor};
+
+    &::before {
+      border-color: transparent transparent ${props =>
+        props.theme.actualiteColor} transparent;
+    }
+`
+const LineContact = styled(Line)`
+  background-color: ${props => props.theme.contactColor};
+
+    &::before {
+      border-color: transparent transparent ${props =>
+        props.theme.contactColor} transparent;
+    }
+`
 const Menu = () => {
   return (
     <InnerNavbar bg="light" expand="lg" sticky="top" collapseOnSelect="true">
@@ -75,19 +105,19 @@ const Menu = () => {
         <Nav>
           <Elem>
             <Link href="#presentation">Présentation</Link>
-            <Line color="#68C100" />
+            <LinePresentation />
           </Elem>
           <Elem>
             <Link href="#probycategories">Professionnels</Link>
-            <Line color="#f87f4a" />
+            <LineCategorie />
           </Elem>
           <Elem>
             <Link href="#actualitelarge">Actualités</Link>
-            <Line color="#E7302A" />
+            <LineActualite />
           </Elem>
           <Elem>
             <Link href="#Contact">Contact</Link>
-            <Line color="#555555" />
+            <LineContact />
           </Elem>
         </Nav>
       </Collapse>

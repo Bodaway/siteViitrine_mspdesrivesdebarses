@@ -26,7 +26,7 @@ const BottomLine = styled.div`
   display: flex;
   visibility: hidden;
   justify-content: center;
-  background-color: #f87f4a;
+  background-color: ${props => props.theme.mainColor};
   height: 2px;
 
   ${ProElem}:hover > & {
@@ -43,7 +43,7 @@ const BottomLine = styled.div`
     height: 0;
     border-style: solid;
     border-width: 0 4px 4px 4px;
-    border-color: transparent transparent #f87f4a transparent;
+    border-color: transparent transparent ${props => props.theme.mainColor} transparent;
     transform: translateY(-100%);
   }
 `
@@ -53,7 +53,7 @@ const ProList = styled.ul`
   flex-direction: row;
   flex-wrap: wrap;
   padding: 0;
-  margin-top: 20px;
+  margin-top: ${props => props.theme.marginTopSection};
 `
 
 const ProContent = styled.div`
@@ -71,6 +71,7 @@ const ProContent = styled.div`
 const Image = styled(Img)`
   display: flex;
   width: 50px;
+  background-color: ${props => props.theme.mainColor};
 `
 
 const ProByCats = ({ data }) => {
@@ -99,16 +100,16 @@ const ProByCats = ({ data }) => {
   ))
 
   return (
-    <Section id="probycategories">
-      <SectionTitle title="Professionnels" color="#F87F4A" color2="#F87F4A" />
-      <ProList>
-        <GhostElem></GhostElem>
-        {loadList}
-      </ProList>
-      {categorieDetail != undefined && (
-        <CatProDetail categorieDetail={data[categorieDetail]}></CatProDetail>
-      )}
-    </Section>
+      <Section id="probycategories">
+        <SectionTitle title="Professionnels" />
+        <ProList>
+          <GhostElem></GhostElem>
+          {loadList}
+        </ProList>
+        {categorieDetail != undefined && (
+          <CatProDetail categorieDetail={data[categorieDetail]}></CatProDetail>
+        )}
+      </Section>
   )
 }
 

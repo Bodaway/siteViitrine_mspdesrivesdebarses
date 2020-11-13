@@ -5,6 +5,8 @@ import ProByCat from "../components/pro_by_cat"
 import ActualiteLarge from "../components/actualites_large"
 import Contact from "../components/contact"
 import { graphql } from "gatsby"
+import { getPresentationTheme, getCategorieTheme, getActualiteTheme,getContactTheme } from "../styles/global"
+import { ThemeProvider } from "styled-components"
 
 export const query = graphql`
   query alldataquery {
@@ -56,9 +58,17 @@ export const query = graphql`
 `
 export default ({ data }) => (
   <Layout>
-    <Presentation data={data.allTestdataJson.edges[0].node.Presentation} />
-    <ProByCat data={data.allTestdataJson.edges[0].node.Categories} />
-    <ActualiteLarge data={data.allTestdataJson.edges[0].node.Actualites} />
-    <Contact />
+    <ThemeProvider theme={getPresentationTheme}>
+      <Presentation data={data.allTestdataJson.edges[0].node.Presentation} />
+    </ThemeProvider>
+    <ThemeProvider theme={getCategorieTheme}>
+      <ProByCat data={data.allTestdataJson.edges[0].node.Categories} />
+    </ThemeProvider>
+    <ThemeProvider theme={getActualiteTheme}>
+      <ActualiteLarge data={data.allTestdataJson.edges[0].node.Actualites} />
+    </ThemeProvider>
+    <ThemeProvider theme={getContactTheme}>
+      <Contact />
+    </ThemeProvider>
   </Layout>
 )
