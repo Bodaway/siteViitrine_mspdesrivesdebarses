@@ -23,7 +23,8 @@ jobs:
 
       - run: npm install -g yarn
       - run: yarn
-      - run: yarn deploy
+      - run: yarn build
+      - run: ls ./public/
 
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
@@ -31,4 +32,4 @@ jobs:
           ftp-server: ftp://${{ secrets.HOST }}/www
           ftp-username: ${{ secrets.USERNAME }}
           ftp-password: ${{ secrets.PASSWORD }}
-          local-dir: ./public            
+          local-dir: ./public/            
