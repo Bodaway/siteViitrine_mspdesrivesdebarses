@@ -24,12 +24,12 @@ jobs:
       - run: npm install -g yarn
       - run: yarn
       - run: yarn build
-      - run: ls ./public/
 
       - name: Sync files
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        uses: sebastianpopp/ftp-action@releases/v2
         with:
-          ftp-server: ftp://${{ secrets.HOST }}/www
-          ftp-username: ${{ secrets.USERNAME }}
-          ftp-password: ${{ secrets.PASSWORD }}
-          local-dir: ./public/**            
+          host: ${{ secrets.HOST }}
+          user: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          localDir: "public"
+          remoteDir: "www"
