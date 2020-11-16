@@ -76,14 +76,13 @@ const CenterContent = styled.div`
 const ProElem = styled.li`
   display: flex;
   justify-content: space-between;
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 
   &:hover {
     cursor: pointer;
   }
 `
-const ProName = styled.div`
-`
+const ProName = styled.div``
 const Vline = styled.div`
   visibility: hidden;
   display: flex;

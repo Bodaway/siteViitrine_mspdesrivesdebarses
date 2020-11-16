@@ -1,7 +1,7 @@
 import React from "react"
 import SectionTitle from "./section_title"
 import styled from "styled-components"
-import {Section, mediaDevice } from "../styles/global"
+import { Section, mediaDevice } from "../styles/global"
 
 const MapOuter = styled.div`
   margin-top: ${props => props.theme.marginTopSection};
@@ -26,7 +26,7 @@ const MapCanvas = styled.div`
 const Contact = () => {
   return (
     <Section id="Contact">
-      <SectionTitle title="Contact"/>
+      <SectionTitle title="Contact" />
       <MapOuter>
         <MapCanvas>
           <iframe

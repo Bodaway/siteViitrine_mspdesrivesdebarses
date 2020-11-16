@@ -69,11 +69,11 @@ export default ({ data }) => (
     <ThemeProvider theme={getCategorieTheme}>
       <ProByCat data={data.allProddataJson.edges[0].node.Categories} />
     </ThemeProvider>
-    <ThemeProvider theme={getActualiteTheme}>
+    {/* <ThemeProvider theme={getActualiteTheme}>
       <ActualiteLarge data={data.allProddataJson.edges[0].node.Actualites} />
     </ThemeProvider>
     <ThemeProvider theme={getContactTheme}>
       <Contact />
-    </ThemeProvider>
+    </ThemeProvider> */}
   </Layout>
 )

@@ -35,6 +35,10 @@ export function Head({ data }) {
         src="https://kit.fontawesome.com/d58dae4cfc.js"
         crossorigin="anonymous"
       ></script>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-PYK2S0SJYW"
+      ></script>
     </Helmet>
   )
 }

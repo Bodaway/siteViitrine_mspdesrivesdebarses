@@ -57,17 +57,18 @@ const Und = styled.p`
 `
 const ExternalCarousel = ({ data, interval }) => {
   return (
-    <Carousel controls={false} indicators={false} interval={interval}>
-      <Carousel.Item>
-        <Img fluid={data.image.childImageSharp.fluid} />
-      </Carousel.Item>
-      <Carousel.Item>
-        <Img fluid={data.image.childImageSharp.fluid} />
-      </Carousel.Item>
-      <Carousel.Item>
-        <Img fluid={data.image.childImageSharp.fluid} />
-      </Carousel.Item>
-    </Carousel>
+    <></>
+    // <Carousel controls={false} indicators={false} interval={interval}>
+    //   <Carousel.Item>
+    //     <Img fluid={data.image.childImageSharp.fluid} />
+    //   </Carousel.Item>
+    //   <Carousel.Item>
+    //     <Img fluid={data.image.childImageSharp.fluid} />
+    //   </Carousel.Item>
+    //   <Carousel.Item>
+    //     <Img fluid={data.image.childImageSharp.fluid} />
+    //   </Carousel.Item>
+    // </Carousel>
   )
 }
 
@@ -124,29 +125,36 @@ const Presentation = ({ data }) => {
             Nous sommes un lieu privilégié pour :
             <ul>
               <li>
-                <Emp>l'accès aux soins</Emp> de premiers recours (sans hébergement) et la
+                <Emp>l'accès aux soins</Emp> de premiers recours (sans
+                hébergement) et la
                 <Emp>continuité des soins</Emp> (large amplitude d'ouverture)
               </li>
               <li>
-                <Emp>l'exercice coordonné</Emp> et le <Emp>travail en équipe
-                pluriprofessionnelle</Emp> (réunions d'équipe, protocoles facilitant
-                la prise en charge des patients, etc)
+                <Emp>l'exercice coordonné</Emp> et le{" "}
+                <Emp>travail en équipe pluriprofessionnelle</Emp> (réunions
+                d'équipe, protocoles facilitant la prise en charge des patients,
+                etc)
               </li>
               <li>
-                les <Emp>parcours de soins</Emp> fléchés et simplifiés (diabète, sport
-                santé, patients complexes ou/et en situation de fragilité, etc)
+                les <Emp>parcours de soins</Emp> fléchés et simplifiés (diabète,
+                sport santé, patients complexes ou/et en situation de fragilité,
+                etc)
               </li>
               <li>
-                les <Emp>actions de promotion et d'éducation à la santé</Emp> (dispositif
-                de télémédecine, programmes d'Education Thérapuetique du
-                Patient, actions territoriales de santé publique,
+                les <Emp>actions de promotion et d'éducation à la santé</Emp>{" "}
+                (dispositif de télémédecine, programmes d'Education
+                Thérapuetique du Patient, actions territoriales de santé
+                publique,
               </li>{" "}
               etc)
               <li>
-                la <Emp>formation universitaire</Emp> (tous les professionnels peuvent
-                accueillir des étudiants en stage) et <Emp>post-universitaire</Emp>
+                la <Emp>formation universitaire</Emp> (tous les professionnels
+                peuvent accueillir des étudiants en stage) et{" "}
+                <Emp>post-universitaire</Emp>
               </li>
-              <li><Emp>la démarche qualité / RGPD</Emp></li>
+              <li>
+                <Emp>la démarche qualité / RGPD</Emp>
+              </li>
             </ul>
           </p>
         </MiddleContent>

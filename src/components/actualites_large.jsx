@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import Slider from "react-slick"
 import SectionTitle from "./section_title"
 import styled from "styled-components"
-import { shadow, Section} from "../styles/global"
+import { shadow, Section } from "../styles/global"
 import { Modal } from "react-bootstrap"
 import Img from "gatsby-image"
 
@@ -169,7 +169,7 @@ const SliderActu = ({ actualites = [] }) => {
 const ActualitesLarge = ({ data }) => {
   return (
     <Section id="actualitelarge">
-      <SectionTitle title="Actualités"  />
+      <SectionTitle title="Actualités" />
 
       <SliderActu actualites={data} />
     </Section>
