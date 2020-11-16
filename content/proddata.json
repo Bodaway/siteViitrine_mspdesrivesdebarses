@@ -1,0 +1,391 @@
+[
+  {
+    "Presentation": {
+      "image": "./images/WIP.jpg"
+    },
+    "Actualites": [
+      {
+        "title": "Actualite 1",
+        "image": "./images/WIP.jpg",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis molestie ipsum. In hac habitasse platea dictumst. Aliquam suscipit vestibulum diam, at dignissim nisl hendrerit pharetra. Vestibulum rhoncus justo porta, sodales ligula vitae, porttitor metus. Vestibulum sed laoreet eros. Quisque ut tellus varius, aliquam velit vitae, placerat nisi. Phasellus congue ornare est, sed consectetur urna porta viverra. Vivamus pharetra accumsan dui, in pellentesque est scelerisque non. Nullam eget augue at urna laoreet aliquet. Praesent nunc dui, pulvinar a nunc at, porttitor rhoncus quam."
+      },
+      {
+        "title": "Actualite 2",
+        "image": "./images/WIP.jpg",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit felis turpis, ut tempor tortor dignissim id. Etiam viverra vehicula ultricies. In sit amet est volutpat, dapibus justo quis, dictum quam. Sed hendrerit massa a dignissim tempus. Etiam hendrerit velit id lobortis mattis. Maecenas commodo pretium enim, vel condimentum sem posuere vel. Sed commodo pulvinar dui sed imperdiet. In eleifend, mauris id porta vestibulum, nulla dolor placerat dui, sit amet tempus magna lectus sed orci. Duis egestas pellentesque tincidunt. Integer in ex lorem. Sed turpis massa, interdum tincidunt libero sed, venenatis porta diam. Praesent at velit varius, interdum justo a, tempor nulla. Proin at neque volutpat, maximus magna vulputate, ultricies turpis. Pellentesque vitae velit enim.</p><p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis commodo id neque eu iaculis. Pellentesque auctor molestie lectus id finibus. Sed pretium leo porta libero iaculis, id viverra quam ullamcorper. Donec eu purus ac tortor blandit pharetra a et turpis. Integer venenatis pulvinar risus in interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque sagittis, neque at eleifend sodales, orci metus pretium nibh, nec consequat eros tortor gravida ligula. Integer est nunc, ultrices sed ullamcorper feugiat, cursus eu massa. Nam sapien velit, semper non urna eu, auctor accumsan nisi. Maecenas eu leo varius, vehicula nibh id, iaculis magna. Nulla urna felis, interdum ut pellentesque eu, aliquet vitae magna. Integer nisi eros, tempus quis aliquet in, congue sit amet felis. Praesent aliquam id justo quis egestas. Donec pulvinar lectus quam, non lacinia felis lacinia vitae. Vivamus ullamcorper convallis hendrerit.</p>"
+      },
+      {
+        "title": "Actualite 3",
+        "image": "./images/WIP.jpg",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit felis turpis, ut tempor tortor dignissim id. Etiam viverra vehicula ultricies. In sit amet est volutpat, dapibus justo quis, dictum quam."
+      },
+      {
+        "title": "Actualite 4",
+        "image": "./images/WIP.jpg",
+        "text": "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis commodo id neque eu iaculis. Pellentesque auctor molestie lectus id finibus. Sed pretium leo porta libero iaculis, id viverra quam ullamcorper. Donec eu purus ac tortor blandit pharetra a et turpis. Integer venenatis pulvinar risus in interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque sagittis, neque at eleifend sodales, orci metus pretium nibh, nec consequat eros tortor gravida ligula. Integer est nunc, ultrices sed ullamcorper feugiat, cursus eu massa. Nam sapien velit, semper non urna eu, auctor accumsan nisi. Maecenas eu leo varius, vehicula nibh id, iaculis magna. Nulla urna felis, interdum ut pellentesque eu, aliquet vitae magna. Integer nisi eros, tempus quis aliquet in, congue sit amet felis. Praesent aliquam id justo quis egestas. Donec pulvinar lectus quam, non lacinia felis lacinia vitae. Vivamus ullamcorper convallis hendrerit."
+      }
+    ],
+    "Categories": [
+      {
+        "title": "Médecine générale",
+        "icon": "./images/massage.png",
+        "desc": "<p>La médecine générale est une spécialité médicale prenant en charge le suivi et les soins médicaux primaires de la population.</p><p>Le médecin généraliste ou médecin de famille est le spécialiste de premier recours, qui coordonne la prise en charge du patient, assure la synthèse, permet la continuité des soins, le suivi au long cours et développe une démarche de santé publique. Il dispense des soins à tous ceux qui le souhaitent indépendamment de leur âge (du nourrisson à la personne âgée), de leur sexe et de leur maladie (aigue ou chronique). Il interroge, examine, diagnostique et soigne les personnes dans leur contexte familial, communautaire, culturel et toujours dans le respect de leur autonomie. Du suivi des maladies chroniques : diabète, insuffisance cardiaque, maladies auto-immunes, cancers, etc., en passant par les situations aiguës : crise d’asthme, infarctus, pathologies ORL, migraine, pneumopathies, traumatismes, etc, le médecin généraliste a pour vocation d’apporter une réponse de soins adaptée pour toutes ces situations. La prévention constitue un de ses axes prioritaires : examen clinique approfondi, bilan de santé, dépistage, vaccinations, etc.</p><p>La prise en charge du patient est assurée dans sa globalité. Le médecin généraliste peut pratiquer des actes de petite chirurgie, de gynécologie, de dermatologie, de pédiatrie, de rhumatologie, selon ses compétences propres.</p><p>Il est le pivot du système de santé.</p><p>Il travaille en collaboration avec les autres professionnels de santé territoriaux.</p><p>En France, le mode d'exercice le plus fréquent de la médecine générale est la médecine libérale et dix années d’études sont nécessaires pour devenir un docteur en médecine, spécialisé en médecine générale.</p>",
+        "Pros": [
+          {
+            "name": "Dr OPRICA Mariana",
+            "desc": "<p>Maison de Santé des rives de Barse, <br/>Pôle Médecins 1 avenue de la République, Vendeuvre sur Barse</p>",
+            "horaire": [
+              "09h00 - 13h00, 14h00 - 19h00",
+              "09h00 - 13h00, 14h00 - 19h00",
+              "09h00 - 13h00, 14h00 - 19h00",
+              "09h00 - 13h00, 14h00 - 19h00",
+              "09h00 - 13h00, 14h00 - 19h00",
+              "-",
+              "-"
+            ],
+            "rdv": "<p><a href=\"https://www.doctolib.fr/medecin-generaliste/vendeuvre-sur-barse/mariana-oprica\">www.doctolib.fr</a>  <br/> > Prendre un RDV en ligne <br/>> Taper le nom du praticien <br/>> Choisir le créneau qui vous convient</p>",
+            "telephone": "03.25.43.35.17"
+          }
+        ]
+      },
+      {
+        "title": "Kinésithérapeute",
+        "icon": "./images/stethoscope.png",
+        "desc": "<p>Une équipe dynamique de 4 kinésithérapeutes vous prend en charge pour des soins au cabinet ou à domicile sur trois sites différents du territoire vendeuvrois.</p><p>Les patients sont accueillis dans les différents cabinets dans des espaces particulièrement adaptés à leurs besoins en kinésithérapie.</p><p>Différentes salles sont dédiées aux pathologies nécessitant des soins individuels tels que les massages, la thérapie manuelle, le drainage lymphatique, les ondes de chocs, la pressothérapie, l'endermologie, la physiothérapie ou encore la kinésithérapie respiratoire.</p><p>Une grande salle bénéficie d'équipements qui permettent de réaliser de nombreux exercices de renforcement musculaire spécifiques et globaux.</p>",
+        "Pros": [
+          {
+            "name": "BELVEZE Antoine",
+            "desc": "<p>Cabinet en dehors de la Maison de Santé, <br/>15 rue de la Côte d'Or, Vendeuvre sur Barse </p>",
+            "horaire": [
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
+            ],
+            "rdv": "Prise de rdv au cabinet et à domicile",
+            "telephone": "03.25.40.10.44"
+          },
+          {
+            "name": "BLAISE Marianne",
+            "desc": "<p>Maison de Santé des rives de Barse, Pôle Kinésithérapeute et Infirmières,<br/>1 avenue de la République, Vendeuvre sur Barse</p>",
+            "horaire": [
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
+            ],
+            "rdv": "Prise de rdv au cabinet et à domicile",
+            "telephone": "06.15.32.58.24"
+          },
+          {
+            "name": "CALON-SUREAU Benoit",
+            "desc": "<p>Cabinet en dehors de la Maison de Santé, <br/>15 rue de l’ Eglise, La Villeneuve au Chêne</p>",
+            "horaire": [
+              "8h00- 13h00, 17h00-19h30",
+              "8h00- 13h00, 17h00-19h30",
+              "8h00- 13h00, 17h00-19h30",
+              "8h00- 13h00, 17h00-19h30",
+              "8h00- 13h00",
+              "-",
+              "-"
+            ],
+            "rdv": "<p>Prise de rdv au cabinet et à domicile</p><p><u>Gestion des rendez vous des patients en cours de soins</u> : <a href=\"https://www.doctolib.fr/masseur-kinesitherapeute/la-villeneuve-au-chene/benoit-calon\">www.doctolib.fr</a></p>",
+            "telephone": "03.25.43.27.98"
+          },
+          {
+            "name": "BLAISE Marianne",
+            "desc": "<p>Cabinet en dehors de la Maison de Santé, <br/>15 rue de la Côte d'Or, Vendeuvre sur Barse </p>",
+            "horaire": [
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
+            ],
+            "rdv": "Prise de rdv au cabinet et à domicile",
+            "telephone": "03.25.40.10.44"
+          }
+        ]
+      },
+      {
+        "title": "Dentistes",
+        "icon": "./images/stethoscope.png",
+        "desc": "Le chirurgien-dentiste est un docteur en chirurgie dentaire. Il traite les affections des dents, de la bouche, des gencives et de la mâchoire. Le chirurgien dentaire pratique de nombreux soins. Il soigne les caries, extrait les dents infectées, pose des amalgames, des couronnes ou encore des prothèses.",
+        "Pros": [
+          {
+            "name": "Dr AUDIBERT Jean-Michel",
+            "desc": "<p>Maison de Santé des rives de Barse, Pôle Dentistes,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "horaire": [
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
+            ],
+            "rdv": "-",
+            "telephone": "03.25.43.84.33"
+          },
+          {
+            "name": "Dr VANDERCRUYSSEN-NOLLET Daphnée",
+            "desc": "<p>Maison de Santé des rives de Barse, Pôle Dentistes,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "horaire": [
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
+            ],
+            "rdv": "-",
+            "telephone": "-"
+          }
+        ]
+      },
+      {
+        "title": "Infirmières",
+        "icon": "./images/stethoscope.png",
+        "desc": "<p>L'exercice de la profession d'infirmière comporte:<ul><li>L'analyse,<li>L'organisation,<li>La réalisation de soins infirmiers et leur évaluation,<li>La contribution au recueil de données cliniques et épidémiologiques et la participation à des actions de prévention, de dépistage, de formation et d'éducation à la santé.</ul></p><p>Dans l'ensemble de ses activités, les infirmières sont soumises au respect des règles professionnelles et notamment le secret professionnel.</p><p>Elles exercent leur activité en relation avec les autres professionnels du secteur de la santé, du secteur social et médico-social, et du secteur éducatif.</p>",
+        "Pros": [
+          {
+            "name": "BOURRY Catherine",
+            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "horaire": [
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "sur RDV",
+              "sur RDV"
+            ],
+            "rdv": "<p>Soins à domicile sur RDV,<br/> dimanche et jours fériés sur RDV</p>",
+            "telephone": "03.25.73.14.17"
+          },
+          {
+            "name": "DINANT CHAPOTEL Laurence",
+            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "horaire": [
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "sur RDV",
+              "sur RDV"
+            ],
+            "rdv": "<p>Soins à domicile sur RDV,<br/> dimanche et jours fériés sur RDV</p>",
+            "telephone": "03.25.73.14.17"
+          },
+          {
+            "name": "MAILLET Virginie",
+            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "horaire": [
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "sur RDV",
+              "sur RDV"
+            ],
+            "rdv": "<p>Soins à domicile sur RDV,<br/> dimanche et jours fériés sur RDV</p>",
+            "telephone": "03.25.43.84.35"
+          },
+          {
+            "name": "ROYER Christiane",
+            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "horaire": [
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "sur RDV",
+              "sur RDV"
+            ],
+            "rdv": "<p>Soins à domicile sur RDV,<br/> dimanche et jours fériés sur RDV</p>",
+            "telephone": "03.25.43.84.35"
+          },
+          {
+            "name": "ROY-JEANJAN Karine",
+            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "horaire": [
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "sur RDV",
+              "sur RDV"
+            ],
+            "rdv": "<p>Soins à domicile sur RDV,<br/> dimanche et jours fériés sur RDV</p>",
+            "telephone": "03.25.73.14.17"
+          },
+          {
+            "name": "SCRIBE Laure",
+            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "horaire": [
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "8h00 à 11h sans RDV",
+              "sur RDV",
+              "sur RDV"
+            ],
+            "rdv": "<p>Soins à domicile sur RDV,<br/> dimanche et jours fériés sur RDV</p>",
+            "telephone": "03.25.43.84.35"
+          }
+        ]
+      },
+      {
+        "title": "Nutritionniste",
+        "icon": "./images/stethoscope.png",
+        "desc": "<p>La prise en charge nutritionnelle s'adresse à tout profil de patient du jeune enfant à l'adulte y compris la femme enceinte et allaitante.</p><p>L'accompagnement peut être en rapport à un objectif de perte ou même de prise de poids. Ou simplement accompagner les personnes désireuses d'apprendre à équilibrer leur alimentation.</p><p>L'accompagnement nutritionnel des personnes souffrant de trouble du comportement alimentaire est aussi possible, souvent en lien avec un accompagnement psychologique.</p>",
+        "Pros": [
+          {
+            "name": "PLATEAU Marie-Anne",
+            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "horaire": [
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
+            ],
+            "rdv": "-",
+            "telephone": "06.47.98.42.84"
+          }
+        ]
+      },
+      {
+        "title": "Sage-Femme",
+        "icon": "./images/stethoscope.png",
+        "desc": "<p>La Sage Femme en exercice libéral prends en charges les soins suivants : <ul><li>consultation de gynécologie et de contraception<li>consultation préconceptionnelle<li>surveillance à domicile de grossesse pathologique<li>préparation à la naissance <li>suivi à domicile au retour de la maternité<li>soutien à l’allaitement<li>rééducation périnéale<li>suivi de grossesse</ul></p>",
+        "Pros": [
+          {
+            "name": "ROUILLEAUX Paméla",
+            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "horaire": [
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
+            ],
+            "rdv": "à domicile (Jours et lieux)",
+            "telephone": "06.10.61.38.57"
+          }
+        ]
+      },
+      {
+        "title": "Sophrologue",
+        "icon": "./images/stethoscope.png",
+        "desc": "<p>La sophrologie est une méthode psychocorporelle utilisée comme technique thérapeutique ou vécue comme une philosophie de vie. Elle a été conçue par le neuropsychiatre Alfonso Caycedo et est inspirée de techniques occidentales comme orientales. Le terme SOPHROLOGIE, inspiré du grec ancien, signifie étude de l’harmonisation de la conscience.</p><p>Méthode exclusivement verbale et non tactile, la sophrologie emploie un ensemble de techniques qui vont à la fois agir sur le corps et sur le mental. Elle combine des exercices qui travaillent à la fois sur la respiration, la décontraction musculaire et l’imagerie mentale (ou visualisation). Toutes ces techniques permettent de retrouver un état de bien-être et d’activer tout son potentiel. La sophrologie permet d’acquérir une meilleure connaissance de soi et d’affronter les défis du quotidien avec sérénité.</p>",
+        "Pros": [
+          {
+            "name": "GUBLIN Fleur",
+            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "horaire": [
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
+            ],
+            "rdv": "à domicile (Jours et lieux)",
+            "telephone": "06.23.26.91.81"
+          }
+        ]
+      },
+      {
+        "title": "Pharmaciens",
+        "icon": "./images/stethoscope.png",
+        "desc": "<p>Le Pharmacien d’officine a plusieurs rôles essentiels :<ul><li>Assure la dispensation et le bon usage du médicament à usage humain et vétérinaire.</li> <li>S’assure de la bonne compréhension du traitement par le patient. </li><li>Propose au patient un suivi pharmaceutique (suivi de l’observance, des effets des traitements, de la pharmacovigilance). </li><li>Alimente le Dossier Pharmaceutique du patient pour mieux sécuriser la dispensation des médicaments et améliorer la coordination entre les professionnels de santé. </li><li>Contribue avec les autres professionnels de santé à un accompagnement personnalisé du patient (éducation thérapeutique, etc.) ; collaboration avec le milieu hospitalier dans le cadre de la conciliation pharmaceutique. </li><li>Réalise des préparations magistrales et officinales.</li><li>Participe aux actions de santé publique, de prévention et de dépistage ; intègre ainsi dans son quotidien les nouvelles missions telles que la vaccination anti-grippale.</li><li>Coopère avec les autres professionnels de santé au sein des réseaux de santé, des communautés professionnelles territoriales de Santé, Maisons de Santé Pluridisciplinaires, SISA, des établissements pour personnes âgées, etc. </li><li>Contribue à la continuité de l’accès au médicament 7 jours sur 7, 24 heures sur 24 ; Participe ainsi à la permanence des soins. </li><li>Participe à la protection de la santé publique et de l’environnement en collectant les médicaments non utilisés rapportés par les patients et certains déchets d’activité de soins à risque infectieux.</li></ul></p>",
+        "Pros": [
+          {
+            "name": "Pharmacie de la Barse, François JACQUEL",
+            "desc": "<p>Officine en dehors de la Maison de Santé,<br/>3 Avenue de l'Armée Leclerc, Vendeuvre sur Barse</p>",
+            "horaire": [
+              "9H00-12H00, 14H00-19H00",
+              "9H00-12H15, 14H00-19H15",
+              "9H00-12H15, 14H00-19H15",
+              "9H00-12H15, 14H00-19H15",
+              "9H00-12H15, 14H00-19H15",
+              "9H00-12H15, 14H00-18H00"
+            ],
+            "rdv": "-",
+            "telephone": "03.25.43.87.87"
+          },
+          {
+            "name": "Pharmacie de l’Orient, Pascal AVIERINO",
+            "desc": "<p>Officine en dehors de la Maison de Santé,<br/>Rue des ancienne Tanneries, Centre commercial Bi1, Vendeuvre sur Barse </p>",
+            "horaire": [
+              "9H00-19H15",
+              "9H00-19H15",
+              "9H00-19H15",
+              "9H00-19H15",
+              "9H00-19H15",
+              "9H00-19H00"
+            ],
+            "rdv": "-",
+            "telephone": "03.25.41.31.42"
+          }
+        ]
+      },
+      {
+        "title": "Ambulances",
+        "icon": "./images/stethoscope.png",
+        "desc": "<p>Elles assurent, sur prescription médicale ou en cas d'urgence médicale, la prise en charge et le transport de malades, de blessés, dans des véhicules de transport sanitaire adaptés pour des raisons de soins ou de diagnostic</p>",
+        "Pros": [
+          {
+            "name": "Vendeuvre Ambulances",
+            "desc": "<p>Bureaux en dehors de la Maison de Santé,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "horaire": [
+              "9H00-12H00, 14H00-19H00",
+              "9H00-12H15, 14H00-19H15",
+              "9H00-12H15, 14H00-19H15",
+              "9H00-12H15, 14H00-19H15",
+              "9H00-12H15, 14H00-19H15",
+              "9H00-12H15, 14H00-18H00"
+            ],
+            "rdv": "-",
+            "telephone": "03.25.43.87.87"
+          },
+          {
+            "name": "Pharmacie de l’Orient, Pascal AVIERINO",
+            "desc": "<p>Officine en dehors de la Maison de Santé,<br/>Rue des ancienne Tanneries, Centre commercial Bi1, Vendeuvre sur Barse </p>",
+            "horaire": [
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
+            ],
+            "rdv": "-",
+            "telephone": "03.25.41.48.18"
+          }
+        ]
+      }
+    ]
+  }
+]

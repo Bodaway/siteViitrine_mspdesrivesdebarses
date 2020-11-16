@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 const Title = styled.h3`
-  border-bottom: solid 1px${props => props.theme.mainColor};
+  border-bottom: solid 1px ${props => props.theme.mainColor};
   padding-bottom: 5px;
 `
 const SubTitle = styled.h4`
@@ -11,7 +11,9 @@ const SubTitle = styled.h4`
 `
 const ProDescription = styled.div``
 const Horaire = styled.div``
-const PriseRdv = styled.div``
+const PriseRdv = styled.div`
+  padding-bottom: 10px;
+`
 const Telephone = styled.div``
 
 const ProDetail = ({
@@ -27,7 +29,11 @@ const ProDetail = ({
     <div>
       <Title>{pro.name}</Title>
       <div>
-        <ProDescription>{pro.desc}</ProDescription>
+        <ProDescription
+          dangerouslySetInnerHTML={{
+            __html: pro.desc,
+          }}
+        ></ProDescription>
         <Horaire>
           <SubTitle>Horaires :</SubTitle>
           <ul>
@@ -54,7 +60,11 @@ const ProDetail = ({
             </li>
           </ul>
         </Horaire>
-        <PriseRdv>{pro.rdv}</PriseRdv>
+        <PriseRdv
+          dangerouslySetInnerHTML={{
+            __html: pro.rdv,
+          }}
+        ></PriseRdv>
         <Telephone>
           <SubTitle>Téléphone :</SubTitle>
           {pro.telephone}

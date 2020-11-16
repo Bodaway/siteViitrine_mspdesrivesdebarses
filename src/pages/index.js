@@ -5,12 +5,17 @@ import ProByCat from "../components/pro_by_cat"
 import ActualiteLarge from "../components/actualites_large"
 import Contact from "../components/contact"
 import { graphql } from "gatsby"
-import { getPresentationTheme, getCategorieTheme, getActualiteTheme,getContactTheme } from "../styles/global"
+import {
+  getPresentationTheme,
+  getCategorieTheme,
+  getActualiteTheme,
+  getContactTheme,
+} from "../styles/global"
 import { ThemeProvider } from "styled-components"
 
 export const query = graphql`
   query alldataquery {
-    allTestdataJson {
+    allProddataJson {
       edges {
         node {
           Presentation {
@@ -59,16 +64,16 @@ export const query = graphql`
 export default ({ data }) => (
   <Layout>
     <ThemeProvider theme={getPresentationTheme}>
-      <Presentation data={data.allTestdataJson.edges[0].node.Presentation} />
+      <Presentation data={data.allProddataJson.edges[0].node.Presentation} />
     </ThemeProvider>
-    {/* <ThemeProvider theme={getCategorieTheme}>
-      <ProByCat data={data.allTestdataJson.edges[0].node.Categories} />
+    <ThemeProvider theme={getCategorieTheme}>
+      <ProByCat data={data.allProddataJson.edges[0].node.Categories} />
     </ThemeProvider>
     <ThemeProvider theme={getActualiteTheme}>
-      <ActualiteLarge data={data.allTestdataJson.edges[0].node.Actualites} />
+      <ActualiteLarge data={data.allProddataJson.edges[0].node.Actualites} />
     </ThemeProvider>
     <ThemeProvider theme={getContactTheme}>
       <Contact />
-    </ThemeProvider> */}
+    </ThemeProvider>
   </Layout>
 )
