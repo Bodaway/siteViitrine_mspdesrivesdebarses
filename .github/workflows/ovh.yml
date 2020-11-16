@@ -28,7 +28,7 @@ jobs:
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          ftp-server: ftp://${{ secrets.HOST }}/www/
+          ftp-server: ftp://${{ secrets.HOST }}/www
           ftp-username: ${{ secrets.USERNAME }}
           ftp-password: ${{ secrets.PASSWORD }}
           local-dir: ./public            
