@@ -43,7 +43,8 @@ const BottomLine = styled.div`
     height: 0;
     border-style: solid;
     border-width: 0 4px 4px 4px;
-    border-color: transparent transparent ${props => props.theme.mainColor} transparent;
+    border-color: transparent transparent ${props => props.theme.mainColor}
+      transparent;
     transform: translateY(-100%);
   }
 `
@@ -100,16 +101,16 @@ const ProByCats = ({ data }) => {
   ))
 
   return (
-      <Section id="probycategories">
-        <SectionTitle title="Professionnels" />
-        <ProList>
-          <GhostElem></GhostElem>
-          {loadList}
-        </ProList>
-        {categorieDetail != undefined && (
-          <CatProDetail categorieDetail={data[categorieDetail]}></CatProDetail>
-        )}
-      </Section>
+    <Section id="probycategories">
+      <SectionTitle title="Professionnels" />
+      <ProList>
+        <GhostElem></GhostElem>
+        {loadList}
+      </ProList>
+      {categorieDetail != undefined && (
+        <CatProDetail categorieDetail={data[categorieDetail]}></CatProDetail>
+      )}
+    </Section>
   )
 }
 

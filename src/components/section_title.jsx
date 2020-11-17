@@ -6,7 +6,7 @@ const Header = styled.header`
   display: flex;
   justify-content: center;
   position: relative;
-  z-index:9;
+  z-index: 9;
   margin: 0 auto;
   text-align: center;
   white-space: nowrap;
@@ -21,7 +21,8 @@ const Header = styled.header`
     position: absolute;
     border-style: solid;
     border-width: 10px 10px 10px 10px;
-    border-color: ${props => props.theme.altColor} transparent transparent transparent;
+    border-color: ${props => props.theme.altColor} transparent transparent
+      transparent;
     content: "";
     width: 0;
     height: 0;
@@ -40,7 +41,7 @@ const Title = styled.h2`
   color: #fff;
   ${borderBox}
 `
-const SectionTitle = ({ title}) => {
+const SectionTitle = ({ title }) => {
   return (
     <Header>
       <Title>{title}</Title>

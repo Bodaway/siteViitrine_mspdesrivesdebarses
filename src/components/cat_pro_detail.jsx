@@ -76,6 +76,7 @@ const CenterContent = styled.div`
 const ProElem = styled.li`
   display: flex;
   justify-content: space-between;
+  padding-bottom: 5px;
 
   &:hover {
     cursor: pointer;
@@ -109,7 +110,8 @@ const Vline = styled.div`
     //margin-top: -10px;
     border-style: solid;
     border-width: 4px 4px 4px 4px;
-    border-color: transparent ${props => props.theme.mainColor} transparent transparent;
+    border-color: transparent ${props => props.theme.mainColor} transparent
+      transparent;
     transform: translateX(-100%);
   }
 `
@@ -156,7 +158,11 @@ const CatProDetail = ({ categorieDetail }) => {
           <Image fluid={categorieDetail.icon.childImageSharp.fluid} />
           <h3>{categorieDetail != undefined ? categorieDetail.title : ""}</h3>
         </CategoryTitle>
-        <div>{categorieDetail != undefined ? categorieDetail.desc : ""}</div>
+        <div
+          dangerouslySetInnerHTML={{
+            __html: categorieDetail.desc,
+          }}
+        />
       </LeftContent>
       <CenterContent>
         <ul>

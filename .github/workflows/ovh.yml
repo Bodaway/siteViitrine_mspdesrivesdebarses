@@ -1,0 +1,35 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: [Prod]
+  pull_request:
+    branches: [Prod]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - run: npm install -g yarn
+      - run: yarn
+      - run: yarn build
+
+      - name: Sync files
+        uses: sebastianpopp/ftp-action@releases/v2
+        with:
+          host: ${{ secrets.HOST }}
+          user: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          localDir: "public"
+          remoteDir: "www"

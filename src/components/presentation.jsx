@@ -1,12 +1,7 @@
 import React from "react"
 import SectionTitle from "./section_title"
 import styled from "styled-components"
-import {
-  shadow,
-  borderBox,
-  Section,
-  mediaDevice,
-} from "../styles/global"
+import { shadow, borderBox, Section, mediaDevice } from "../styles/global"
 import Img from "gatsby-image"
 import { Carousel } from "react-bootstrap"
 
@@ -62,61 +57,113 @@ const Und = styled.p`
 `
 const ExternalCarousel = ({ data, interval }) => {
   return (
-    <Carousel controls={false} indicators={false} interval={interval}>
-      <Carousel.Item>
-        <Img fluid={data.image.childImageSharp.fluid} />
-      </Carousel.Item>
-      <Carousel.Item>
-        <Img fluid={data.image.childImageSharp.fluid} />
-      </Carousel.Item>
-      <Carousel.Item>
-        <Img fluid={data.image.childImageSharp.fluid} />
-      </Carousel.Item>
-    </Carousel>
+    <></>
+    // <Carousel controls={false} indicators={false} interval={interval}>
+    //   <Carousel.Item>
+    //     <Img fluid={data.image.childImageSharp.fluid} />
+    //   </Carousel.Item>
+    //   <Carousel.Item>
+    //     <Img fluid={data.image.childImageSharp.fluid} />
+    //   </Carousel.Item>
+    //   <Carousel.Item>
+    //     <Img fluid={data.image.childImageSharp.fluid} />
+    //   </Carousel.Item>
+    // </Carousel>
   )
 }
 
 const Presentation = ({ data }) => {
   return (
-      <Section id="presentation">
-        <SectionTitle title="Présentation" />
-        <Content>
-          <LeftContent>
-            <ExternalCarousel data={data} interval={10000} />
-            <ExternalCarousel data={data} interval={12000} />
-          </LeftContent>
-          <MiddleContent>
-            <Und>Lorem ipsum dolor :</Und>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis
-              molestie ipsum. In hac habitasse platea dictumst. Aliquam suscipit
-              vestibulum diam, at dignissim nisl hendrerit pharetra. Vestibulum
-              rhoncus justo porta, <Emp>sodales ligula vitae</Emp>, porttitor
-              metus. Vestibulum sed laoreet eros. Quisque ut tellus varius,
-              aliquam velit vitae, placerat nisi. Phasellus congue ornare est,
-              sed consectetur urna porta viverra. Vivamus pharetra accumsan dui,
-              in pellentesque est scelerisque non. Nullam eget augue at urna
-              laoreet aliquet. Praesent nunc dui, pulvinar a nunc at, porttitor
-              rhoncus quam.
-            </p>
-            <Und>Praesent semper quam massa</Und>
-            <p>
-              Praesent semper quam massa, ut varius urna sagittis sed. Nulla
-              felis lorem, blandit ac efficitur eget, dapibus in risus.
-              Suspendisse aliquet lorem in purus auctor tempor. Nullam gravida
-              lacinia feugiat. Quisque mattis mi elit. Aenean consectetur
-              vulputate justo sed laoreet. Duis eu odio porta, vestibulum nisl
-              id, posuere quam. Donec vehicula nunc et purus porta, id
-              pellentesque erat dignissim. Duis ullamcorper risus velit, quis
-              semper enim imperdiet mollis.
-            </p>
-          </MiddleContent>
-          <RightContent>
-            <ExternalCarousel data={data} interval={11000} />
-            <ExternalCarousel data={data} interval={13000} />
-          </RightContent>
-        </Content>
-      </Section>
+    <Section id="presentation">
+      <SectionTitle title="Présentation" />
+      <Content>
+        <LeftContent>
+          <ExternalCarousel data={data} interval={10000} />
+          <ExternalCarousel data={data} interval={12000} />
+        </LeftContent>
+        <MiddleContent>
+          <Und>Description :</Und>
+          <p>
+            La Maison de Santé Pluridisciplinaire des Rives de Barse est{" "}
+            <Emp>une structure de soins primaires multisite</Emp> composée d’une
+            équipe dynamique{" "}
+            <Emp>
+              d'une vingtaine de professionnels médicaux et para médicaux
+            </Emp>{" "}
+            (médecin généraliste, chirurgien-dentistes, sages-femmes,
+            kinésithérapeutes, ostéopathe, infirmières, nutritionniste,
+            sophrologue et pharmaciens). Les sites se répartissent sur la
+            commune de Vendeuvre sur Barse et celle de La Villeneuve au Chêne.{" "} 
+            <Emp>
+              L’Association Du Vendeuvrois des Professionnels de Santé (ADVPS)
+            </Emp>
+            , créée pour mettre en place la maison de santé en 2017, permet de
+            régir le fonctionnement de cette structure labellisée et
+            indépendante, sous la responsabilité d’un Bureau et d’un Conseil
+            d’Administration.
+          </p>
+          <Und>Historique :</Und>
+          <p>
+            La création de la Maison de Santé des Rives de Barse, située sur{" "} 
+            <Emp>l’ancien site SIMPA</Emp>, 1 avenue de la République à
+            Vendeuvre sur Barse est le résultat de plusieurs années de{" "}
+            <Emp>
+              travail des professionnels de santé, en partenariat avec l’Agence
+              Régionale de Santé et la Communauté de Communes de Vendeuvre
+              Soulaines (CCVS)
+            </Emp>
+            . L'action de la la Maison de Santé s'inscrit dans le cadre d'un{" "}
+            <Emp>projet de santé</Emp>, conforme à un cahier des charges
+            ministériel, établi à partir d'un{" "}
+            <Emp>diagnostic territorial</Emp> et témoigne d'un{" "}
+            <Emp>exercice coordonné</Emp> entre tous les professionnels de santé
+            de la structure. Elle est accessible au public depuis{" "}
+            <Emp>février 2020</Emp>.
+          </p>
+          <Und>Activités :</Und>
+          <p>
+            Nous sommes un lieu privilégié pour :
+            <ul>
+              <li>
+                <Emp>l'accès aux soins</Emp> de premiers recours (sans
+                hébergement) et la{" "}
+                <Emp>continuité des soins</Emp> (large amplitude d'ouverture)
+              </li>
+              <li>
+                <Emp>l'exercice coordonné</Emp> et le{" "}
+                <Emp>travail en équipe pluriprofessionnelle</Emp> (réunions
+                d'équipe, protocoles facilitant la prise en charge des patients,
+                etc)
+              </li>
+              <li>
+                les <Emp>parcours de soins</Emp> fléchés et simplifiés (diabète,
+                sport santé, patients complexes ou/et en situation de fragilité,
+                etc)
+              </li>
+              <li>
+                les <Emp>actions de promotion et d'éducation à la santé</Emp>{" "}
+                (dispositif de télémédecine, programmes d'Education
+                Thérapuetique du Patient, actions territoriales de santé
+                publique,
+              </li>{" "}
+              etc)
+              <li>
+                la <Emp>formation universitaire</Emp> (tous les professionnels
+                peuvent accueillir des étudiants en stage) et{" "}
+                <Emp>post-universitaire</Emp>
+              </li>
+              <li>
+                <Emp>la démarche qualité / RGPD</Emp>
+              </li>
+            </ul>
+          </p>
+        </MiddleContent>
+        <RightContent>
+          <ExternalCarousel data={data} interval={11000} />
+          <ExternalCarousel data={data} interval={13000} />
+        </RightContent>
+      </Content>
+    </Section>
   )
 }
 

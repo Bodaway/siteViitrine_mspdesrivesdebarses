@@ -42,7 +42,7 @@ export const mediaDevice = {
 
 export const theme = {
   presentationColor: "#2CA3DC",
-  categorieColor: "#68C100" , 
+  categorieColor: "#68C100",
   actualiteColor: "#E7302A",
   contactColor: "#f87f4a",
   marginTopSection: "20px",

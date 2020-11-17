@@ -49,5 +49,11 @@ module.exports = {
         path: path.join(__dirname, `content`),
       },
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-PYK2S0SJYW"],
+      },
+    },
   ],
 }

@@ -68,34 +68,34 @@ const Line = styled.div`
 const LinePresentation = styled(Line)`
   background-color: ${props => props.theme.presentationColor};
 
-    &::before {
-      border-color: transparent transparent ${props =>
-        props.theme.presentationColor} transparent;
-    }
+  &::before {
+    border-color: transparent transparent
+      ${props => props.theme.presentationColor} transparent;
+  }
 `
 const LineCategorie = styled(Line)`
   background-color: ${props => props.theme.categorieColor};
 
-    &::before {
-      border-color: transparent transparent ${props =>
-        props.theme.categorieColor} transparent;
-    }
+  &::before {
+    border-color: transparent transparent ${props => props.theme.categorieColor}
+      transparent;
+  }
 `
 const LineActualite = styled(Line)`
   background-color: ${props => props.theme.actualiteColor};
 
-    &::before {
-      border-color: transparent transparent ${props =>
-        props.theme.actualiteColor} transparent;
-    }
+  &::before {
+    border-color: transparent transparent ${props => props.theme.actualiteColor}
+      transparent;
+  }
 `
 const LineContact = styled(Line)`
   background-color: ${props => props.theme.contactColor};
 
-    &::before {
-      border-color: transparent transparent ${props =>
-        props.theme.contactColor} transparent;
-    }
+  &::before {
+    border-color: transparent transparent ${props => props.theme.contactColor}
+      transparent;
+  }
 `
 const Menu = () => {
   return (
