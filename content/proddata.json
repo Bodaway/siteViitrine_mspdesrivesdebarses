@@ -33,7 +33,7 @@
         "Pros": [
           {
             "name": "Dr OPRICA Mariana",
-            "desc": "<p>Maison de Santé des rives de Barse, <br/>Pôle Médecins 1 avenue de la République, Vendeuvre sur Barse</p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <br/>Pôle Médecins 1 avenue de la République, Vendeuvre sur Barse</p>",
             "horaire": [
               "09h00 - 13h00, 14h00 - 19h00",
               "09h00 - 13h00, 14h00 - 19h00",
@@ -70,7 +70,7 @@
           },
           {
             "name": "BLAISE Marianne",
-            "desc": "<p>Maison de Santé des rives de Barse, Pôle Kinésithérapeute et Infirmières,<br/>1 avenue de la République, Vendeuvre sur Barse</p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, Pôle Kinésithérapeute et Infirmières,<br/>1 avenue de la République, Vendeuvre sur Barse</p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -99,7 +99,7 @@
             "telephone": "03.25.43.27.98"
           },
           {
-            "name": "Pauline DEHARBE",
+            "name": "DEHARBE Pauline",
             "desc": "<p>Cabinet en dehors de la Maison de Santé, <br/>15 rue de la Côte d'Or, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
@@ -122,7 +122,7 @@
         "Pros": [
           {
             "name": "Dr AUDIBERT Jean-Michel",
-            "desc": "<p>Maison de Santé des rives de Barse, Pôle Dentistes,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, Pôle Dentistes,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -137,7 +137,7 @@
           },
           {
             "name": "Dr VANDERCRUYSSEN-NOLLET Daphnée",
-            "desc": "<p>Maison de Santé des rives de Barse, Pôle Dentistes,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, Pôle Dentistes,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -159,7 +159,7 @@
         "Pros": [
           {
             "name": "BOURY Catherine",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -174,7 +174,7 @@
           },
           {
             "name": "DINANT CHAPOTEL Laurence",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -189,7 +189,7 @@
           },
           {
             "name": "MAILLET Virginie",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -204,7 +204,7 @@
           },
           {
             "name": "ROYER Christiane",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -219,7 +219,7 @@
           },
           {
             "name": "ROY-JEANJAN Karine",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -234,7 +234,7 @@
           },
           {
             "name": "SCRIBE Laure",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -256,7 +256,7 @@
         "Pros": [
           {
             "name": "PLATEAU Marie-Anne",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -278,7 +278,7 @@
         "Pros": [
           {
             "name": "ROUILLEAUX Paméla",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -300,7 +300,7 @@
         "Pros": [
           {
             "name": "GUBLIN Fleur",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
               "A venir",

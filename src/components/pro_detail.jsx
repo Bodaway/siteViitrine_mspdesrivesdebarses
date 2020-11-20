@@ -11,6 +11,14 @@ const SubTitle = styled.h4`
 `
 const ProDescription = styled.div``
 const Horaire = styled.div``
+const Jour = styled.li`
+display:flex;
+flex-direction:row;
+`
+const JourTitre = styled.div`
+  width:100px;
+`
+const JourDesc = styled.div``
 const PriseRdv = styled.div`
   padding-bottom: 10px;
 `
@@ -37,27 +45,13 @@ const ProDetail = ({
         <Horaire>
           <SubTitle>Horaires :</SubTitle>
           <ul>
-            <li>
-              LUNDI: <span>{pro.horaire[0]}</span>
-            </li>
-            <li>
-              MARDI: <span>{pro.horaire[1]}</span>
-            </li>
-            <li>
-              MERCREDI: <span>{pro.horaire[2]}</span>
-            </li>
-            <li>
-              JEUDI: <span>{pro.horaire[3]}</span>
-            </li>
-            <li>
-              VENDREDI: <span>{pro.horaire[4]}</span>
-            </li>
-            <li>
-              SAMEDI: <span>{pro.horaire[5]}</span>
-            </li>
-            <li>
-              DIMANCHE: <span>{pro.horaire[6]}</span>
-            </li>
+            <Jour><JourTitre>LUNDI: </JourTitre><JourDesc>{pro.horaire[0]}</JourDesc></Jour>
+            <Jour><JourTitre>MARDI: </JourTitre><JourDesc>{pro.horaire[1]}</JourDesc></Jour>
+            <Jour><JourTitre>MERCREDI: </JourTitre><JourDesc>{pro.horaire[2]}</JourDesc></Jour>
+            <Jour><JourTitre>JEUDI: </JourTitre><JourDesc>{pro.horaire[3]}</JourDesc></Jour>
+            <Jour><JourTitre>VENDREDI: </JourTitre><JourDesc>{pro.horaire[4]}</JourDesc></Jour>
+            <Jour><JourTitre>SAMEDI: </JourTitre><JourDesc>{pro.horaire[5]}</JourDesc></Jour>
+            <Jour><JourTitre>DIMANCHE: </JourTitre><JourDesc>{pro.horaire[6]}</JourDesc></Jour>
           </ul>
         </Horaire>
         <PriseRdv

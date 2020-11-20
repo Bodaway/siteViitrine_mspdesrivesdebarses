@@ -9,7 +9,7 @@ const Inner = styled.div`
 export function Header(props) {
   return (
     <Inner>
-      <h1>Maison de santé pluriprofessionnelle des rives de barse</h1>
+      <h1>Maison de santé pluriprofessionnelle des Rives de Barse</h1>
     </Inner>
   )
 }

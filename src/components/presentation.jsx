@@ -30,8 +30,10 @@ const MiddleContent = styled.div`
   overflow: hidden;
   ${borderBox}
   ${shadow}
+    text-align: justify;
+  text-justify: inter-word;
 
-   @media ${mediaDevice.mobileL} {
+  @media ${mediaDevice.mobileL} {
     width: 100%;
   }
 `
@@ -93,7 +95,7 @@ const Presentation = ({ data }) => {
             (médecin généraliste, chirurgien-dentistes, sages-femmes,
             kinésithérapeutes, ostéopathe, infirmières, nutritionniste,
             sophrologue et pharmaciens). Les sites se répartissent sur la
-            commune de Vendeuvre sur Barse et celle de La Villeneuve au Chêne.{" "} 
+            commune de Vendeuvre sur Barse et celle de La Villeneuve au Chêne.{" "}
             <Emp>
               L’Association Du Vendeuvrois des Professionnels de Santé (ADVPS)
             </Emp>
@@ -104,7 +106,7 @@ const Presentation = ({ data }) => {
           </p>
           <Und>Historique :</Und>
           <p>
-            La création de la Maison de Santé des Rives de Barse, située sur{" "} 
+            La création de la Maison de Santé des Rives de Barse, située sur{" "}
             <Emp>l’ancien site SIMPA</Emp>, 1 avenue de la République à
             Vendeuvre sur Barse est le résultat de plusieurs années de{" "}
             <Emp>
@@ -114,11 +116,10 @@ const Presentation = ({ data }) => {
             </Emp>
             . L'action de la la Maison de Santé s'inscrit dans le cadre d'un{" "}
             <Emp>projet de santé</Emp>, conforme à un cahier des charges
-            ministériel, établi à partir d'un{" "}
-            <Emp>diagnostic territorial</Emp> et témoigne d'un{" "}
-            <Emp>exercice coordonné</Emp> entre tous les professionnels de santé
-            de la structure. Elle est accessible au public depuis{" "}
-            <Emp>février 2020</Emp>.
+            ministériel, établi à partir d'un <Emp>diagnostic territorial</Emp>{" "}
+            et témoigne d'un <Emp>exercice coordonné</Emp> entre tous les
+            professionnels de santé de la structure. Elle est accessible au
+            public depuis <Emp>février 2020</Emp>.
           </p>
           <Und>Activités :</Und>
           <p>
@@ -126,8 +127,8 @@ const Presentation = ({ data }) => {
             <ul>
               <li>
                 <Emp>l'accès aux soins</Emp> de premiers recours (sans
-                hébergement) et la{" "}
-                <Emp>continuité des soins</Emp> (large amplitude d'ouverture)
+                hébergement) et la <Emp>continuité des soins</Emp> (large
+                amplitude d'ouverture)
               </li>
               <li>
                 <Emp>l'exercice coordonné</Emp> et le{" "}
