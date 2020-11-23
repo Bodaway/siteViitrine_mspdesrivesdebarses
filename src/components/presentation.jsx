@@ -90,9 +90,9 @@ const Presentation = ({ data }) => {
             <Emp>une structure de soins primaires multisite</Emp> composée d’une
             équipe dynamique{" "}
             <Emp>
-              d'une vingtaine de professionnels médicaux et para médicaux
+              d'une vingtaine de professionnels médicaux et paramédicaux
             </Emp>{" "}
-            (médecin généraliste, chirurgien-dentistes, sages-femmes,
+            (médecin généraliste, chirurgien-dentistes, sage-femme,
             kinésithérapeutes, ostéopathe, infirmières, nutritionniste,
             sophrologue et pharmaciens). Les sites se répartissent sur la
             commune de Vendeuvre sur Barse et celle de La Villeneuve au Chêne.{" "}
@@ -101,12 +101,12 @@ const Presentation = ({ data }) => {
             </Emp>
             , créée pour mettre en place la maison de santé en 2017, permet de
             régir le fonctionnement de cette structure labellisée et
-            indépendante, sous la responsabilité d’un Bureau et d’un Conseil
-            d’Administration.
+            indépendante, sous la responsabilité d’un bureau et d’un conseil
+            d’administration.
           </p>
           <Und>Historique :</Und>
           <p>
-            La création de la Maison de Santé des Rives de Barse, située sur{" "}
+            La création de la Maison de Santé Pluridisciplinaire des Rives de Barse, située sur{" "}
             <Emp>l’ancien site SIMPA</Emp>, 1 avenue de la République à
             Vendeuvre sur Barse est le résultat de plusieurs années de{" "}
             <Emp>
@@ -134,20 +134,20 @@ const Presentation = ({ data }) => {
                 <Emp>l'exercice coordonné</Emp> et le{" "}
                 <Emp>travail en équipe pluriprofessionnelle</Emp> (réunions
                 d'équipe, protocoles facilitant la prise en charge des patients,
-                etc)
+                etc.)
               </li>
               <li>
                 les <Emp>parcours de soins</Emp> fléchés et simplifiés (diabète,
                 sport santé, patients complexes ou/et en situation de fragilité,
-                etc)
+                etc.)
               </li>
               <li>
                 les <Emp>actions de promotion et d'éducation à la santé</Emp>{" "}
                 (dispositif de télémédecine, programmes d'Education
-                Thérapuetique du Patient, actions territoriales de santé
+                Thérapeutique du Patient, actions territoriales de santé
                 publique,
               </li>{" "}
-              etc)
+              etc.)
               <li>
                 la <Emp>formation universitaire</Emp> (tous les professionnels
                 peuvent accueillir des étudiants en stage) et{" "}
