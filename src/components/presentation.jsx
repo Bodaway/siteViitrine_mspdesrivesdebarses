@@ -57,20 +57,27 @@ const Emp = styled.span`
 const Und = styled.p`
   text-decoration: underline;
 `
-const ExternalCarousel = ({ data, interval }) => {
+
+const ExternalCarouselV = ({ data, interval, defaultActiveIndex }) => {
+const images = data.imagesV.map((i) => (<Carousel.Item>
+         <Img fluid={i.childImageSharp.fluid} />
+       </Carousel.Item>))
+
   return (
-    <></>
-    // <Carousel controls={false} indicators={false} interval={interval}>
-    //   <Carousel.Item>
-    //     <Img fluid={data.image.childImageSharp.fluid} />
-    //   </Carousel.Item>
-    //   <Carousel.Item>
-    //     <Img fluid={data.image.childImageSharp.fluid} />
-    //   </Carousel.Item>
-    //   <Carousel.Item>
-    //     <Img fluid={data.image.childImageSharp.fluid} />
-    //   </Carousel.Item>
-    // </Carousel>
+     <Carousel controls={false} indicators={false} interval={interval} defaultActiveIndex={+defaultActiveIndex}>
+       {images}
+     </Carousel>
+  )
+}
+const ExternalCarouselH = ({ data, interval, defaultActiveIndex }) => {
+const images = data.imagesH.map((i) => (<Carousel.Item>
+         <Img fluid={i.childImageSharp.fluid} />
+       </Carousel.Item>))
+
+  return (
+     <Carousel controls={false} indicators={false} interval={interval} defaultActiveIndex={+defaultActiveIndex}>
+       {images}
+     </Carousel>
   )
 }
 
@@ -80,8 +87,8 @@ const Presentation = ({ data }) => {
       <SectionTitle title="Présentation" />
       <Content>
         <LeftContent>
-          <ExternalCarousel data={data} interval={10000} />
-          <ExternalCarousel data={data} interval={12000} />
+          <ExternalCarouselV defaultActiveIndex="0" data={data} interval={10000} />
+          <ExternalCarouselH defaultActiveIndex="3" data={data} interval={12000} />
         </LeftContent>
         <MiddleContent>
           <Und>Description :</Und>
@@ -160,8 +167,8 @@ const Presentation = ({ data }) => {
           </p>
         </MiddleContent>
         <RightContent>
-          <ExternalCarousel data={data} interval={11000} />
-          <ExternalCarousel data={data} interval={13000} />
+          <ExternalCarouselH defaultActiveIndex="0" data={data} interval={11000} />
+          <ExternalCarouselV defaultActiveIndex="2" data={data} interval={13000} />
         </RightContent>
       </Content>
     </Section>

@@ -1,7 +1,22 @@
 [
   {
     "Presentation": {
-      "image": "./images/WIP.jpg"
+      "imagesV": [
+        "./photos/IMGV1.jpg",
+        "./photos/IMGV3.jpg",
+        "./photos/IMGV2.jpg",
+        "./photos/IMGV4.jpg",
+        "./photos/IMGEV1.jpg"
+      ],
+      "imagesH": [
+        "./photos/IMGH1.jpg",
+        "./photos/IMGEH1.jpg",
+        "./photos/IMGH4.jpg",
+        "./photos/IMGH3.jpg",
+        "./photos/IMGH2.jpg",
+        "./photos/IMGEH2.jpg",
+        "./photos/IMGEH3.jpg"
+      ]
     },
     "Actualites": [
       {
