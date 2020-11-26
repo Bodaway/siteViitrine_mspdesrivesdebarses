@@ -42,7 +42,7 @@
     ],
     "Categories": [
       {
-        "title": "Médecine générale",
+        "title": "Médecines générales",
         "icon": "./images/0stetho.png",
         "desc": "<p>La médecine générale est une spécialité médicale prenant en charge le suivi et les soins médicaux primaires de la population.</p><p>Le médecin généraliste ou médecin de famille est le spécialiste de premier recours, qui coordonne la prise en charge du patient, assure la synthèse, permet la continuité des soins, le suivi au long cours et développe une démarche de santé publique. Il dispense des soins à tous ceux qui le souhaitent indépendamment de leur âge (du nourrisson à la personne âgée), de leur sexe et de leur maladie (aiguë ou chronique). Il interroge, examine, diagnostique et soigne les personnes dans leur contexte familial, communautaire, culturel et toujours dans le respect de leur autonomie. Du suivi des maladies chroniques : diabète, insuffisance cardiaque, maladies auto-immunes, cancers, etc., en passant par les situations aiguës : crise d’asthme, infarctus, pathologies ORL, migraine, pneumopathies, traumatismes, etc., le médecin généraliste a pour vocation d’apporter une réponse de soins adaptée pour toutes ces situations. La prévention constitue un de ses axes prioritaires : examen clinique approfondi, bilan de santé, dépistage, vaccinations, etc.</p><p>La prise en charge du patient est assurée dans sa globalité. Le médecin généraliste peut pratiquer des actes de petite chirurgie, de gynécologie, de dermatologie, de pédiatrie, de rhumatologie, selon ses compétences propres.</p><p>Il est le pivot du système de santé.</p><p>Il travaille en collaboration avec les autres professionnels de santé territoriaux.</p><p>En France, le mode d'exercice le plus fréquent de la médecine générale est la médecine libérale et dix années d’études sont nécessaires pour devenir un docteur en médecine, spécialisé en médecine générale.</p>",
         "Pros": [
@@ -265,7 +265,7 @@
         ]
       },
       {
-        "title": "Nutritionniste",
+        "title": "Nutritionnistes",
         "icon": "./images/apple.png",
         "desc": "<p>La prise en charge nutritionnelle s'adresse à tout profil de patient du jeune enfant à l'adulte y compris la femme enceinte et allaitante.</p><p>L'accompagnement peut être en rapport à un objectif de perte ou même de prise de poids. Ou simplement accompagner les personnes désireuses d'apprendre à équilibrer leur alimentation.</p><p>L'accompagnement nutritionnel des personnes souffrant de trouble du comportement alimentaire est aussi possible, souvent en lien avec un accompagnement psychologique.</p>",
         "Pros": [
@@ -287,7 +287,7 @@
         ]
       },
       {
-        "title": "Sage-Femme",
+        "title": "Sage-Femmes",
         "icon": "./images/baby.png",
         "desc": "<p>La Sage Femme en exercice libéral prend en charge les soins suivants : <ul><li>consultation de gynécologie et de contraception<li>consultation préconceptionnelle<li>surveillance à domicile de grossesse pathologique<li>préparation à la naissance <li>suivi à domicile au retour de la maternité<li>soutien à l’allaitement<li>rééducation périnéale<li>suivi de grossesse</ul></p>",
         "Pros": [
@@ -309,7 +309,7 @@
         ]
       },
       {
-        "title": "Sophrologue",
+        "title": "Sophrologues",
         "icon": "./images/hinduist-yoga-position.png",
         "desc": "<p>La sophrologie est une méthode psychocorporelle utilisée comme technique thérapeutique ou vécue comme une philosophie de vie. Elle a été conçue par le neuropsychiatre Alfonso Caycedo et est inspirée de techniques occidentales comme orientales. Le terme SOPHROLOGIE, inspiré du grec ancien, signifie étude de l’harmonisation de la conscience.</p><p>Méthode exclusivement verbale et non tactile, la sophrologie emploie un ensemble de techniques qui vont à la fois agir sur le corps et sur le mental. Elle combine des exercices qui travaillent à la fois sur la respiration, la décontraction musculaire et l’imagerie mentale (ou visualisation). Toutes ces techniques permettent de retrouver un état de bien-être et d’activer tout son potentiel. La sophrologie permet d’acquérir une meilleure connaissance de soi et d’affronter les défis du quotidien avec sérénité.</p>",
         "Pros": [

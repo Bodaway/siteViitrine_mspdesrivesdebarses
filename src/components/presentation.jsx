@@ -99,9 +99,9 @@ const Presentation = ({ data }) => {
             <Emp>
               d'une vingtaine de professionnels médicaux et paramédicaux
             </Emp>{" "}
-            (médecin généraliste, chirurgien-dentistes, sage-femme,
-            kinésithérapeutes, ostéopathe, infirmières, nutritionniste,
-            sophrologue et pharmaciens). Les sites se répartissent sur la
+            (médecins généralistes, chirurgien-dentistes, sage-femmes,
+            kinésithérapeutes, ostéopathes, infirmières, nutritionnistes,
+            sophrologues,pharmaciens et ambulanciers). Les sites se répartissent sur la
             commune de Vendeuvre sur Barse et celle de La Villeneuve au Chêne.{" "}
             <Emp>
               L’Association Du Vendeuvrois des Professionnels de Santé (ADVPS)
@@ -139,7 +139,7 @@ const Presentation = ({ data }) => {
               </li>
               <li>
                 <Emp>l'exercice coordonné</Emp> et le{" "}
-                <Emp>travail en équipe pluridisciplinairele</Emp> (réunions
+                <Emp>travail en équipe pluridisciplinaire</Emp> (réunions
                 d'équipe, protocoles facilitant la prise en charge des patients,
                 etc.)
               </li>
