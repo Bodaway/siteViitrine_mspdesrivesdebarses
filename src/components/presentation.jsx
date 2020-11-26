@@ -139,7 +139,7 @@ const Presentation = ({ data }) => {
               </li>
               <li>
                 <Emp>l'exercice coordonné</Emp> et le{" "}
-                <Emp>travail en équipe pluriprofessionnelle</Emp> (réunions
+                <Emp>travail en équipe pluridisciplinairele</Emp> (réunions
                 d'équipe, protocoles facilitant la prise en charge des patients,
                 etc.)
               </li>
