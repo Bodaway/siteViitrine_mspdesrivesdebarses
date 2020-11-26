@@ -33,7 +33,6 @@ const Column = styled.div`
 
   & h4 {
     padding: 10px;
-    white-space: nowrap;
   }
 `
 const VLine = styled.div`
@@ -49,6 +48,7 @@ const VLine = styled.div`
 const InnerActu = styled.div`
   display: flex;
   margin-top: 0px;
+  justify-content: center;
 
   & .slick-slider {
     display: flex;
@@ -138,7 +138,7 @@ const Actu = ({ actualite = {} }) => {
 const SliderActu = ({ actualites = [] }) => {
   const settings = {
     dots: false,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     nextArrow: <NextButton />,
     prevArrow: <PrevButton />,
