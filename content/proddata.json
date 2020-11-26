@@ -1,7 +1,22 @@
 [
   {
     "Presentation": {
-      "image": "./images/WIP.jpg"
+      "imagesV": [
+        "./photos/IMGV1.jpg",
+        "./photos/IMGV3.jpg",
+        "./photos/IMGV2.jpg",
+        "./photos/IMGV4.jpg",
+        "./photos/IMGEV1.jpg"
+      ],
+      "imagesH": [
+        "./photos/IMGH1.jpg",
+        "./photos/IMGEH1.jpg",
+        "./photos/IMGH4.jpg",
+        "./photos/IMGH3.jpg",
+        "./photos/IMGH2.jpg",
+        "./photos/IMGEH2.jpg",
+        "./photos/IMGEH3.jpg"
+      ]
     },
     "Actualites": [
       {
@@ -29,11 +44,11 @@
       {
         "title": "Médecine générale",
         "icon": "./images/0stetho.png",
-        "desc": "<p>La médecine générale est une spécialité médicale prenant en charge le suivi et les soins médicaux primaires de la population.</p><p>Le médecin généraliste ou médecin de famille est le spécialiste de premier recours, qui coordonne la prise en charge du patient, assure la synthèse, permet la continuité des soins, le suivi au long cours et développe une démarche de santé publique. Il dispense des soins à tous ceux qui le souhaitent indépendamment de leur âge (du nourrisson à la personne âgée), de leur sexe et de leur maladie (aigue ou chronique). Il interroge, examine, diagnostique et soigne les personnes dans leur contexte familial, communautaire, culturel et toujours dans le respect de leur autonomie. Du suivi des maladies chroniques : diabète, insuffisance cardiaque, maladies auto-immunes, cancers, etc., en passant par les situations aiguës : crise d’asthme, infarctus, pathologies ORL, migraine, pneumopathies, traumatismes, etc, le médecin généraliste a pour vocation d’apporter une réponse de soins adaptée pour toutes ces situations. La prévention constitue un de ses axes prioritaires : examen clinique approfondi, bilan de santé, dépistage, vaccinations, etc.</p><p>La prise en charge du patient est assurée dans sa globalité. Le médecin généraliste peut pratiquer des actes de petite chirurgie, de gynécologie, de dermatologie, de pédiatrie, de rhumatologie, selon ses compétences propres.</p><p>Il est le pivot du système de santé.</p><p>Il travaille en collaboration avec les autres professionnels de santé territoriaux.</p><p>En France, le mode d'exercice le plus fréquent de la médecine générale est la médecine libérale et dix années d’études sont nécessaires pour devenir un docteur en médecine, spécialisé en médecine générale.</p>",
+        "desc": "<p>La médecine générale est une spécialité médicale prenant en charge le suivi et les soins médicaux primaires de la population.</p><p>Le médecin généraliste ou médecin de famille est le spécialiste de premier recours, qui coordonne la prise en charge du patient, assure la synthèse, permet la continuité des soins, le suivi au long cours et développe une démarche de santé publique. Il dispense des soins à tous ceux qui le souhaitent indépendamment de leur âge (du nourrisson à la personne âgée), de leur sexe et de leur maladie (aiguë ou chronique). Il interroge, examine, diagnostique et soigne les personnes dans leur contexte familial, communautaire, culturel et toujours dans le respect de leur autonomie. Du suivi des maladies chroniques : diabète, insuffisance cardiaque, maladies auto-immunes, cancers, etc., en passant par les situations aiguës : crise d’asthme, infarctus, pathologies ORL, migraine, pneumopathies, traumatismes, etc., le médecin généraliste a pour vocation d’apporter une réponse de soins adaptée pour toutes ces situations. La prévention constitue un de ses axes prioritaires : examen clinique approfondi, bilan de santé, dépistage, vaccinations, etc.</p><p>La prise en charge du patient est assurée dans sa globalité. Le médecin généraliste peut pratiquer des actes de petite chirurgie, de gynécologie, de dermatologie, de pédiatrie, de rhumatologie, selon ses compétences propres.</p><p>Il est le pivot du système de santé.</p><p>Il travaille en collaboration avec les autres professionnels de santé territoriaux.</p><p>En France, le mode d'exercice le plus fréquent de la médecine générale est la médecine libérale et dix années d’études sont nécessaires pour devenir un docteur en médecine, spécialisé en médecine générale.</p>",
         "Pros": [
           {
             "name": "Dr OPRICA Mariana",
-            "desc": "<p>Maison de Santé des rives de Barse, <br/>Pôle Médecins 1 avenue de la République, Vendeuvre sur Barse</p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <br/>Pôle Médecins 1 avenue de la République, Vendeuvre sur Barse</p>",
             "horaire": [
               "09h00 - 13h00, 14h00 - 19h00",
               "09h00 - 13h00, 14h00 - 19h00",
@@ -49,7 +64,7 @@
         ]
       },
       {
-        "title": "Kinésithérapeute",
+        "title": "Kinésithérapeutes",
         "icon": "./images/massage.png",
         "desc": "<p>Une équipe dynamique de 4 kinésithérapeutes vous prend en charge pour des soins au cabinet ou à domicile sur trois sites différents du territoire vendeuvrois.</p><p>Les patients sont accueillis dans les différents cabinets dans des espaces particulièrement adaptés à leurs besoins en kinésithérapie.</p><p>Différentes salles sont dédiées aux pathologies nécessitant des soins individuels tels que les massages, la thérapie manuelle, le drainage lymphatique, les ondes de chocs, la pressothérapie, l'endermologie, la physiothérapie ou encore la kinésithérapie respiratoire.</p><p>Une grande salle bénéficie d'équipements qui permettent de réaliser de nombreux exercices de renforcement musculaire spécifiques et globaux.</p>",
         "Pros": [
@@ -70,7 +85,7 @@
           },
           {
             "name": "BLAISE Marianne",
-            "desc": "<p>Maison de Santé des rives de Barse, Pôle Kinésithérapeute et Infirmières,<br/>1 avenue de la République, Vendeuvre sur Barse</p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, Pôle Kinésithérapeute et Infirmières,<br/>1 avenue de la République, Vendeuvre sur Barse</p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -99,7 +114,7 @@
             "telephone": "03.25.43.27.98"
           },
           {
-            "name": "BLAISE Marianne",
+            "name": "DEHARBE Pauline",
             "desc": "<p>Cabinet en dehors de la Maison de Santé, <br/>15 rue de la Côte d'Or, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
@@ -122,7 +137,7 @@
         "Pros": [
           {
             "name": "Dr AUDIBERT Jean-Michel",
-            "desc": "<p>Maison de Santé des rives de Barse, Pôle Dentistes,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, Pôle Dentistes,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -137,7 +152,7 @@
           },
           {
             "name": "Dr VANDERCRUYSSEN-NOLLET Daphnée",
-            "desc": "<p>Maison de Santé des rives de Barse, Pôle Dentistes,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, Pôle Dentistes,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -158,93 +173,93 @@
         "desc": "<p>L'exercice de la profession d'infirmière comporte:<ul><li>L'analyse,<li>L'organisation,<li>La réalisation de soins infirmiers et leur évaluation,<li>La contribution au recueil de données cliniques et épidémiologiques et la participation à des actions de prévention, de dépistage, de formation et d'éducation à la santé.</ul></p><p>Dans l'ensemble de ses activités, les infirmières sont soumises au respect des règles professionnelles et notamment le secret professionnel.</p><p>Elles exercent leur activité en relation avec les autres professionnels du secteur de la santé, du secteur social et médico-social, et du secteur éducatif.</p>",
         "Pros": [
           {
-            "name": "BOURRY Catherine",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "name": "BOURY Catherine",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "sur RDV",
-              "sur RDV"
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
             ],
-            "rdv": "<p>Soins à domicile sur RDV,<br/> dimanche et jours fériés sur RDV</p>",
+            "rdv": "<p>Soins à domicile sur RDV.<br/> Dimanche et jours fériés sur RDV</p>",
             "telephone": "03.25.73.14.17"
           },
           {
             "name": "DINANT CHAPOTEL Laurence",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "sur RDV",
-              "sur RDV"
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
             ],
-            "rdv": "<p>Soins à domicile sur RDV,<br/> dimanche et jours fériés sur RDV</p>",
+            "rdv": "<p>Soins à domicile sur RDV.<br/> Dimanche et jours fériés sur RDV</p>",
             "telephone": "03.25.73.14.17"
           },
           {
             "name": "MAILLET Virginie",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "sur RDV",
-              "sur RDV"
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
             ],
-            "rdv": "<p>Soins à domicile sur RDV,<br/> dimanche et jours fériés sur RDV</p>",
+            "rdv": "<p>Soins à domicile sur RDV.<br/> Dimanche et jours fériés sur RDV</p>",
             "telephone": "03.25.43.84.35"
           },
           {
             "name": "ROYER Christiane",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "sur RDV",
-              "sur RDV"
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
             ],
-            "rdv": "<p>Soins à domicile sur RDV,<br/> dimanche et jours fériés sur RDV</p>",
+            "rdv": "<p>Soins à domicile sur RDV.<br/> Dimanche et jours fériés sur RDV</p>",
             "telephone": "03.25.43.84.35"
           },
           {
             "name": "ROY-JEANJAN Karine",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "sur RDV",
-              "sur RDV"
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
             ],
-            "rdv": "<p>Soins à domicile sur RDV,<br/> dimanche et jours fériés sur RDV</p>",
+            "rdv": "<p>Soins à domicile sur RDV.<br/> Dimanche et jours fériés sur RDV</p>",
             "telephone": "03.25.73.14.17"
           },
           {
             "name": "SCRIBE Laure",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "8h00 à 11h sans RDV",
-              "sur RDV",
-              "sur RDV"
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
             ],
-            "rdv": "<p>Soins à domicile sur RDV,<br/> dimanche et jours fériés sur RDV</p>",
+            "rdv": "<p>Soins à domicile sur RDV.<br/> Dimanche et jours fériés sur RDV</p>",
             "telephone": "03.25.43.84.35"
           }
         ]
@@ -256,7 +271,7 @@
         "Pros": [
           {
             "name": "PLATEAU Marie-Anne",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -274,11 +289,11 @@
       {
         "title": "Sage-Femme",
         "icon": "./images/baby.png",
-        "desc": "<p>La Sage Femme en exercice libéral prends en charges les soins suivants : <ul><li>consultation de gynécologie et de contraception<li>consultation préconceptionnelle<li>surveillance à domicile de grossesse pathologique<li>préparation à la naissance <li>suivi à domicile au retour de la maternité<li>soutien à l’allaitement<li>rééducation périnéale<li>suivi de grossesse</ul></p>",
+        "desc": "<p>La Sage Femme en exercice libéral prend en charge les soins suivants : <ul><li>consultation de gynécologie et de contraception<li>consultation préconceptionnelle<li>surveillance à domicile de grossesse pathologique<li>préparation à la naissance <li>suivi à domicile au retour de la maternité<li>soutien à l’allaitement<li>rééducation périnéale<li>suivi de grossesse</ul></p>",
         "Pros": [
           {
             "name": "ROUILLEAUX Paméla",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -300,7 +315,7 @@
         "Pros": [
           {
             "name": "GUBLIN Fleur",
-            "desc": "<p>Maison de Santé des rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "horaire": [
               "A venir",
               "A venir",
@@ -318,24 +333,24 @@
       {
         "title": "Pharmaciens",
         "icon": "./images/hygeia.png",
-        "desc": "<p>Le Pharmacien d’officine a plusieurs rôles essentiels :<ul><li>Assure la dispensation et le bon usage du médicament à usage humain et vétérinaire.</li> <li>S’assure de la bonne compréhension du traitement par le patient. </li><li>Propose au patient un suivi pharmaceutique (suivi de l’observance, des effets des traitements, de la pharmacovigilance). </li><li>Alimente le Dossier Pharmaceutique du patient pour mieux sécuriser la dispensation des médicaments et améliorer la coordination entre les professionnels de santé. </li><li>Contribue avec les autres professionnels de santé à un accompagnement personnalisé du patient (éducation thérapeutique, etc.) ; collaboration avec le milieu hospitalier dans le cadre de la conciliation pharmaceutique. </li><li>Réalise des préparations magistrales et officinales.</li><li>Participe aux actions de santé publique, de prévention et de dépistage ; intègre ainsi dans son quotidien les nouvelles missions telles que la vaccination anti-grippale.</li><li>Coopère avec les autres professionnels de santé au sein des réseaux de santé, des communautés professionnelles territoriales de Santé, Maisons de Santé Pluridisciplinaires, SISA, des établissements pour personnes âgées, etc. </li><li>Contribue à la continuité de l’accès au médicament 7 jours sur 7, 24 heures sur 24 ; Participe ainsi à la permanence des soins. </li><li>Participe à la protection de la santé publique et de l’environnement en collectant les médicaments non utilisés rapportés par les patients et certains déchets d’activité de soins à risque infectieux.</li></ul></p>",
+        "desc": "<p>Le Pharmacien d’officine a plusieurs rôles essentiels :<ul><li>Assure la dispensation et le bon usage du médicament à usage humain et vétérinaire.</li> <li>S’assure de la bonne compréhension du traitement par le patient. </li><li>Propose au patient un suivi pharmaceutique (suivi de l’observance, des effets des traitements, de la pharmacovigilance). </li><li>Alimente le dossier pharmaceutique du patient pour mieux sécuriser la dispensation des médicaments et améliorer la coordination entre les professionnels de santé. </li><li>Contribue avec les autres professionnels de santé à un accompagnement personnalisé du patient (éducation thérapeutique, etc.) ; collaboration avec le milieu hospitalier dans le cadre de la conciliation pharmaceutique. </li><li>Réalise des préparations magistrales et officinales.</li><li>Participe aux actions de santé publique, de prévention et de dépistage ; intègre ainsi dans son quotidien les nouvelles missions telles que la vaccination anti-grippale.</li><li>Coopère avec les autres professionnels de santé au sein des réseaux de santé, des communautés professionnelles territoriales de Santé, Maisons de Santé Pluridisciplinaires, SISA, des établissements pour personnes âgées, etc. </li><li>Contribue à la continuité de l’accès aux médicaments 7 jours sur 7, 24 heures sur 24 ; Participe ainsi à la permanence des soins. </li><li>Participe à la protection de la santé publique et de l’environnement en collectant les médicaments non utilisés rapportés par les patients et certains déchets d’activité de soins à risque infectieux.</li></ul></p>",
         "Pros": [
           {
             "name": "Pharmacie de la Barse, François JACQUEL",
             "desc": "<p>Officine en dehors de la Maison de Santé,<br/>3 Avenue de l'Armée Leclerc, Vendeuvre sur Barse</p>",
             "horaire": [
-              "9H00-12H00, 14H00-19H00",
+              "9H00-12H00, 14H00-19H15",
               "9H00-12H15, 14H00-19H15",
               "9H00-12H15, 14H00-19H15",
               "9H00-12H15, 14H00-19H15",
               "9H00-12H15, 14H00-19H15",
-              "9H00-12H15, 14H00-18H00"
+              "9H00-12H15, 14H00-19H00"
             ],
             "rdv": "-",
             "telephone": "03.25.43.87.87"
           },
           {
-            "name": "Pharmacie de l’Orient, Pascal AVIERINO",
+            "name": "Pharmacie de l’Orient, Pascal AVIERINOS",
             "desc": "<p>Officine en dehors de la Maison de Santé,<br/>Rue des ancienne Tanneries, Centre commercial Bi1, Vendeuvre sur Barse </p>",
             "horaire": [
               "9H00-19H15",
@@ -368,21 +383,6 @@
             ],
             "rdv": "-",
             "telephone": "03.25.43.87.87"
-          },
-          {
-            "name": "Pharmacie de l’Orient, Pascal AVIERINO",
-            "desc": "<p>Officine en dehors de la Maison de Santé,<br/>Rue des ancienne Tanneries, Centre commercial Bi1, Vendeuvre sur Barse </p>",
-            "horaire": [
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir"
-            ],
-            "rdv": "-",
-            "telephone": "03.25.41.48.18"
           }
         ]
       }

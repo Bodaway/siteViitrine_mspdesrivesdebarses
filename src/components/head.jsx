@@ -4,17 +4,17 @@ import { Helmet } from "react-helmet"
 export function Head({ data }) {
   return (
     <Helmet
-      title="Maison de santé des rives de barse"
+      title="Maison de santé des Rives de Barse"
       meta={[
         {
           name: "description",
           content:
-            "Site vitrine de la maison de santé des rives de barse à vendeuvre sur barse",
+            "Site vitrine de la maison de santé des Rives de Barse à vendeuvre sur barse",
         },
         {
           name: "keywords",
           content:
-            "médecin, maison de santé, vendeuvre, vendeuvre sur barse, rives de barse",
+            "médecin, maison de santé, vendeuvre, vendeuvre sur barse, Rives de Barse",
         },
       ]}
       link={[

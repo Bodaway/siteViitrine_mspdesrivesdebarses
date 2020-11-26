@@ -30,8 +30,10 @@ const MiddleContent = styled.div`
   overflow: hidden;
   ${borderBox}
   ${shadow}
+    text-align: justify;
+  text-justify: inter-word;
 
-   @media ${mediaDevice.mobileL} {
+  @media ${mediaDevice.mobileL} {
     width: 100%;
   }
 `
@@ -55,20 +57,27 @@ const Emp = styled.span`
 const Und = styled.p`
   text-decoration: underline;
 `
-const ExternalCarousel = ({ data, interval }) => {
+
+const ExternalCarouselV = ({ data, interval, defaultActiveIndex }) => {
+const images = data.imagesV.map((i) => (<Carousel.Item>
+         <Img fluid={i.childImageSharp.fluid} />
+       </Carousel.Item>))
+
   return (
-    <></>
-    // <Carousel controls={false} indicators={false} interval={interval}>
-    //   <Carousel.Item>
-    //     <Img fluid={data.image.childImageSharp.fluid} />
-    //   </Carousel.Item>
-    //   <Carousel.Item>
-    //     <Img fluid={data.image.childImageSharp.fluid} />
-    //   </Carousel.Item>
-    //   <Carousel.Item>
-    //     <Img fluid={data.image.childImageSharp.fluid} />
-    //   </Carousel.Item>
-    // </Carousel>
+     <Carousel controls={false} indicators={false} interval={interval} defaultActiveIndex={+defaultActiveIndex}>
+       {images}
+     </Carousel>
+  )
+}
+const ExternalCarouselH = ({ data, interval, defaultActiveIndex }) => {
+const images = data.imagesH.map((i) => (<Carousel.Item>
+         <Img fluid={i.childImageSharp.fluid} />
+       </Carousel.Item>))
+
+  return (
+     <Carousel controls={false} indicators={false} interval={interval} defaultActiveIndex={+defaultActiveIndex}>
+       {images}
+     </Carousel>
   )
 }
 
@@ -78,8 +87,8 @@ const Presentation = ({ data }) => {
       <SectionTitle title="Présentation" />
       <Content>
         <LeftContent>
-          <ExternalCarousel data={data} interval={10000} />
-          <ExternalCarousel data={data} interval={12000} />
+          <ExternalCarouselV defaultActiveIndex="0" data={data} interval={10000} />
+          <ExternalCarouselH defaultActiveIndex="3" data={data} interval={12000} />
         </LeftContent>
         <MiddleContent>
           <Und>Description :</Und>
@@ -88,23 +97,23 @@ const Presentation = ({ data }) => {
             <Emp>une structure de soins primaires multisite</Emp> composée d’une
             équipe dynamique{" "}
             <Emp>
-              d'une vingtaine de professionnels médicaux et para médicaux
+              d'une vingtaine de professionnels médicaux et paramédicaux
             </Emp>{" "}
-            (médecin généraliste, chirurgien-dentistes, sages-femmes,
+            (médecin généraliste, chirurgien-dentistes, sage-femme,
             kinésithérapeutes, ostéopathe, infirmières, nutritionniste,
             sophrologue et pharmaciens). Les sites se répartissent sur la
-            commune de Vendeuvre sur Barse et celle de La Villeneuve au Chêne.{" "} 
+            commune de Vendeuvre sur Barse et celle de La Villeneuve au Chêne.{" "}
             <Emp>
               L’Association Du Vendeuvrois des Professionnels de Santé (ADVPS)
             </Emp>
             , créée pour mettre en place la maison de santé en 2017, permet de
             régir le fonctionnement de cette structure labellisée et
-            indépendante, sous la responsabilité d’un Bureau et d’un Conseil
-            d’Administration.
+            indépendante, sous la responsabilité d’un bureau et d’un conseil
+            d’administration.
           </p>
           <Und>Historique :</Und>
           <p>
-            La création de la Maison de Santé des Rives de Barse, située sur{" "} 
+            La création de la Maison de Santé Pluridisciplinaire des Rives de Barse, située sur{" "}
             <Emp>l’ancien site SIMPA</Emp>, 1 avenue de la République à
             Vendeuvre sur Barse est le résultat de plusieurs années de{" "}
             <Emp>
@@ -114,11 +123,10 @@ const Presentation = ({ data }) => {
             </Emp>
             . L'action de la la Maison de Santé s'inscrit dans le cadre d'un{" "}
             <Emp>projet de santé</Emp>, conforme à un cahier des charges
-            ministériel, établi à partir d'un{" "}
-            <Emp>diagnostic territorial</Emp> et témoigne d'un{" "}
-            <Emp>exercice coordonné</Emp> entre tous les professionnels de santé
-            de la structure. Elle est accessible au public depuis{" "}
-            <Emp>février 2020</Emp>.
+            ministériel, établi à partir d'un <Emp>diagnostic territorial</Emp>{" "}
+            et témoigne d'un <Emp>exercice coordonné</Emp> entre tous les
+            professionnels de santé de la structure. Elle est accessible au
+            public depuis <Emp>février 2020</Emp>.
           </p>
           <Und>Activités :</Und>
           <p>
@@ -126,27 +134,27 @@ const Presentation = ({ data }) => {
             <ul>
               <li>
                 <Emp>l'accès aux soins</Emp> de premiers recours (sans
-                hébergement) et la{" "}
-                <Emp>continuité des soins</Emp> (large amplitude d'ouverture)
+                hébergement) et la <Emp>continuité des soins</Emp> (large
+                amplitude d'ouverture)
               </li>
               <li>
                 <Emp>l'exercice coordonné</Emp> et le{" "}
                 <Emp>travail en équipe pluriprofessionnelle</Emp> (réunions
                 d'équipe, protocoles facilitant la prise en charge des patients,
-                etc)
+                etc.)
               </li>
               <li>
                 les <Emp>parcours de soins</Emp> fléchés et simplifiés (diabète,
                 sport santé, patients complexes ou/et en situation de fragilité,
-                etc)
+                etc.)
               </li>
               <li>
                 les <Emp>actions de promotion et d'éducation à la santé</Emp>{" "}
                 (dispositif de télémédecine, programmes d'Education
-                Thérapuetique du Patient, actions territoriales de santé
+                Thérapeutique du Patient, actions territoriales de santé
                 publique,
               </li>{" "}
-              etc)
+              etc.)
               <li>
                 la <Emp>formation universitaire</Emp> (tous les professionnels
                 peuvent accueillir des étudiants en stage) et{" "}
@@ -159,8 +167,8 @@ const Presentation = ({ data }) => {
           </p>
         </MiddleContent>
         <RightContent>
-          <ExternalCarousel data={data} interval={11000} />
-          <ExternalCarousel data={data} interval={13000} />
+          <ExternalCarouselH defaultActiveIndex="0" data={data} interval={11000} />
+          <ExternalCarouselV defaultActiveIndex="2" data={data} interval={13000} />
         </RightContent>
       </Content>
     </Section>

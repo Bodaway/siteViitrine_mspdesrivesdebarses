@@ -19,7 +19,14 @@ export const query = graphql`
       edges {
         node {
           Presentation {
-            image {
+            imagesV {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
+            imagesH {
               childImageSharp {
                 fluid {
                   ...GatsbyImageSharpFluid_tracedSVG

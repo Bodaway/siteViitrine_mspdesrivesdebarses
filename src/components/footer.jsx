@@ -6,6 +6,8 @@ import { Modal } from "react-bootstrap"
 
 const Link = styled.a`
   text-decoration: underline;
+  padding-right: 100px;
+  float: right;
 `
 const IconLegal = styled.p`
   font-size: smaller;

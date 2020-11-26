@@ -27,6 +27,8 @@ const LeftContent = styled.div`
   padding-right: 25px;
   padding-left: 25px;
   border-right: solid 1px #f4f4f4;
+  text-align: justify;
+  text-justify: inter-word;
 
   @media ${mediaDevice.tablet} {
     display: none;
@@ -61,8 +63,6 @@ const CenterContent = styled.div`
   display: flex;
   flex: 1 0;
   flex-direction: column;
-  padding-right: 25px;
-  padding-left: 25px;
   border-right: solid 1px #f4f4f4;
 
   @media ${mediaDevice.mobileL} {
@@ -82,7 +82,10 @@ const ProElem = styled.li`
     cursor: pointer;
   }
 `
-const ProName = styled.div``
+const ProName = styled.div`
+  padding-left: 10px;
+  padding-right: 7px;
+`
 const Vline = styled.div`
   visibility: hidden;
   display: flex;
