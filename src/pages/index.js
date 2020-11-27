@@ -4,6 +4,7 @@ import Presentation from "../components/presentation"
 import ProByCat from "../components/pro_by_cat"
 import ActualiteLarge from "../components/actualites_large"
 import Contact from "../components/contact"
+import Recrutement from "../components/recrutement"
 import { graphql } from "gatsby"
 import {
   getPresentationTheme,
@@ -63,13 +64,38 @@ export const query = graphql`
               telephone
             }
           }
+          Recrutement {
+            image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
+          }
+          footer {
+            CCVS_image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
+            ARS_image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
+          }
         }
       }
     }
   }
 `
 export default ({ data }) => (
-  <Layout>
+  <Layout data={data}>
     <ThemeProvider theme={getPresentationTheme}>
       <Presentation data={data.allProddataJson.edges[0].node.Presentation} />
     </ThemeProvider>
@@ -81,6 +107,9 @@ export default ({ data }) => (
     </ThemeProvider>
     <ThemeProvider theme={getContactTheme}>
       <Contact />
+    </ThemeProvider>
+    <ThemeProvider theme={getContactTheme}>
+      <Recrutement data={data.allProddataJson.edges[0].node.Recrutement}/>
     </ThemeProvider>
   </Layout>
 )

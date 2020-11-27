@@ -371,6 +371,13 @@
           }
         ]
       }
-    ]
+    ],
+    "Recrutement": {        
+      "image": "./images/WIP.jpg"
+    },
+    "footer": {
+      "CCVS_image": "./images/CCVS.png",
+      "ARS_image": "./images/ARSGE.png"
+    }
   }
 ]

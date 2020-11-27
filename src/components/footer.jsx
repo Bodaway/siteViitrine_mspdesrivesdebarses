@@ -1,19 +1,44 @@
 import React, { useState } from "react"
-import { Container } from "react-bootstrap"
 import styled from "styled-components"
 import { shadow, borderBox, Section } from "../styles/global"
 import { Modal } from "react-bootstrap"
+import Img from "gatsby-image"
+
+const Inner = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 140px;
+  background-color: #505050;
+  color: white;
+  padding: 20px;
+`
+const LeftContent = styled.div`
+  display: flex;
+  flex-direction: row-reverse;
+`
 
 const Link = styled.a`
   text-decoration: underline;
   padding-right: 100px;
-  float: right;
+  align-self: center;
 `
+
 const IconLegal = styled.p`
   font-size: smaller;
 `
 
-export function Footer(props) {
+const LinkImage = styled.a`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 30px;
+`
+const Image = styled(Img)`
+  width: 100px;
+`
+export function Footer({ data }) {
   const [isFullScreen, setIsFullscreen] = useState(false)
 
   const closeFullScreen = () => {
@@ -24,14 +49,16 @@ export function Footer(props) {
   }
 
   return (
-    <Container class="text-center">
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
+    <Inner>
       <Link onClick={openFullScreen}>Mentions légales</Link>
+      <LeftContent>
+        <LinkImage href="https://www.ccvendeuvresoulaines.fr/" target="_blank">
+          <Image fluid={data.CCVS_image.childImageSharp.fluid} />
+        </LinkImage>
+        <LinkImage href="https://www.grand-est.ars.sante.fr/" target="_blank">
+          <Image fluid={data.ARS_image.childImageSharp.fluid} />
+        </LinkImage>
+      </LeftContent>
 
       <Modal show={isFullScreen} onHide={closeFullScreen} size="lg" centered>
         <Modal.Header closeButton>
@@ -71,6 +98,6 @@ export function Footer(props) {
           </IconLegal>
         </Modal.Body>
       </Modal>
-    </Container>
+    </Inner>
   )
 }

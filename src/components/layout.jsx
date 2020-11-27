@@ -12,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-export default ({ children }) => (
+export default ({ data,children }) => (
   <>
     <GlobalStyle />
     <Head />
@@ -20,7 +20,7 @@ export default ({ children }) => (
       <Menu />
       <Header />
       {children}
-      <Footer />
+      <Footer data={data.allProddataJson.edges[0].node.footer}/>
     </ThemeProvider>
   </>
 )
