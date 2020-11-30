@@ -372,12 +372,19 @@
         ]
       }
     ],
-    "Recrutement": {        
+    "Recrutement": {
       "image": "./images/WIP.jpg"
     },
     "footer": {
       "CCVS_image": "./images/CCVS.png",
       "ARS_image": "./images/ARSGE.png"
+    },
+    "header": {
+      "background": "./photos/IMGH1MC.jpg",
+      "logo": "./images/logo_base_colored_2.png"
+    },
+    "menu": {
+      "logo": "./images/logo_small_rect.png"
     }
   }
 ]

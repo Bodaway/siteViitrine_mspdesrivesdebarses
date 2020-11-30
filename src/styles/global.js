@@ -15,7 +15,7 @@ export const borderBox = css`
 `
 export const Section = styled.section`
   display: relative;
-  padding-top: 100px;
+  padding-top: 10vh;
 `
 
 const size = {
@@ -41,10 +41,11 @@ export const mediaDevice = {
 }
 
 export const theme = {
-  presentationColor: "#2CA3DC",
-  categorieColor: "#68C100",
-  actualiteColor: "#E7302A",
-  contactColor: "#f87f4a",
+  presentationColor: "#700DC4",
+  categorieColor: "#0B1AB2",
+  actualiteColor: "#399129",
+  contactColor: "#D29D00",
+  recrutementColor: "#D83830",
   marginTopSection: "20px",
 }
 

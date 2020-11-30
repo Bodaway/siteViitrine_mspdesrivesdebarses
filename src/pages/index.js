@@ -73,6 +73,31 @@ export const query = graphql`
               }
             }
           }
+          menu {
+            logo {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
+          }
+          header {
+            background {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
+            logo {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
+          }
           footer {
             CCVS_image {
               childImageSharp {
@@ -108,8 +133,8 @@ export default ({ data }) => (
     <ThemeProvider theme={getContactTheme}>
       <Contact />
     </ThemeProvider>
-    <ThemeProvider theme={getContactTheme}>
-      <Recrutement data={data.allProddataJson.edges[0].node.Recrutement}/>
-    </ThemeProvider>
+    {/* <ThemeProvider theme={getContactTheme}>
+      <Recrutement data={data.allProddataJson.edges[-1].node.Recrutement}/>
+    </ThemeProvider> */}
   </Layout>
 )
