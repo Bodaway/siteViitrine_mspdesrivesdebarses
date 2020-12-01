@@ -116,6 +116,28 @@
         ]
       },
       {
+        "title": "Ostéopathes",
+        "icon": "./images/osteo.png",
+        "desc": "<p>L’ostéopathie est une médecine de première intention. Son champ de compétence défini par décret se limite aux troubles fonctionnels, notamment musculo-squelettiques.</p><p>L’ostéopathie englobe tous les moyens diagnostiques et utilise des moyens thérapeutiques exclusivement manuels.</p><p>Cette discipline s’appuie sur des recommandations scientifiques et professionnelles pour assurer le respect des droits et de la sécurité des personnes.</p><p>L’ostéopathe est un professionnel de la santé titulaire du titre d’ostéopathe obtenu après 5 années d’études dans un organisme de formation agréé par le ministère de la santé et celui de l’enseignement supérieur et de la recherche.</p><p>L’ostéopathe est expert des troubles fonctionnels qui en propose une approche diagnostique, thérapeutique manuelle et préventive basée sur une rationalité scientifique.</p>",
+        "Pros": [
+          {
+            "name": "BRUCELLE Coline",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b><br/> 1 avenue de la République, Vendeuvre sur Barse</p>",
+            "horaire": [
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
+            ],
+            "rdv": "",
+            "telephone": ""
+          }
+        ]
+      },
+      {
         "title": "Dentistes",
         "icon": "./images/tooth.png",
         "desc": "Le chirurgien-dentiste est un docteur en chirurgie dentaire. Il traite les affections des dents, de la bouche, des gencives et de la mâchoire. Le chirurgien dentaire pratique de nombreux soins. Il soigne les caries, extrait les dents infectées, pose des amalgames, des couronnes ou encore des prothèses.",
