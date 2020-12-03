@@ -2,91 +2,165 @@ import React from "react"
 import SectionTitle from "./section_title"
 import styled from "styled-components"
 import { Section, mediaDevice } from "../styles/global"
-import { MapContainer, TileLayer, Marker, Popup,Tooltip } from "react-leaflet"
 
-const Content = styled.div`
+const MapOuter = styled.div`
   margin-top: ${props => props.theme.marginTopSection};
   display: flex;
+  justify-content: center;
   min-height: 200px;
 
   @media ${mediaDevice.mobileL} {
     height: 300px;
   }
 `
-const MapCanvas = styled(MapContainer)`
+const MapCanvas = styled.div`
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   background: none !important;
-  width: 60%;
-  height: 500px;
-
+  width: 100%;
   @media ${mediaDevice.mobileL} {
     width: 100%;
-    height: 500px;
+    height: 300px;
   }
 `
-const LeftContent = styled.div`
-  width: 20%;
-`
-const Place = styled.div``
+const ProLocal = styled.div`
+  & > h5 {
+    color: ${props => props.theme.mainColor};
+  }
+  & > ul {
+    list-style-image: url("./logo_small.png");
+    list-style: square;
+  }
+  & > ul > li {
+    display: flex;
+    flex-direction: row;
 
-const Contact = () => {
+    &::before {
+      content: "\ffed";
+      margin-right: 1em;
+      color: ${props => props.theme.mainColor};
+    }
+  }
+`
+const Name = styled.div`
+  width: 20em;
+`
+const Tel = styled.div``
+const InnerMainPro = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  & > ${ProLocal} > ul > li {
+    float: left;
+    margin-right: 20px;
+    width: 30%;
+  }
+`
+const OtherContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+`
+const InnerPro = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+`
+
+const MainContact = ({ data }) => {
+  return (
+    <InnerMainPro>
+      <iframe
+        width="100%"
+        height="150px"
+        id="gmap_canvas"
+        src={
+          "https://maps.google.com/maps?q=" +
+          data[0].adr_google +
+          "&t=&z=16&ie=UTF8&iwloc=&output=embed"
+        }
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+      ></iframe>
+      <ProLocal>
+        <h5>{data[0].location_name}</h5>
+        <ul>
+          {data.map(p => (
+            <li>
+              <Name>{p.name}</Name>
+              <Tel>{p.telephone}</Tel>
+            </li>
+          ))}
+        </ul>
+      </ProLocal>
+    </InnerMainPro>
+  )
+}
+const OtherContact = ({ data, height }) => {
+  return (
+    <InnerPro>
+      <iframe
+        width="100%"
+        height={height}
+        id="gmap_canvas"
+        src={
+          "https://maps.google.com/maps?q=" +
+          data[0].adr_google +
+          "&t=&z=14&ie=UTF8&iwloc=&output=embed"
+        }
+        frameborder="0"
+        scrolling="no"
+        marginheight="0"
+        marginwidth="0"
+      ></iframe>
+      <ProLocal>
+        <h5>{data[0].location_name}</h5>
+        <ul>
+          {data.map(p => (
+            <li>
+              <Name>{p.name}</Name>
+              <Tel>{p.telephone}</Tel>
+            </li>
+          ))}
+        </ul>
+      </ProLocal>
+    </InnerPro>
+  )
+}
+
+const Contact = ({ data }) => {
+  const accu = (dic, p) => {
+    ;(dic[p.adr_google] = dic[p.adr_google] || []).push(p)
+    return dic
+  }
+  const cleanedData = data
+    .map(c => c.Pros)
+    .flat()
+    .map(({ name, location_name, adr_google, telephone }) => ({
+      name,
+      location_name,
+      adr_google,
+      telephone,
+    }))
+    .reduce(accu, {})
+
+  const contactPro = Object.keys(cleanedData)
+    .slice(1)
+    .map(k => <OtherContact data={cleanedData[k]} height="150px" />)
+
   return (
     <Section id="Contact">
       <SectionTitle title="Contact" />
-      <Content>
-      <LeftContent>
-        <Place>Maison de santé, 1 avenue de la République, Vendeuvre sur Barse</Place>
-        <Place>CALON-SUREAU Benoit, 15 rue de l’ Eglise, La Villeneuve au Chêne</Place>
-        <Place>DEHARBE Pauline, 15 rue de la Côte d'Or, Vendeuvre sur Barse</Place>
-        <Place>Pharmacie de la Barse, François JACQUEL, 3 Avenue de l'Armée Leclerc, Vendeuvre sur Barse</Place>
-        <Place>Pharmacie de l’Orient, Pascal AVIERINOS, Rue des ancienne Tanneries, Centre commercial Bi1, Vendeuvre sur Barse </Place>
-      </LeftContent>
-        <MapCanvas
-          center={[48.2347,4.4313]}
-          zoom={14}
-          scrollWheelZoom={false}
-        >
-          <TileLayer
-            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          <Marker position={[48.2378, 4.46432]}>
-            <Tooltip direction="right" offset={[-8, -2]} opacity={1} permanent>
-              <span>Maison de santé</span>
-            </Tooltip>
-          </Marker>
-          <Marker position={[48.23884,4.38646]}>
-            <Tooltip direction="right" offset={[-8, -2]} opacity={1} permanent>
-              <span>CALON-SUREAU Benoit</span>
-            </Tooltip>
-          </Marker>
-          <Marker position={[48.23431,4.46397]}>
-            <Tooltip direction="right" offset={[-8, -2]} opacity={1} permanent>
-              <span>DEHARBE Pauline</span>
-            </Tooltip>
-          </Marker>
-          <Marker position={[48.23745,4.46460]}>
-            <Tooltip direction="right" offset={[-8, -2]} opacity={1} permanent>
-              <span>Pharmacie de la Barse, François JACQUEL</span>
-            </Tooltip>
-          </Marker>
-          <Marker position={[48.23640,4.46827]}>
-            <Tooltip direction="right" offset={[-8, -2]} opacity={1} permanent>
-              <span>Pharmacie de l’Orient, Pascal AVIERINOS</span>
-            </Tooltip>
-          </Marker>
-          {/* <iframe
-            width="100%"
-            height="100%"
-            id="gmap_canvas"
-            src="https://maps.google.com/maps?q=vendeuvre%20sur%20barse&t=&z=13&ie=UTF8&iwloc=&output=embed"
-            frameborder="0"
-            scrolling="no"
-            marginheight="0"
-            marginwidth="0"
-          ></iframe> */}
+      <MapOuter>
+        <MapCanvas>
+          <MainContact data={cleanedData[Object.keys(cleanedData)[0]]} />
+          <OtherContainer>{contactPro}</OtherContainer>
         </MapCanvas>
-      </Content>
+      </MapOuter>
     </Section>
   )
 }

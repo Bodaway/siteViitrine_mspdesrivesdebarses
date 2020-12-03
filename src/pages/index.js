@@ -60,6 +60,8 @@ export const query = graphql`
               desc
               horaire
               name
+              location_name
+              adr_google
               rdv
               telephone
             }
@@ -85,14 +87,14 @@ export const query = graphql`
           header {
             background {
               childImageSharp {
-                fluid {
+                fluid(maxWidth: 4000,quality: 100) {
                   ...GatsbyImageSharpFluid_tracedSVG
                 }
               }
             }
             logo {
               childImageSharp {
-                fluid {
+                fluid(quality: 100) {
                   ...GatsbyImageSharpFluid_tracedSVG
                 }
               }
@@ -131,7 +133,7 @@ export default ({ data }) => (
       <ActualiteLarge data={data.allProddataJson.edges[0].node.Actualites} />
     </ThemeProvider>
     <ThemeProvider theme={getContactTheme}>
-      <Contact />
+      <Contact data={data.allProddataJson.edges[0].node.Categories}/>
     </ThemeProvider>
     {/* <ThemeProvider theme={getContactTheme}>
       <Recrutement data={data.allProddataJson.edges[-1].node.Recrutement}/>

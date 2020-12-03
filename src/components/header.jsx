@@ -1,20 +1,64 @@
-import React from "react"
+import React from "react" 
 import styled from "styled-components"
 import Img from "gatsby-image"
+import { mediaDevice } from "../styles/global"
 
 const Logo = styled(Img)`
-    top: -50%;  /* position the top  edge of the element at the middle of the parent */
-    left: 52%; /* position the left edge of the element at the middle of the parent */
-    height: 100%;
-    width: 45%;
-    transform: translate(-50%, -50%); /* This is a shorthand of
-                                         translateX(-50%) and translateY(-50%) */
+  @media ${mediaDevice.desktop} {
+    width: 50vw;
+  }
+  @media ${mediaDevice.laptopL} {
+    width: 50vw;
+  }
+  @media ${mediaDevice.laptop} {
+    width: 50vw;
+  }
+  @media ${mediaDevice.tablet} {
+    width: 75vw;
+  }
+  @media ${mediaDevice.mobileL} {
+    width: 75vw;
+  }
+  @media ${mediaDevice.mobileM} {
+    width: 100vw;
+  }
+  @media ${mediaDevice.mobileS} {
+    width: 100vw;
+  }
 `
 const Inner = styled.div`
-display:block;
-position:relative;
-height:40vh;
-
+  position: relative;
+  @media ${mediaDevice.desktop} {
+    height: 20vw;
+  }
+  @media ${mediaDevice.laptopL} {
+    height: 20vw;
+  }
+  @media ${mediaDevice.laptop} {
+    height: 20vw;
+  }
+  @media ${mediaDevice.tablet} {
+    height: 30vw;
+  }
+  @media ${mediaDevice.mobileL} {
+    height: 30vw;
+  }
+  @media ${mediaDevice.mobileM} {
+    height: 40vw;
+  }
+  @media ${mediaDevice.mobileS} {
+    height: 40vw;
+  }
+`
+const ImageContainer = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 `
 const Image = styled(Img)`
   position: absolute;
@@ -27,13 +71,13 @@ const Image = styled(Img)`
   }
 `
 
-
 export function Header({ data }) {
   return (
     <Inner>
       <Image fluid={data.background.childImageSharp.fluid} />
-      <Logo fluid={data.logo.childImageSharp.fluid} />
-      {/* <h1>Maison de santé pluridisciplinaire des Rives de Barse</h1> */}
+      <ImageContainer>
+        <Logo fluid={data.logo.childImageSharp.fluid} />
+      </ImageContainer>
     </Inner>
   )
 }
