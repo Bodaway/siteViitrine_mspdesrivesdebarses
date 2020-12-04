@@ -21,7 +21,7 @@ ${borderBox}
 const ContactSmall = ({ data }) => {
   return (
     <CustomSection>
-      <SectionTitle title="Nous trouver" />
+      <SectionTitle title="Siège Social" />
       <Inner>
           <p>Association Du Vendeuvrois des Professionnels de Santé (ADVPS)<br/><a href="mailto:contact.advps@gmail.com">contact.advps@gmail.com</a></p>
           <p>1 Avenue de la République,<br/> 10140 Vendeuvre-sur-Barse</p>
