@@ -79,6 +79,13 @@ export function Footer({ data }) {
             </a>
             .
           </p>
+          <p>
+            Créateur du logo:{" "}
+            <a href="mailto:michel.bonenfant.jr@protonmail.com">
+              Christine Bonenfant
+            </a>
+            .
+          </p>
           <IconLegal>
             Icons made by{" "}
             <a href="http://www.freepik.com/" title="Freepik">

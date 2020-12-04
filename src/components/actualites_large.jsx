@@ -3,8 +3,8 @@ import Slider from "react-slick"
 import SectionTitle from "./section_title"
 import styled from "styled-components"
 import { shadow, Section } from "../styles/global"
-import { Modal } from "react-bootstrap"
 import Img from "gatsby-image"
+import ActuModal from "./actualites_modal"
 
 const InnerBtn = styled.button`
   border: none;
@@ -72,13 +72,6 @@ const InnerActu = styled.div`
 const Image = styled(Img)`
   align-self: left;
 `
-const ModalC = styled(Modal)`
-  & .gatsby-image-wrapper {
-    float: left;
-    margin: 10px;
-    width: 20%;
-  }
-`
 const SliderContainer = styled.div`
   margin-top: ${props => props.theme.marginTopSection};
 `
@@ -99,16 +92,14 @@ const NextButton = ({ className, style, onClick }) => {
 }
 
 const Actu = ({ actualite = {} }) => {
-  const [isFullScreen, setIsFullScreen] = useState(false)
+const [isFullScreen, setIsFullScreen] = useState(false)
 
   const getFullScreen = e => {
     setIsFullScreen(true)
   }
   const closeFullScreen = () => {
-    console.log("enter to close")
     setIsFullScreen(false)
   }
-
   return (
     <>
       <News onClick={getFullScreen}>
@@ -118,19 +109,7 @@ const Actu = ({ actualite = {} }) => {
         </Column>
         <VLine />
       </News>
-      <ModalC show={isFullScreen} onHide={closeFullScreen} size="xl" centered>
-        <Modal.Header closeButton>
-          <Modal.Title>{actualite.title}</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <Img fluid={actualite.image.childImageSharp.fluid} />
-          <div
-            dangerouslySetInnerHTML={{
-              __html: actualite.text,
-            }}
-          />
-        </Modal.Body>
-      </ModalC>
+      <ActuModal actualite={actualite} isFullScreen={isFullScreen} closeFullScreen={closeFullScreen}/>
     </>
   )
 }

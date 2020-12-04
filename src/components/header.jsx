@@ -5,25 +5,25 @@ import { mediaDevice } from "../styles/global"
 
 const Logo = styled(Img)`
   @media ${mediaDevice.desktop} {
-    width: 50vw;
+    width: 20vw;
   }
   @media ${mediaDevice.laptopL} {
-    width: 50vw;
+    width: 20vw;
   }
   @media ${mediaDevice.laptop} {
-    width: 50vw;
+    width: 20vw;
   }
   @media ${mediaDevice.tablet} {
-    width: 75vw;
+    width: 30vw;
   }
   @media ${mediaDevice.mobileL} {
-    width: 75vw;
+    width: 30vw;
   }
   @media ${mediaDevice.mobileM} {
-    width: 100vw;
+    width: 40vw;
   }
   @media ${mediaDevice.mobileS} {
-    width: 100vw;
+    width: 40vw;
   }
 `
 const Inner = styled.div`

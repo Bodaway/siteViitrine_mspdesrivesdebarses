@@ -18,6 +18,11 @@ export const Section = styled.section`
   padding-top: 10vh;
 `
 
+export const SmallSection = styled(Section)`
+  padding-top: 7vh;
+  width: 35%;
+`
+
 const size = {
   mobileS: "320px",
   mobileM: "375px",
@@ -40,14 +45,19 @@ export const mediaDevice = {
 }
 
 export const theme = {
-  presentationColor: "#700DC4",
-  categorieColor: "#0B1AB2",
-  actualiteColor: "#399129",
-  contactColor: "#D29D00",
-  recrutementColor: "#D83830",
+  recapColor: "#700DC4",
+  presentationColor: "#0B1AB2",
+  categorieColor: "#399129",
+  actualiteColor: "#D29D00",
+  contactColor: "#D83830",
   marginTopSection: "20px",
 }
 
+export const getRecapTheme = theme => ({
+  ...theme,
+  mainColor: theme.recapColor,
+  altColor: theme.recapColor, //"#82C535",
+})
 export const getPresentationTheme = theme => ({
   ...theme,
   mainColor: theme.presentationColor,

@@ -443,7 +443,7 @@
     },
     "header": {
       "background": "./photos/IMGH1MC.jpg",
-      "logo": "./images/logo_base_colored_2.png"
+      "logo": "./images/logo_512.png"
     },
     "menu": {
       "logo": "./images/logo_small.png"

@@ -5,8 +5,12 @@ import ProByCat from "../components/pro_by_cat"
 import ActualiteLarge from "../components/actualites_large"
 import Contact from "../components/contact"
 import Recrutement from "../components/recrutement"
+import Recap from "../components/recap"
+import ActuSmall from "../components/actualites_small"
+import ContactSmall from "../components/contact_small"
 import { graphql } from "gatsby"
 import {
+  getRecapTheme,
   getPresentationTheme,
   getCategorieTheme,
   getActualiteTheme,
@@ -123,6 +127,12 @@ export const query = graphql`
 `
 export default ({ data }) => (
   <Layout data={data}>
+    <ThemeProvider theme={getRecapTheme}>
+      <Recap>
+<ActuSmall data={data.allProddataJson.edges[0].node.Actualites} />
+<ContactSmall data={data.allProddataJson.edges[0].node.Categories} />
+      </Recap>
+    </ThemeProvider>
     <ThemeProvider theme={getPresentationTheme}>
       <Presentation data={data.allProddataJson.edges[0].node.Presentation} />
     </ThemeProvider>

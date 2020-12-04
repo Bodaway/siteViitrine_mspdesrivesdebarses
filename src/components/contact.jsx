@@ -51,10 +51,11 @@ const InnerMainPro = styled.div`
   display: flex;
   flex-direction: column;
 
+  & > ${ProLocal} > ul {
+    columns: 4;
+  }
   & > ${ProLocal} > ul > li {
-    float: left;
     margin-right: 20px;
-    width: 30%;
   }
 `
 const OtherContainer = styled.div`
@@ -92,7 +93,7 @@ const MainContact = ({ data }) => {
           {data.map(p => (
             <li>
               <Name>{p.name}</Name>
-              <Tel>{p.telephone}</Tel>
+              {/* <Tel>{p.telephone}</Tel> */}
             </li>
           ))}
         </ul>
@@ -123,7 +124,7 @@ const OtherContact = ({ data, height }) => {
           {data.map(p => (
             <li>
               <Name>{p.name}</Name>
-              <Tel>{p.telephone}</Tel>
+              {/* <Tel>{p.telephone}</Tel> */}
             </li>
           ))}
         </ul>
@@ -133,6 +134,15 @@ const OtherContact = ({ data, height }) => {
 }
 
 const Contact = ({ data }) => {
+  const sortedAlpha = (pa,pb) => {
+    const getSortKey = (p) => {
+      return p.name.toUpperCase()
+    }
+    const keya = getSortKey(pa)
+    const keyb = getSortKey(pb)
+    return (keya < keyb) ? -1 : (keya > keyb) ? 1 : 0;
+  }
+
   const accu = (dic, p) => {
     ;(dic[p.adr_google] = dic[p.adr_google] || []).push(p)
     return dic
@@ -150,14 +160,14 @@ const Contact = ({ data }) => {
 
   const contactPro = Object.keys(cleanedData)
     .slice(1)
-    .map(k => <OtherContact data={cleanedData[k]} height="150px" />)
+    .map(k => <OtherContact data={cleanedData[k].sort(sortedAlpha)} height="150px" />)
 
   return (
     <Section id="Contact">
-      <SectionTitle title="Contact" />
+      <SectionTitle title="Où nous trouver" />
       <MapOuter>
         <MapCanvas>
-          <MainContact data={cleanedData[Object.keys(cleanedData)[0]]} />
+          <MainContact data={cleanedData[Object.keys(cleanedData)[0]].sort(sortedAlpha)} />
           <OtherContainer>{contactPro}</OtherContainer>
         </MapCanvas>
       </MapOuter>
