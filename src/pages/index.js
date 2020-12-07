@@ -63,6 +63,7 @@ export const query = graphql`
             Pros {
               desc
               horaire
+              map_label
               name
               location_name
               adr_google
@@ -91,7 +92,7 @@ export const query = graphql`
           header {
             background {
               childImageSharp {
-                fluid(maxWidth: 4000,quality: 100) {
+                fluid(maxWidth: 4000, quality: 100) {
                   ...GatsbyImageSharpFluid_tracedSVG
                 }
               }
@@ -129,8 +130,8 @@ export default ({ data }) => (
   <Layout data={data}>
     <ThemeProvider theme={getRecapTheme}>
       <Recap>
-<ActuSmall data={data.allProddataJson.edges[0].node.Actualites} />
-<ContactSmall data={data.allProddataJson.edges[0].node.Categories} />
+        <ActuSmall data={data.allProddataJson.edges[0].node.Actualites} />
+        <ContactSmall data={data.allProddataJson.edges[0].node.Categories} />
       </Recap>
     </ThemeProvider>
     <ThemeProvider theme={getPresentationTheme}>
@@ -143,7 +144,7 @@ export default ({ data }) => (
       <ActualiteLarge data={data.allProddataJson.edges[0].node.Actualites} />
     </ThemeProvider>
     <ThemeProvider theme={getContactTheme}>
-      <Contact data={data.allProddataJson.edges[0].node.Categories}/>
+      <Contact data={data.allProddataJson.edges[0].node.Categories} />
     </ThemeProvider>
     {/* <ThemeProvider theme={getContactTheme}>
       <Recrutement data={data.allProddataJson.edges[-1].node.Recrutement}/>

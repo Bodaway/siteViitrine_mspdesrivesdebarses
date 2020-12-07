@@ -12,15 +12,15 @@ const GlobalStyle = createGlobalStyle`
   }
 `
 
-export default ({ data,children }) => (
+export default ({ data, children }) => (
   <>
     <GlobalStyle />
     <Head />
     <ThemeProvider theme={theme}>
       <Menu data={data.allProddataJson.edges[0].node.menu} />
-      <Header data={data.allProddataJson.edges[0].node.header}/>
+      <Header data={data.allProddataJson.edges[0].node.header} />
       {children}
-      <Footer data={data.allProddataJson.edges[0].node.footer}/>
+      <Footer data={data.allProddataJson.edges[0].node.footer} />
     </ThemeProvider>
   </>
 )

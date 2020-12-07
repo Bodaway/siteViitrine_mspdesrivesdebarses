@@ -8,7 +8,7 @@ import ActuModal from "./actualites_modal"
 
 const CustomSection = styled(SmallSection)`
   @media ${mediaDevice.mobileL} {
-    display:none;
+    display: none;
   }
 `
 const Inner = styled.div`
@@ -30,7 +30,7 @@ const Image = styled(Img)`
 `
 const VLine = styled.div`
   display: flex;
-  visibility:hidden;
+  visibility: hidden;
   width: 1px;
   background-color: ${props => props.theme.mainColor};
   margin: 1px;

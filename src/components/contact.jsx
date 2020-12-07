@@ -92,7 +92,7 @@ const MainContact = ({ data }) => {
         <ul>
           {data.map(p => (
             <li>
-              <Name>{p.name}</Name>
+              <Name>{p.map_label !== "" ? p.map_label : p.name}</Name>
               {/* <Tel>{p.telephone}</Tel> */}
             </li>
           ))}
@@ -134,15 +134,14 @@ const OtherContact = ({ data, height }) => {
 }
 
 const Contact = ({ data }) => {
-  const sortedAlpha = (pa,pb) => {
-    const getSortKey = (p) => {
+  const sortedAlpha = (pa, pb) => {
+    const getSortKey = p => {
       return p.name.toUpperCase()
     }
     const keya = getSortKey(pa)
     const keyb = getSortKey(pb)
-    return (keya < keyb) ? -1 : (keya > keyb) ? 1 : 0;
+    return keya < keyb ? -1 : keya > keyb ? 1 : 0
   }
-
   const accu = (dic, p) => {
     ;(dic[p.adr_google] = dic[p.adr_google] || []).push(p)
     return dic
@@ -150,8 +149,9 @@ const Contact = ({ data }) => {
   const cleanedData = data
     .map(c => c.Pros)
     .flat()
-    .map(({ name, location_name, adr_google, telephone }) => ({
+    .map(({ name, map_label, location_name, adr_google, telephone }) => ({
       name,
+      map_label,
       location_name,
       adr_google,
       telephone,
@@ -160,14 +160,18 @@ const Contact = ({ data }) => {
 
   const contactPro = Object.keys(cleanedData)
     .slice(1)
-    .map(k => <OtherContact data={cleanedData[k].sort(sortedAlpha)} height="150px" />)
+    .map(k => (
+      <OtherContact data={cleanedData[k].sort(sortedAlpha)} height="150px" />
+    ))
 
   return (
     <Section id="Contact">
       <SectionTitle title="Où nous trouver" />
       <MapOuter>
         <MapCanvas>
-          <MainContact data={cleanedData[Object.keys(cleanedData)[0]].sort(sortedAlpha)} />
+          <MainContact
+            data={cleanedData[Object.keys(cleanedData)[0]].sort(sortedAlpha)}
+          />
           <OtherContainer>{contactPro}</OtherContainer>
         </MapCanvas>
       </MapOuter>

@@ -59,25 +59,39 @@ const Und = styled.p`
 `
 
 const ExternalCarouselV = ({ data, interval, defaultActiveIndex }) => {
-const images = data.imagesV.map((i) => (<Carousel.Item>
-         <Img fluid={i.childImageSharp.fluid} />
-       </Carousel.Item>))
+  const images = data.imagesV.map(i => (
+    <Carousel.Item>
+      <Img fluid={i.childImageSharp.fluid} />
+    </Carousel.Item>
+  ))
 
   return (
-     <Carousel controls={false} indicators={false} interval={interval} defaultActiveIndex={+defaultActiveIndex}>
-       {images}
-     </Carousel>
+    <Carousel
+      controls={false}
+      indicators={false}
+      interval={interval}
+      defaultActiveIndex={+defaultActiveIndex}
+    >
+      {images}
+    </Carousel>
   )
 }
 const ExternalCarouselH = ({ data, interval, defaultActiveIndex }) => {
-const images = data.imagesH.map((i) => (<Carousel.Item>
-         <Img fluid={i.childImageSharp.fluid} />
-       </Carousel.Item>))
+  const images = data.imagesH.map(i => (
+    <Carousel.Item>
+      <Img fluid={i.childImageSharp.fluid} />
+    </Carousel.Item>
+  ))
 
   return (
-     <Carousel controls={false} indicators={false} interval={interval} defaultActiveIndex={+defaultActiveIndex}>
-       {images}
-     </Carousel>
+    <Carousel
+      controls={false}
+      indicators={false}
+      interval={interval}
+      defaultActiveIndex={+defaultActiveIndex}
+    >
+      {images}
+    </Carousel>
   )
 }
 
@@ -87,8 +101,16 @@ const Presentation = ({ data }) => {
       <SectionTitle title="Présentation" />
       <Content>
         <LeftContent>
-          <ExternalCarouselV defaultActiveIndex="0" data={data} interval={10000} />
-          <ExternalCarouselH defaultActiveIndex="3" data={data} interval={12000} />
+          <ExternalCarouselV
+            defaultActiveIndex="0"
+            data={data}
+            interval={10000}
+          />
+          <ExternalCarouselH
+            defaultActiveIndex="3"
+            data={data}
+            interval={12000}
+          />
         </LeftContent>
         <MiddleContent>
           <Und>Description :</Und>
@@ -101,8 +123,9 @@ const Presentation = ({ data }) => {
             </Emp>{" "}
             (médecins généralistes, chirurgien-dentistes, sage-femmes,
             kinésithérapeutes, ostéopathes, infirmières, nutritionnistes,
-            sophrologues,pharmaciens et ambulanciers). Les sites se répartissent sur la
-            commune de Vendeuvre sur Barse et celle de La Villeneuve au Chêne.{" "}
+            sophrologues,pharmaciens et ambulanciers). Les sites se répartissent
+            sur la commune de Vendeuvre sur Barse et celle de La Villeneuve au
+            Chêne.{" "}
             <Emp>
               L’Association Du Vendeuvrois des Professionnels de Santé (ADVPS)
             </Emp>
@@ -113,9 +136,10 @@ const Presentation = ({ data }) => {
           </p>
           <Und>Historique :</Und>
           <p>
-            La création de la Maison de Santé Pluridisciplinaire des Rives de Barse, située sur{" "}
-            <Emp>l’ancien site SIMPA</Emp>, 1 avenue de la République à
-            Vendeuvre sur Barse est le résultat de plusieurs années de{" "}
+            La création de la Maison de Santé Pluridisciplinaire des Rives de
+            Barse, située sur <Emp>l’ancien site SIMPA</Emp>, 1 avenue de la
+            République à Vendeuvre sur Barse est le résultat de plusieurs années
+            de{" "}
             <Emp>
               travail des professionnels de santé, en partenariat avec l’Agence
               Régionale de Santé et la Communauté de Communes de Vendeuvre
@@ -167,8 +191,16 @@ const Presentation = ({ data }) => {
           </p>
         </MiddleContent>
         <RightContent>
-          <ExternalCarouselH defaultActiveIndex="0" data={data} interval={11000} />
-          <ExternalCarouselV defaultActiveIndex="2" data={data} interval={13000} />
+          <ExternalCarouselH
+            defaultActiveIndex="0"
+            data={data}
+            interval={11000}
+          />
+          <ExternalCarouselV
+            defaultActiveIndex="2"
+            data={data}
+            interval={13000}
+          />
         </RightContent>
       </Content>
     </Section>

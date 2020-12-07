@@ -107,19 +107,17 @@ const LineRecrutement = styled(Line)`
   }
 `
 const Image = styled(Img)`
-  height:100%;
+  height: 100%;
   width: 70px;
 `
 
-const Menu = ({data}) => {
+const Menu = ({ data }) => {
   return (
     <InnerNavbar bg="light" expand="lg" sticky="top" collapseOnSelect="true">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-       <Navbar.Brand href="#home">
-      <Image
-        fluid={data.logo.childImageSharp.fluid}
-      />
-    </Navbar.Brand>
+      <Navbar.Brand href="#home">
+        <Image fluid={data.logo.childImageSharp.fluid} />
+      </Navbar.Brand>
       <Collapse id="basic-navbar-nav">
         <Nav>
           <Elem>
@@ -139,7 +137,12 @@ const Menu = ({data}) => {
             <LineContact />
           </Elem>
           <Elem>
-            <Link href="20201126_FICHE DE POSTE MEDECINS_MSP VSB_V1.pdf" target="_blank">Recrutement</Link>
+            <Link
+              href="20201126_FICHE DE POSTE MEDECINS_MSP VSB_V1.pdf"
+              target="_blank"
+            >
+              Recrutement
+            </Link>
             <LineRecrutement />
           </Elem>
         </Nav>

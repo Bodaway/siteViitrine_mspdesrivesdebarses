@@ -34,7 +34,8 @@
           {
             "name": "Dr OPRICA Mariana",
             "desc": "<p>Maison de Santé des Rives de Barse, <br/>Pôle Médecins 1 avenue de la République, Vendeuvre sur Barse</p>",
-            "location_name":"Maison de Santé",
+            "location_name": "Maison de Santé",
+            "map_label": "Dr OPRICA Mariana (Médecin généraliste)",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
               "09h00 - 13h00, 14h00 - 19h00",
@@ -58,16 +59,17 @@
           {
             "name": "BELVEZE Antoine",
             "desc": "<p>Cabinet en dehors de la Maison de Santé, <br/>15 rue de la Côte d'Or, Vendeuvre sur Barse </p>",
-            "location_name":"Cabinet de Kinésithérapie Deharbe-Belveze",
+            "location_name": "Cabinet hors de la Maison de Santé",
+            "map_label": "",
             "adr_google": "Cabinet+de+Kinésithérapie+Deharbe-Belveze",
             "horaire": [
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir"
+              "Ouvert matin et après-midi",
+              "Ouvert matin et après-midi",
+              "matin uniquement",
+              "Ouvert matin et après-midi",
+              "Ouvert matin et après-midi",
+              "-",
+              "-"
             ],
             "rdv": "Prise de rdv au cabinet et à domicile",
             "telephone": "03.25.40.10.44"
@@ -75,31 +77,33 @@
           {
             "name": "BLAISE Marianne",
             "desc": "<p>Maison de Santé des Rives de Barse, Pôle Kinésithérapeute et Infirmières,<br/>1 avenue de la République, Vendeuvre sur Barse</p>",
-            "location_name":"Maison de Santé",
+            "location_name": "Maison de Santé",
+            "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir"
+              "8h - 19h30",
+              "8h - 19h30",
+              "8h - 12h",
+              "8h - 19h30",
+              "8h - 19h30",
+              "-",
+              "-"
             ],
             "rdv": "Prise de rdv au cabinet et à domicile",
-            "telephone": "06.15.32.58.24"
+            "telephone": "03.25.43.84.34"
           },
           {
             "name": "CALON-SUREAU Benoit",
             "desc": "<p>Cabinet en dehors de la Maison de Santé, <br/>15 rue de l’ Eglise, La Villeneuve au Chêne</p>",
-            "location_name":"CALON Benoit MKDE",
+            "location_name": "Cabinet hors de la Maison de Santé",
+            "map_label": "",
             "adr_google": "CALON+Benoit+MKDE",
             "horaire": [
-              "8h00- 13h00, 17h00-19h30",
-              "8h00- 13h00, 17h00-19h30",
-              "8h00- 13h00, 17h00-19h30",
-              "8h00- 13h00, 17h00-19h30",
-              "8h00- 13h00",
+              "8h00 - 13h00, 17h00 - 19h30",
+              "8h00 - 13h00, 17h00 - 19h30",
+              "8h00 - 13h00, 17h00 - 19h30",
+              "8h00 - 13h00, 17h00 - 19h30",
+              "8h00 - 13h00",
               "-",
               "-"
             ],
@@ -109,16 +113,17 @@
           {
             "name": "DEHARBE Pauline",
             "desc": "<p>Cabinet en dehors de la Maison de Santé, <br/>15 rue de la Côte d'Or, Vendeuvre sur Barse </p>",
-            "location_name":"Cabinet de Kinésithérapie Deharbe-Belveze",
+            "location_name": "Cabinet de Kinésithérapie Deharbe-Belveze",
+            "map_label": "",
             "adr_google": "Cabinet+de+Kinésithérapie+Deharbe-Belveze",
             "horaire": [
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir"
+              "Ouvert matin et après-midi",
+              "Ouvert matin et après-midi",
+              "matin uniquement",
+              "Ouvert matin et après-midi",
+              "Ouvert matin et après-midi",
+              "-",
+              "-"
             ],
             "rdv": "Prise de rdv au cabinet et à domicile",
             "telephone": "03.25.40.10.44"
@@ -133,7 +138,8 @@
           {
             "name": "BRUCELLE Coline",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b><br/> 1 avenue de la République, Vendeuvre sur Barse</p>",
-            "location_name":"Maison de Santé",
+            "location_name": "Maison de Santé",
+            "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
               "A venir",
@@ -157,16 +163,17 @@
           {
             "name": "Dr AUDIBERT Jean-Michel",
             "desc": "<p>Maison de Santé des Rives de Barse, Pôle Dentistes,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
-            "location_name":"Maison de Santé",
+            "location_name": "Maison de Santé",
+            "map_label": "Dr AUDIBERT Jean-Michel (Dentiste)",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir"
+              "9h00 - 12h00, 14h00 - 19h00 ",
+              "9h00 - 12h00, 14h00 - 19h00",
+              "-",
+              "-",
+              "9h00 - 12h00, 14h00 - 19h00",
+              "9h00 - 12h00",
+              "-"
             ],
             "rdv": "-",
             "telephone": "03.25.43.84.33"
@@ -174,7 +181,8 @@
           {
             "name": "Dr VANDERCRUYSSEN-NOLLET Daphnée",
             "desc": "<p>Maison de Santé des Rives de Barse, Pôle Dentistes,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
-            "location_name":"Maison de Santé",
+            "location_name": "Maison de Santé",
+            "map_label": "Dr VANDERCRUYSSEN-NOLLET Daphnée (Dentiste)",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
               "A venir",
@@ -198,41 +206,44 @@
           {
             "name": "BOURY Catherine",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
-            "location_name":"Maison de Santé",
+            "location_name": "Maison de Santé",
+            "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir"
+              "7h30 - 10h sans rendez-vous",
+              "7h30 - 10h sans rendez-vous",
+              "7h30 - 10h sans rendez-vous",
+              "7h30 - 10h sans rendez-vous",
+              "7h30 - 10h sans rendez-vous",
+              "8h30 - 10h",
+              "-"
             ],
-            "rdv": "<p>Soins à domicile sur RDV.<br/> Dimanche et jours fériés sur RDV</p>",
+            "rdv": "<p>Les soins à domicile sont sur rendez-vous du lundi au dimanche.</p>",
             "telephone": "03.25.73.14.17"
           },
           {
             "name": "DINANT CHAPOTEL Laurence",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
-            "location_name":"Maison de Santé",
+            "location_name": "Maison de Santé",
+            "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir"
+              "7h30 - 10h sans rendez-vous",
+              "7h30 - 10h sans rendez-vous",
+              "7h30 - 10h sans rendez-vous",
+              "7h30 - 10h sans rendez-vous",
+              "7h30 - 10h sans rendez-vous",
+              "8h30 - 10h",
+              "-"
             ],
-            "rdv": "<p>Soins à domicile sur RDV.<br/> Dimanche et jours fériés sur RDV</p>",
+            "rdv": "<p>Soins à domicile sur RDV, du Lundi au Dimanche</p>",
             "telephone": "03.25.73.14.17"
           },
           {
             "name": "MAILLET Virginie",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
-            "location_name":"Maison de Santé",
+            "location_name": "Maison de Santé",
+            "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
               "A venir",
@@ -249,7 +260,8 @@
           {
             "name": "ROYER Christiane",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
-            "location_name":"Maison de Santé",
+            "location_name": "Maison de Santé",
+            "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
               "A venir",
@@ -266,24 +278,26 @@
           {
             "name": "ROY-JEANJAN Karine",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
-            "location_name":"Maison de Santé",
+            "location_name": "Maison de Santé",
+            "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir"
+              "7h30 - 10h sans rendez-vous",
+              "7h30 - 10h sans rendez-vous",
+              "7h30 - 10h sans rendez-vous",
+              "7h30 - 10h sans rendez-vous",
+              "7h30 - 10h sans rendez-vous",
+              "8h30 - 10h",
+              "-"
             ],
-            "rdv": "<p>Soins à domicile sur RDV.<br/> Dimanche et jours fériés sur RDV</p>",
+            "rdv": "<p>Les soins à domicile sont sur rendez-vous du lundi au dimanche.</p>",
             "telephone": "03.25.73.14.17"
           },
           {
             "name": "SCRIBE Laure",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
-            "location_name":"Maison de Santé",
+            "location_name": "Maison de Santé",
+            "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
               "A venir",
@@ -307,17 +321,10 @@
           {
             "name": "PLATEAU Marie-Anne",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
-            "location_name":"Maison de Santé",
+            "location_name": "Maison de Santé",
+            "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
-            "horaire": [
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir"
-            ],
+            "horaire": ["8h - 20h", "-", "-", "-", "-", "-", "-"],
             "rdv": "-",
             "telephone": "06.47.98.42.84"
           }
@@ -331,16 +338,17 @@
           {
             "name": "ROUILLEAUX Paméla",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
-            "location_name":"Maison de Santé",
+            "location_name": "Maison de Santé",
+            "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir"
+              "13h30 - 19h",
+              "8h30 - 13h",
+              "-",
+              "13h30 - 19h",
+              "8h30 - 13h",
+              "-",
+              "-"
             ],
             "rdv": "à domicile (Jours et lieux)",
             "telephone": "06.10.61.38.57"
@@ -355,18 +363,11 @@
           {
             "name": "GUBLIN Fleur",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
-            "location_name":"Maison de Santé",
+            "location_name": "Maison de Santé",
+            "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
-            "horaire": [
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir"
-            ],
-            "rdv": "à domicile (Jours et lieux)",
+            "horaire": ["-", "-", "13h - 20h30", "8h - 12h30", "-", "-", "-"],
+            "rdv": "à domicile (Jours et lieux), mails <a href='mailto:fleur.gublin@orange.fr'>fleur.gublin@orange.fr</>",
             "telephone": "06.23.26.91.81"
           }
         ]
@@ -379,57 +380,36 @@
           {
             "name": "Pharmacie de la Barse, François JACQUEL",
             "desc": "<p>Officine en dehors de la Maison de Santé,<br/>3 Avenue de l'Armée Leclerc, Vendeuvre sur Barse</p>",
-            "location_name":"Pharmacie de la Barse",
+            "location_name": "Pharmacie de la Barse",
+            "map_label": "",
             "adr_google": "Pharmacie+de+la+Barse",
             "horaire": [
-              "9H00-12H00, 14H00-19H15",
-              "9H00-12H15, 14H00-19H15",
-              "9H00-12H15, 14H00-19H15",
-              "9H00-12H15, 14H00-19H15",
-              "9H00-12H15, 14H00-19H15",
-              "9H00-12H15, 14H00-19H00"
+              "9H00 - 12H15, 14H00 - 19H15",
+              "9H00 - 12H15, 14H00 - 19H15",
+              "9H00 - 12H15, 14H00 - 19H15",
+              "9H00 - 12H15, 14H00 - 19H15",
+              "9H00 - 12H15, 14H00 - 19H00",
+              "-"
             ],
-            "rdv": "-",
+            "rdv": "mail: <a href='mailto:pharmacie.jacquel@offisecure.com' >pharmacie.jacquel@offisecure.com</a>",
             "telephone": "03.25.43.87.87"
           },
           {
             "name": "Pharmacie de l’Orient, Pascal AVIERINOS",
             "desc": "<p>Officine en dehors de la Maison de Santé,<br/>Rue des ancienne Tanneries, Centre commercial Bi1, Vendeuvre sur Barse </p>",
-            "location_name":"Pharmacie de l’Orient",
+            "location_name": "Pharmacie de l’Orient",
+            "map_label": "",
             "adr_google": "Pharmacie+de+l’Orient",
             "horaire": [
-              "9H00-19H15",
-              "9H00-19H15",
-              "9H00-19H15",
-              "9H00-19H15",
-              "9H00-19H15",
-              "9H00-19H00"
+              "9H00 - 19H15",
+              "9H00 - 19H15",
+              "9H00 - 19H15",
+              "9H00 - 19H15",
+              "9H00 - 19H15",
+              "9H00 - 19H00"
             ],
             "rdv": "-",
             "telephone": "03.25.41.31.42"
-          }
-        ]
-      },
-      {
-        "title": "Ambulances",
-        "icon": "./images/ambulance.png",
-        "desc": "<p>Elles assurent, sur prescription médicale ou en cas d'urgence médicale, la prise en charge et le transport de malades, de blessés, dans des véhicules de transport sanitaire adaptés pour des raisons de soins ou de diagnostic</p>",
-        "Pros": [
-          {
-            "name": "Vendeuvre Ambulances",
-            "desc": "<p>Bureaux en dehors de la Maison de Santé,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
-            "location_name":"Maison de Santé",
-            "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
-            "horaire": [
-              "9H00-12H00, 14H00-19H00",
-              "9H00-12H15, 14H00-19H15",
-              "9H00-12H15, 14H00-19H15",
-              "9H00-12H15, 14H00-19H15",
-              "9H00-12H15, 14H00-19H15",
-              "9H00-12H15, 14H00-18H00"
-            ],
-            "rdv": "-",
-            "telephone": "03.25.43.87.87"
           }
         ]
       }

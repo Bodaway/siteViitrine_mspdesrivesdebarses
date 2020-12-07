@@ -26,7 +26,11 @@ const Recrutement = ({ data }) => {
           <ul>
             <li>
               un médecin généraliste (H/F) pour une installation à
-              Vendeuvre-sur-Barse (<a href="20201126_FICHE DE POSTE MEDECINS_MSP VSB_V1.pdf" >Fiche de poste</a>).
+              Vendeuvre-sur-Barse (
+              <a href="20201126_FICHE DE POSTE MEDECINS_MSP VSB_V1.pdf">
+                Fiche de poste
+              </a>
+              ).
             </li>
           </ul>
         </p>

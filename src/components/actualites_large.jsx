@@ -92,7 +92,7 @@ const NextButton = ({ className, style, onClick }) => {
 }
 
 const Actu = ({ actualite = {} }) => {
-const [isFullScreen, setIsFullScreen] = useState(false)
+  const [isFullScreen, setIsFullScreen] = useState(false)
 
   const getFullScreen = e => {
     setIsFullScreen(true)
@@ -109,7 +109,11 @@ const [isFullScreen, setIsFullScreen] = useState(false)
         </Column>
         <VLine />
       </News>
-      <ActuModal actualite={actualite} isFullScreen={isFullScreen} closeFullScreen={closeFullScreen}/>
+      <ActuModal
+        actualite={actualite}
+        isFullScreen={isFullScreen}
+        closeFullScreen={closeFullScreen}
+      />
     </>
   )
 }

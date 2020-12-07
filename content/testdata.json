@@ -1,4 +1,4 @@
-[
+([
   {
     "Presentation": {
       "image": "./images/WIP.jpg"
@@ -67,4 +67,27 @@
       }
     ]
   }
-]
+],
+{
+  "title": "Ambulances",
+  "icon": "./images/ambulance.png",
+  "desc": "<p>Elles assurent, sur prescription médicale ou en cas d'urgence médicale, la prise en charge et le transport de malades, de blessés, dans des véhicules de transport sanitaire adaptés pour des raisons de soins ou de diagnostic</p>",
+  "Pros": [
+    {
+      "name": "Vendeuvre Ambulances",
+      "desc": "<p>Bureaux en dehors de la Maison de Santé,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+      "location_name": "Maison de Santé",
+      "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
+      "horaire": [
+        "9H00 - 12H00, 14H00 - 19H00",
+        "9H00 - 12H15, 14H00 - 19H15",
+        "9H00 - 12H15, 14H00 - 19H15",
+        "9H00 - 12H15, 14H00 - 19H15",
+        "9H00 - 12H15, 14H00 - 19H15",
+        "9H00 - 12H15, 14H00 - 18H00"
+      ],
+      "rdv": "-",
+      "telephone": "03.25.43.87.87"
+    }
+  ]
+})
