@@ -169,7 +169,7 @@
             "horaire": [
               "9h00 - 12h00, 14h00 - 19h00 ",
               "9h00 - 12h00, 14h00 - 19h00",
-              "-",
+              "14h00 - 19h00",
               "-",
               "9h00 - 12h00, 14h00 - 19h00",
               "9h00 - 12h00",
@@ -205,7 +205,7 @@
         "Pros": [
           {
             "name": "BOURY Catherine",
-            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Infirmière Diplômée d’État</p><p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
@@ -215,7 +215,7 @@
               "7h30 - 10h sans rendez-vous",
               "7h30 - 10h sans rendez-vous",
               "7h30 - 10h sans rendez-vous",
-              "8h30 - 10h",
+              "8h30 - 10h sans rendez-vous",
               "-"
             ],
             "rdv": "<p>Les soins à domicile sont sur rendez-vous du lundi au dimanche.</p>",
@@ -223,7 +223,7 @@
           },
           {
             "name": "DINANT CHAPOTEL Laurence",
-            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Infirmière Diplômée d’État</p><p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
@@ -233,7 +233,7 @@
               "7h30 - 10h sans rendez-vous",
               "7h30 - 10h sans rendez-vous",
               "7h30 - 10h sans rendez-vous",
-              "8h30 - 10h",
+              "8h30 - 10h sans rendez-vous",
               "-"
             ],
             "rdv": "<p>Soins à domicile sur RDV, du Lundi au Dimanche</p>",
@@ -241,43 +241,43 @@
           },
           {
             "name": "MAILLET Virginie",
-            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Infirmière Diplômée d’État</p><p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
+              "sur RDV",
+              "sur RDV",
+              "sur RDV",
+              "sur RDV",
+              "sur RDV",
+              "sur RDV",
               "A venir"
             ],
-            "rdv": "<p>Soins à domicile sur RDV.<br/> Dimanche et jours fériés sur RDV</p>",
+            "rdv": "<p>Soins à domicile 7j/7</p><p><b>Sans RDV</b> accepté,le matin à partir de 7h30</p>",
             "telephone": "03.25.43.84.35"
           },
           {
             "name": "ROYER Christiane",
-            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Infirmière Diplômée d’État</p><p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
+              "sur RDV",
+              "sur RDV",
+              "sur RDV",
+              "sur RDV",
+              "sur RDV",
+              "sur RDV",
               "A venir"
             ],
-            "rdv": "<p>Soins à domicile sur RDV.<br/> Dimanche et jours fériés sur RDV</p>",
+            "rdv": "<p>Soins à domicile 7j/7</p><p><b>Sans RDV</b> accepté,le matin à partir de 7h30</p>",
             "telephone": "03.25.43.84.35"
           },
           {
             "name": "ROY-JEANJAN Karine",
-            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Infirmière Diplômée d’État</p><p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
@@ -287,7 +287,7 @@
               "7h30 - 10h sans rendez-vous",
               "7h30 - 10h sans rendez-vous",
               "7h30 - 10h sans rendez-vous",
-              "8h30 - 10h",
+              "8h30 - 10h sans rendez-vous",
               "-"
             ],
             "rdv": "<p>Les soins à domicile sont sur rendez-vous du lundi au dimanche.</p>",
@@ -295,20 +295,20 @@
           },
           {
             "name": "SCRIBE Laure",
-            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "desc": "<p>Infirmière Diplômée d’État</p><p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
+              "sur RDV",
+              "sur RDV",
+              "sur RDV",
+              "sur RDV",
+              "sur RDV",
+              "sur RDV",
               "A venir"
             ],
-            "rdv": "<p>Soins à domicile sur RDV.<br/> Dimanche et jours fériés sur RDV</p>",
+            "rdv": "<p>Soins à domicile 7j/7</p><p><b>Sans RDV</b> accepté,le matin à partir de 7h30</p>",
             "telephone": "03.25.43.84.35"
           }
         ]
@@ -324,7 +324,15 @@
             "location_name": "Maison de Santé",
             "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
-            "horaire": ["8h - 20h", "-", "-", "-", "-", "-", "-"],
+            "horaire": [
+              "8h - 20h",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-",
+              "-"
+            ],
             "rdv": "-",
             "telephone": "06.47.98.42.84"
           }
@@ -350,7 +358,7 @@
               "-",
               "-"
             ],
-            "rdv": "à domicile (Jours et lieux)",
+            "rdv": "-",
             "telephone": "06.10.61.38.57"
           }
         ]
@@ -366,8 +374,16 @@
             "location_name": "Maison de Santé",
             "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
-            "horaire": ["-", "-", "13h - 20h30", "8h - 12h30", "-", "-", "-"],
-            "rdv": "à domicile (Jours et lieux), mails <a href='mailto:fleur.gublin@orange.fr'>fleur.gublin@orange.fr</>",
+            "horaire": [
+              "-",
+              "-",
+              "13h - 20h30",
+              "8h - 12h30",
+              "-",
+              "-",
+              "-"
+            ],
+            "rdv": "mail: <a href='mailto:fleur.gublin@orange.fr'>fleur.gublin@orange.fr</>",
             "telephone": "06.23.26.91.81"
           }
         ]
@@ -410,6 +426,31 @@
             ],
             "rdv": "-",
             "telephone": "03.25.41.31.42"
+          }
+        ]
+      },
+      {
+        "title": "Ambulances",
+        "icon": "./images/ambulance.png",
+        "desc": "<p>Elles assurent, sur prescription médicale ou en cas d'urgence médicale, la prise en charge et le transport de malades, de blessés, dans des véhicules de transport sanitaire adaptés pour des raisons de soins ou de diagnostic</p>",
+        "Pros": [
+          {
+            "name": "Vendeuvre Ambulances",
+            "desc": "<p>Bureaux en dehors de la Maison de Santé,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "map_label": "Vendeuvre Ambulances",
+            "location_name": "Maison de Santé",
+            "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
+            "horaire": [
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir",
+              "A venir"
+            ],
+            "rdv": "A venir, composer le 15 en cas d'urgence.",
+            "telephone": "-"
           }
         ]
       }
