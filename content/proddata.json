@@ -33,6 +33,7 @@
         "Pros": [
           {
             "name": "Dr OPRICA Mariana",
+            "postfix": "",
             "desc": "<p>Maison de Santé des Rives de Barse, <br/>Pôle Médecins 1 avenue de la République, Vendeuvre sur Barse</p>",
             "location_name": "Maison de Santé",
             "map_label": "Dr OPRICA Mariana (Médecin généraliste)",
@@ -58,6 +59,7 @@
         "Pros": [
           {
             "name": "BELVEZE Antoine",
+            "postfix": "",
             "desc": "<p>Cabinet en dehors de la Maison de Santé, <br/>15 rue de la Côte d'Or, Vendeuvre sur Barse </p>",
             "location_name": "Cabinet hors de la Maison de Santé",
             "map_label": "",
@@ -76,6 +78,7 @@
           },
           {
             "name": "BLAISE Marianne",
+            "postfix": "",
             "desc": "<p>Maison de Santé des Rives de Barse, Pôle Kinésithérapeute et Infirmières,<br/>1 avenue de la République, Vendeuvre sur Barse</p>",
             "location_name": "Maison de Santé",
             "map_label": "",
@@ -94,6 +97,7 @@
           },
           {
             "name": "CALON-SUREAU Benoit",
+            "postfix": "",
             "desc": "<p>Cabinet en dehors de la Maison de Santé, <br/>15 rue de l’ Eglise, La Villeneuve au Chêne</p>",
             "location_name": "Cabinet hors de la Maison de Santé",
             "map_label": "",
@@ -112,6 +116,7 @@
           },
           {
             "name": "DEHARBE Pauline",
+            "postfix": "",
             "desc": "<p>Cabinet en dehors de la Maison de Santé, <br/>15 rue de la Côte d'Or, Vendeuvre sur Barse </p>",
             "location_name": "Cabinet de Kinésithérapie Deharbe-Belveze",
             "map_label": "",
@@ -137,6 +142,7 @@
         "Pros": [
           {
             "name": "BRUCELLE Coline",
+            "postfix": "",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b><br/> 1 avenue de la République, Vendeuvre sur Barse</p>",
             "location_name": "Maison de Santé",
             "map_label": "",
@@ -162,6 +168,7 @@
         "Pros": [
           {
             "name": "Dr AUDIBERT Jean-Michel",
+            "postfix": "",
             "desc": "<p>Maison de Santé des Rives de Barse, Pôle Dentistes,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "Dr AUDIBERT Jean-Michel (Dentiste)",
@@ -180,6 +187,7 @@
           },
           {
             "name": "Dr VANDERCRUYSSEN-NOLLET Daphnée",
+            "postfix": "",
             "desc": "<p>Maison de Santé des Rives de Barse, Pôle Dentistes,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "Dr VANDERCRUYSSEN-NOLLET Daphnée (Dentiste)",
@@ -205,7 +213,8 @@
         "Pros": [
           {
             "name": "BOURY Catherine",
-            "desc": "<p>Infirmière Diplômée d’État</p><p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "postfix": " Infirmière Diplomée d'Etat",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
@@ -223,7 +232,8 @@
           },
           {
             "name": "DINANT CHAPOTEL Laurence",
-            "desc": "<p>Infirmière Diplômée d’État</p><p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "postfix": " Infirmière Diplomée d'Etat",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
@@ -241,43 +251,46 @@
           },
           {
             "name": "MAILLET Virginie",
-            "desc": "<p>Infirmière Diplômée d’État</p><p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "postfix": " Infirmière Diplomée d'Etat",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
-              "sur RDV",
-              "sur RDV",
-              "sur RDV",
-              "sur RDV",
-              "sur RDV",
-              "sur RDV",
-              "A venir"
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "-"
             ],
-            "rdv": "<p>Soins à domicile 7j/7</p><p><b>Sans RDV</b> accepté,le matin à partir de 7h30</p>",
+            "rdv": "<p>Sans RDV accepté</p><p>Soins à domicile 7j/7</p>",
             "telephone": "03.25.43.84.35"
           },
           {
             "name": "ROYER Christiane",
-            "desc": "<p>Infirmière Diplômée d’État</p><p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "postfix": " Infirmière Diplomée d'Etat",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
-              "sur RDV",
-              "sur RDV",
-              "sur RDV",
-              "sur RDV",
-              "sur RDV",
-              "sur RDV",
-              "A venir"
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "-"
             ],
-            "rdv": "<p>Soins à domicile 7j/7</p><p><b>Sans RDV</b> accepté,le matin à partir de 7h30</p>",
+            "rdv": "<p>Sans RDV accepté</p><p>Soins à domicile 7j/7</p>",
             "telephone": "03.25.43.84.35"
           },
           {
             "name": "ROY-JEANJAN Karine",
-            "desc": "<p>Infirmière Diplômée d’État</p><p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "postfix": " Infirmière Diplomée d'Etat",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
@@ -295,20 +308,21 @@
           },
           {
             "name": "SCRIBE Laure",
-            "desc": "<p>Infirmière Diplômée d’État</p><p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "postfix": " Infirmière Diplomée d'Etat",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
-              "sur RDV",
-              "sur RDV",
-              "sur RDV",
-              "sur RDV",
-              "sur RDV",
-              "sur RDV",
-              "A venir"
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "-"
             ],
-            "rdv": "<p>Soins à domicile 7j/7</p><p><b>Sans RDV</b> accepté,le matin à partir de 7h30</p>",
+            "rdv": "<p>Sans RDV accepté</p><p>Soins à domicile 7j/7</p>",
             "telephone": "03.25.43.84.35"
           }
         ]
@@ -320,6 +334,7 @@
         "Pros": [
           {
             "name": "PLATEAU Marie-Anne",
+            "postfix": "",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "",
@@ -345,6 +360,7 @@
         "Pros": [
           {
             "name": "ROUILLEAUX Paméla",
+            "postfix": "",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "",
@@ -370,6 +386,7 @@
         "Pros": [
           {
             "name": "GUBLIN Fleur",
+            "postfix": "",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
             "map_label": "",
@@ -395,6 +412,7 @@
         "Pros": [
           {
             "name": "Pharmacie de la Barse, François JACQUEL",
+            "postfix": "",
             "desc": "<p>Officine en dehors de la Maison de Santé,<br/>3 Avenue de l'Armée Leclerc, Vendeuvre sur Barse</p>",
             "location_name": "Pharmacie de la Barse",
             "map_label": "",
@@ -412,6 +430,7 @@
           },
           {
             "name": "Pharmacie de l’Orient, Pascal AVIERINOS",
+            "postfix": "",
             "desc": "<p>Officine en dehors de la Maison de Santé,<br/>Rue des ancienne Tanneries, Centre commercial Bi1, Vendeuvre sur Barse </p>",
             "location_name": "Pharmacie de l’Orient",
             "map_label": "",
@@ -436,6 +455,7 @@
         "Pros": [
           {
             "name": "Vendeuvre Ambulances",
+            "postfix": "",
             "desc": "<p>Bureaux en dehors de la Maison de Santé,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "map_label": "Vendeuvre Ambulances",
             "location_name": "Maison de Santé",

@@ -65,6 +65,7 @@ export const query = graphql`
               horaire
               map_label
               name
+              postfix
               location_name
               adr_google
               rdv

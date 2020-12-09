@@ -10,7 +10,6 @@ const MapOuter = styled.div`
   min-height: 200px;
 
   @media ${mediaDevice.mobileL} {
-    height: 300px;
   }
 `
 const MapCanvas = styled.div`
@@ -21,7 +20,6 @@ const MapCanvas = styled.div`
   width: 100%;
   @media ${mediaDevice.mobileL} {
     width: 100%;
-    height: 300px;
   }
 `
 const ProLocal = styled.div`
@@ -53,6 +51,9 @@ const InnerMainPro = styled.div`
 
   & > ${ProLocal} > ul {
     columns: 4;
+    @media ${mediaDevice.mobileL} {
+      columns: 2;
+    }
   }
   & > ${ProLocal} > ul > li {
     margin-right: 20px;
@@ -62,12 +63,16 @@ const OtherContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-top: 20px;
 `
 const InnerPro = styled.div`
   display: flex;
   flex-direction: column;
   width: 24%;
+    @media ${mediaDevice.mobileL} {
+      width: 49%;
+    }
 `
 
 const MainContact = ({ data }) => {

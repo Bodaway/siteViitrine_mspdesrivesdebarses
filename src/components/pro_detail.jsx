@@ -35,7 +35,7 @@ const ProDetail = ({
 }) => {
   return (
     <div>
-      <Title>{pro.name}</Title>
+      <Title>{pro.name}{pro.postfix}</Title>
       <div>
         <ProDescription
           dangerouslySetInnerHTML={{

@@ -181,7 +181,7 @@ const Presentation = ({ data }) => {
               etc.)
               <li>
                 la <Emp>formation universitaire</Emp> (tous les professionnels
-                peuvent accueillir des étudiants en stage) et{" "}
+                peuvent accueillir des étudiants en stage et les loger) et{" "}
                 <Emp>post-universitaire</Emp>
               </li>
               <li>
