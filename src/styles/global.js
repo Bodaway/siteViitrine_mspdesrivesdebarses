@@ -15,7 +15,12 @@ export const borderBox = css`
 `
 export const Section = styled.section`
   display: relative;
-  padding-top: 100px;
+  padding-top: 10vh;
+`
+
+export const SmallSection = styled(Section)`
+  padding-top: 7vh;
+  width: 35%;
 `
 
 const size = {
@@ -36,18 +41,23 @@ export const mediaDevice = {
   laptop: `(max-width: ${size.laptop})`,
   laptopL: `(max-width: ${size.laptopL})`,
   desktop: `(max-width: ${size.desktop})`,
-  desktopL: `(max-width: ${size.desktop})`,
   greaterthtablet: `(min-width: ${size.laptop})`,
 }
 
 export const theme = {
-  presentationColor: "#2CA3DC",
-  categorieColor: "#68C100",
-  actualiteColor: "#E7302A",
-  contactColor: "#f87f4a",
+  recapColor: "#700DC4",
+  presentationColor: "#0B1AB2",
+  categorieColor: "#399129",
+  actualiteColor: "#D29D00",
+  contactColor: "#D83830",
   marginTopSection: "20px",
 }
 
+export const getRecapTheme = theme => ({
+  ...theme,
+  mainColor: theme.recapColor,
+  altColor: theme.recapColor, //"#82C535",
+})
 export const getPresentationTheme = theme => ({
   ...theme,
   mainColor: theme.presentationColor,

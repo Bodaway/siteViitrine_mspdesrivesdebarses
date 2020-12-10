@@ -29,7 +29,7 @@ module.exports = {
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: "standalone",
-        icon: "content/images/healthcare.png", // This path is relative to the root of the site.
+        icon: "content/images/logo_small.png", // This path is relative to the root of the site.
         // An optional attribute which provides support for CORS check.
         // If you do not provide a crossOrigin option, it will skip CORS for manifest.
         // Any invalid keyword or empty string defaults to `anonymous`
@@ -53,6 +53,12 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: ["G-PYK2S0SJYW"],
+      },
+    },
+    {
+      resolve: "gatsby-plugin-react-leaflet",
+      options: {
+        linkStyles: true, // (default: true) Enable/disable loading stylesheets via CDN
       },
     },
   ],

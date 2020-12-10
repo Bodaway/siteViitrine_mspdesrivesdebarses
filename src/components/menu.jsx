@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { borderBox, mediaDevice } from "../styles/global"
 import { Navbar, Nav } from "react-bootstrap"
+import Img from "gatsby-image"
 
 const InnerNavbar = styled(Navbar)`
   border-bottom: solid 1px #cdcdce;
@@ -97,10 +98,26 @@ const LineContact = styled(Line)`
       transparent;
   }
 `
-const Menu = () => {
+const LineRecrutement = styled(Line)`
+  background-color: ${props => props.theme.recrutementColor};
+
+  &::before {
+    border-color: transparent transparent ${props => props.theme.contactColor}
+      transparent;
+  }
+`
+const Image = styled(Img)`
+  height: 100%;
+  width: 70px;
+`
+
+const Menu = ({ data }) => {
   return (
     <InnerNavbar bg="light" expand="lg" sticky="top" collapseOnSelect="true">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Brand href="#home">
+        <Image fluid={data.logo.childImageSharp.fluid} />
+      </Navbar.Brand>
       <Collapse id="basic-navbar-nav">
         <Nav>
           <Elem>
@@ -118,6 +135,15 @@ const Menu = () => {
           <Elem>
             <Link href="#Contact">Contact</Link>
             <LineContact />
+          </Elem>
+          <Elem>
+            <Link
+              href="20201126_FICHE DE POSTE MEDECINS_MSP VSB_V1.pdf"
+              target="_blank"
+            >
+              Recrutement
+            </Link>
+            <LineRecrutement />
           </Elem>
         </Nav>
       </Collapse>

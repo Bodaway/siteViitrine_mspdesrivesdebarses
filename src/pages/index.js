@@ -4,8 +4,13 @@ import Presentation from "../components/presentation"
 import ProByCat from "../components/pro_by_cat"
 import ActualiteLarge from "../components/actualites_large"
 import Contact from "../components/contact"
+import Recrutement from "../components/recrutement"
+import Recap from "../components/recap"
+import ActuSmall from "../components/actualites_small"
+import ContactSmall from "../components/contact_small"
 import { graphql } from "gatsby"
 import {
+  getRecapTheme,
   getPresentationTheme,
   getCategorieTheme,
   getActualiteTheme,
@@ -58,9 +63,63 @@ export const query = graphql`
             Pros {
               desc
               horaire
+              map_label
               name
+              postfix
+              location_name
+              adr_google
               rdv
               telephone
+            }
+          }
+          Recrutement {
+            image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
+          }
+          menu {
+            logo {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
+          }
+          header {
+            background {
+              childImageSharp {
+                fluid(maxWidth: 4000, quality: 100) {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
+            logo {
+              childImageSharp {
+                fluid(quality: 100) {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
+          }
+          footer {
+            CCVS_image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
+            }
+            ARS_image {
+              childImageSharp {
+                fluid {
+                  ...GatsbyImageSharpFluid_tracedSVG
+                }
+              }
             }
           }
         }
@@ -69,18 +128,27 @@ export const query = graphql`
   }
 `
 export default ({ data }) => (
-  <Layout>
+  <Layout data={data}>
+    <ThemeProvider theme={getRecapTheme}>
+      <Recap>
+        <ActuSmall data={data.allProddataJson.edges[0].node.Actualites} />
+        <ContactSmall data={data.allProddataJson.edges[0].node.Categories} />
+      </Recap>
+    </ThemeProvider>
     <ThemeProvider theme={getPresentationTheme}>
       <Presentation data={data.allProddataJson.edges[0].node.Presentation} />
     </ThemeProvider>
     <ThemeProvider theme={getCategorieTheme}>
       <ProByCat data={data.allProddataJson.edges[0].node.Categories} />
     </ThemeProvider>
-    {/* <ThemeProvider theme={getActualiteTheme}>
+    <ThemeProvider theme={getActualiteTheme}>
       <ActualiteLarge data={data.allProddataJson.edges[0].node.Actualites} />
     </ThemeProvider>
     <ThemeProvider theme={getContactTheme}>
-      <Contact />
+      <Contact data={data.allProddataJson.edges[0].node.Categories} />
+    </ThemeProvider>
+    {/* <ThemeProvider theme={getContactTheme}>
+      <Recrutement data={data.allProddataJson.edges[-1].node.Recrutement}/>
     </ThemeProvider> */}
   </Layout>
 )
