@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import styled from "styled-components"
 import { borderBox, shadow, mediaDevice } from "../styles/global"
 import ProDetail from "./pro_detail"
@@ -127,7 +127,11 @@ const RightContent = styled.div`
 `
 
 const CatProDetail = ({ categorieDetail }) => {
-  const [selectedPro, setSelectedPro] = useState(0)
+  const [selectedPro, setSelectedPro] = useState(-1)
+
+  useEffect(() => {
+setSelectedPro(-1);
+      }, [categorieDetail])
 
   const Proselected = e => {
     setSelectedPro(e.currentTarget.id)
@@ -175,7 +179,7 @@ const CatProDetail = ({ categorieDetail }) => {
         </ul>
       </CenterContent>
       <RightContent>
-        {categorieDetail.Pros != undefined && (
+        {categorieDetail.Pros != undefined && selectedPro > -1 && (
           <ProDetail pro={categorieDetail.Pros[selectedPro]} />
         )}
       </RightContent>

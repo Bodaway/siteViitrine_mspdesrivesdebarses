@@ -269,7 +269,7 @@
             "telephone": "03.25.43.84.35"
           },
           {
-            "name": "ROYER Christiane",
+            "name": "ROUYER Christiane",
             "postfix": " Infirmière Diplomée d'Etat",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
@@ -422,6 +422,7 @@
               "9H00 - 12H15, 14H00 - 19H15",
               "9H00 - 12H15, 14H00 - 19H15",
               "9H00 - 12H15, 14H00 - 19H15",
+              "9H00 - 12H15, 14H00 - 19H15",
               "9H00 - 12H15, 14H00 - 19H00",
               "-"
             ],
@@ -441,7 +442,8 @@
               "9H00 - 19H15",
               "9H00 - 19H15",
               "9H00 - 19H15",
-              "9H00 - 19H00"
+              "9H00 - 19H00",
+              "-"
             ],
             "rdv": "-",
             "telephone": "03.25.41.31.42"
@@ -470,7 +472,7 @@
               "A venir"
             ],
             "rdv": "A venir, composer le 15 en cas d'urgence.",
-            "telephone": "-"
+            "telephone": "03.25.41.48.18"
           }
         ]
       }

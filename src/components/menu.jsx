@@ -102,7 +102,7 @@ const LineRecrutement = styled(Line)`
   background-color: ${props => props.theme.recrutementColor};
 
   &::before {
-    border-color: transparent transparent ${props => props.theme.contactColor}
+    border-color: transparent transparent ${props => props.theme.recrutementColor}
       transparent;
   }
 `
