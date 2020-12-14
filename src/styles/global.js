@@ -50,6 +50,7 @@ export const theme = {
   categorieColor: "#399129",
   actualiteColor: "#D29D00",
   contactColor: "#D83830",
+  recrutementColor: "black",
   marginTopSection: "20px",
 }
 

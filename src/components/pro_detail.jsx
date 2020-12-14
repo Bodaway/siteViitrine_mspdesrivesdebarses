@@ -33,6 +33,7 @@ const ProDetail = ({
     telephone: "",
   },
 }) => {
+  if(pro.horaire.length != 7) {console.error("le pro "+pro.name+" ne contient pas tout les jours")}
   return (
     <div>
       <Title>{pro.name}{pro.postfix}</Title>
