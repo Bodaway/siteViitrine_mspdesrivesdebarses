@@ -92,7 +92,7 @@
               "-",
               "-"
             ],
-            "rdv": "Prise de rdv au cabinet et à domicile",
+            "rdv": "<p>Spécialisée en rééducation du périnée chez l’homme, la femme et l’enfant et la rééducation anorectale.</p><p>Prise de rdv au cabinet et à domicile</p>",
             "telephone": "03.25.43.84.34"
           },
           {
@@ -142,22 +142,22 @@
         "Pros": [
           {
             "name": "BRUCELLE Coline",
-            "postfix": "",
+            "postfix": " remplaçant MICHAUT Jules",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b><br/> 1 avenue de la République, Vendeuvre sur Barse</p>",
             "location_name": "Maison de Santé",
             "map_label": "",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir",
-              "A venir"
+              "9h00 - 19h00",
+              "-",
+              "-",
+              "9h00 - 19h00",
+              "-",
+              "-",
+              "-"
             ],
             "rdv": "",
-            "telephone": ""
+            "telephone": "03.25.43.84.37"
           }
         ]
       },
@@ -186,11 +186,11 @@
             "telephone": "03.25.43.84.33"
           },
           {
-            "name": "Dr VANDERCRUYSSEN-NOLLET Daphnée",
+            "name": "Dr VANDERCRUYSSEN Daphnée",
             "postfix": "",
             "desc": "<p>Maison de Santé des Rives de Barse, Pôle Dentistes,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
             "location_name": "Maison de Santé",
-            "map_label": "Dr VANDERCRUYSSEN-NOLLET Daphnée (Dentiste)",
+            "map_label": "Dr VANDERCRUYSSEN Daphnée (Dentiste)",
             "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
             "horaire": [
               "A venir",
@@ -381,8 +381,8 @@
       },
       {
         "title": "Sophrologues",
-        "icon": "./images/hinduist-yoga-position.png",
-        "desc": "<p>La sophrologie est une méthode psychocorporelle utilisée comme technique thérapeutique ou vécue comme une philosophie de vie. Elle a été conçue par le neuropsychiatre Alfonso Caycedo et est inspirée de techniques occidentales comme orientales. Le terme SOPHROLOGIE, inspiré du grec ancien, signifie étude de l’harmonisation de la conscience.</p><p>Méthode exclusivement verbale et non tactile, la sophrologie emploie un ensemble de techniques qui vont à la fois agir sur le corps et sur le mental. Elle combine des exercices qui travaillent à la fois sur la respiration, la décontraction musculaire et l’imagerie mentale (ou visualisation). Toutes ces techniques permettent de retrouver un état de bien-être et d’activer tout son potentiel. La sophrologie permet d’acquérir une meilleure connaissance de soi et d’affronter les défis du quotidien avec sérénité.</p>",
+        "icon": "./images/sophro_uncolor.png",
+        "desc":"<p>La sophrologie est une méthode qui recrée la communication entre votre corps et votre cerveau. Sa pratique vous met en contact avec vos ressources et vos capacités intérieures pour les mobiliser et les préparer à agir dans un but précis (stress, peur, addiction...)</p><p>La sophrologie vous permet d’accéder à vos fonctionnements automatiques ancrés et ainsi pouvoir les comprendre, les modifier, les réformer et recréer de nouvelles solutions, de nouveaux comportements plus adaptés.</p><p>Sa pratique quotidienne améliore votre qualité de vie, elle mélange respiration, mouvements corporels, projections positives, travail le conscient et l’inconscient pour développer votre lucidité.</p><p>La sophrologie a été créée en 1969 par Alonso Caycedo neuro psychiatre, qui a adapté plusieurs disciplines pour les rendre praticables au quotidien de tous.</p>",
         "Pros": [
           {
             "name": "GUBLIN Fleur",
@@ -471,7 +471,7 @@
               "A venir",
               "A venir"
             ],
-            "rdv": "A venir, composer le 15 en cas d'urgence.",
+            "rdv": "Pour toutes urgences contacter le 15",
             "telephone": "03.25.41.48.18"
           }
         ]
