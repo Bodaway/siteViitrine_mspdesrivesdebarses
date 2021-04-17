@@ -475,6 +475,32 @@
             "telephone": "03.25.41.48.18"
           }
         ]
+      },
+      {
+        "title": "Psychologues",
+        "icon": "./images/psychologist.png",
+        "desc": "<p>Le psychologue est un soutien face à toutes les difficultés de la vie sans conséquences négatives sur votre quotidien. Il vous aide à voir la vie juste un peu différemment.</p>",
+        "Pros": [
+          {
+            "name": "Faucillon Julie",
+            "postfix": "",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Infirmières et Bureaux Partagés</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "location_name": "Maison de Santé",
+            "map_label": "Faucillon Julie",
+            "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
+            "horaire": [
+              "-",
+              "-",
+              "-",
+              "-",
+              "10h00 - 16h00",
+              "-",
+              "-"
+            ],
+            "rdv": "<p><a href=\"https://www.doctolib.fr/psychologue/vendeuvre-sur-barse/julie-faucillon\">www.doctolib.fr</a></p>",
+            "telephone": "06.61.42.45.10"
+          }
+        ]
       }
     ],
     "Recrutement": {
