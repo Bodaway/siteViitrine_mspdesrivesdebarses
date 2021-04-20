@@ -99,7 +99,6 @@ const ProByCats = ({ data }) => {
       <BottomLine />
     </ProElem>
   ))
-
   return (
     <Section id="probycategories">
       <SectionTitle title="Professionnels" />
