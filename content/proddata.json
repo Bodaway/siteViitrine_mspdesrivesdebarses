@@ -49,6 +49,25 @@
             ],
             "rdv": "<p><a href=\"https://www.doctolib.fr/medecin-generaliste/vendeuvre-sur-barse/mariana-oprica\">www.doctolib.fr</a>  <br/> > Prendre un RDV en ligne <br/>> Taper le nom du praticien <br/>> Choisir le créneau qui vous convient</p>",
             "telephone": "03.25.43.35.17"
+          },
+	  {
+            "name": "Dr LEBEL Dominique",
+            "postfix": "",
+            "desc": "<p>Maison de Santé des Rives de Barse, <br/>Pôle Médecins 1 avenue de la République, Vendeuvre sur Barse</p>",
+            "location_name": "Maison de Santé",
+            "map_label": "Dr OPRICA Mariana (Médecin généraliste)",
+            "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
+            "horaire": [
+              "-",
+              "08h30 - 19h00",
+              "08h30 - 19h00",
+              "08h30 - 19h00",
+              "08h30 - 19h00",
+              "08h30 - 19h00",
+              "-"
+            ],
+            "rdv": "<p><a href=\"https://www.doctolib.fr/medecin-generaliste/vendeuvre-sur-barse/dominique-lebel\">www.doctolib.fr</a>  <br/> > Prendre un RDV en ligne <br/>> Taper le nom du praticien <br/>> Choisir le créneau qui vous convient</p><p>Secrétariat téléphonique ouvert de 8h30 à 11h30 du mardi au vendredi et un samedi sur deux.</p><p>(En dehors de ces horaires, un répondeur téléphonique vous indiquera un numéro réservé <b>UNIQUEMENT</b> pour les urgences)</p>",
+            "telephone": "03.51.25.10.43"
           }
         ]
       },
