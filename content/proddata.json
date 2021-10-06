@@ -288,6 +288,25 @@
             "telephone": "03.25.43.84.35"
           },
           {
+            "name": "MARSAL Cédric",
+            "postfix": " Infirmier Diplomé d'Etat",
+            "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
+            "location_name": "Maison de Santé",
+            "map_label": "",
+            "adr_google": "1+Avenue+de+la+République,+10140+Vendeuvre-sur-Barse",
+            "horaire": [
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "Le matin à partir de 7h30 sur rendez-vous",
+              "-"
+            ],
+            "rdv": "<p>Sans RDV accepté</p><p>Soins à domicile 7j/7</p>",
+            "telephone": "03.25.43.84.35"
+          },
+          {
             "name": "ROUYER Christiane",
             "postfix": " Infirmière Diplomée d'Etat",
             "desc": "<p>Maison de Santé des Rives de Barse, <b>Pôle Kinésithérapeute et Infirmières</b>,<br/>1 avenue de la République, Vendeuvre sur Barse </p>",
